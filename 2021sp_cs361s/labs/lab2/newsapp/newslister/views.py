@@ -35,9 +35,10 @@ class NewsApiManager:
             # 
             # the current secrecy of the viewer is in "self.secrecy"
             # the secrecy level of the query is in "q.secrecy"
-            escaped_query = urllib.parse.quote(q.query)
-            escaped_sources = '"{}"'.format(urllib.parse.quote(q.sources.replace('"',"")))
-            all_results.append((q, escaped_query, escaped_sources))
+            if q.secrecy <= self.secrecy:
+            	escaped_query = urllib.parse.quote(q.query)
+            	escaped_sources = '"{}"'.format(urllib.parse.quote(q.sources.replace('"',"")))
+            	all_results.append((q, escaped_query, escaped_sources))
 
         self.data = all_results
         
@@ -111,7 +112,8 @@ def user_account(request):
         update_form = UpdateNewsForm()
         all_queries = NewsListing.objects.all()
         for q in all_queries:
-            data.append(q)
+            if q.secrecy <= user_auth.secrecy:
+                data.append(q)
         return render(request,'news/update_news.html', {
             'create_form':create_form,
             'update_form':update_form,
