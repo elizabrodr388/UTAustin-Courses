@@ -1,13 +1,16 @@
 from django import forms
 from django.contrib.auth.models import User
 from .models import NewsListing
+from .models import NewsListing, UserXtraAuth
+from django.core.exceptions import ValidationError
 
 class UpdateUserForm(forms.Form):
     update_user_select = forms.ModelChoiceField(
         label="Username",
-        queryset=User.objects.filter(is_superuser=False))
-    update_user_token    = forms.CharField(label="Token ID", required=False)
+        queryset = User.objects.filter(is_superuser=False))
     update_user_secrecy  = forms.IntegerField(label="Secrecy Level")
+    
+    update_user_token    = forms.CharField(label="Token ID", required=False)
     
     def clean(self):
         # STUDENT TODO
@@ -18,9 +21,19 @@ class UpdateUserForm(forms.Form):
         # form value. You need to update this method to
         # enforce the security policies related to tokens
         # and secrecy.
-        # Return a "ValidationError(<err msg>)" if something 
+        # Raise a "ValidationError(<err msg>)" if something 
         # is wrong
+        
+        # raises validation error if the superuser is trying to change
+        # the user's securtiy clearance to be lower
+        
         cleaned_data = super().clean()
+
+        cur_user = UserXtraAuth.objects.get(username=cleaned_data["update_user_select"])
+        cur_secrecy = cur_user.secrecy
+        if (cleaned_data["update_user_secrecy"] < cur_secrecy):
+        	raise ValidationError('Cannot edit a form above your secrecy level')
+
         return cleaned_data
         
 class CreateNewsForm(forms.Form):
