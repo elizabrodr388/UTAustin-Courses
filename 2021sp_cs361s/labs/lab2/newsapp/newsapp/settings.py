@@ -24,6 +24,8 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 with open("django_secret_key.txt") as f:
     SECRET_KEY = f.read()
 
+
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
