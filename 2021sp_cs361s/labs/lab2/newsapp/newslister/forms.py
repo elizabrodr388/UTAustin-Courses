@@ -39,6 +39,7 @@ class CreateNewsForm(forms.Form):
     new_news_query = forms.CharField(label="New Query", required=False)
     new_news_sources = forms.CharField(label="Sources", required=False)
     new_news_secrecy = forms.IntegerField(label="Secrecy Level", required=False)
+    # new_news_select = stuff
 
     def __init__(self, *args, **kargs):
         super().__init__(*args, **kargs)
@@ -60,17 +61,17 @@ class CreateNewsForm(forms.Form):
         # if trying to write down, raise validation error
         # cur_user = UserXtraAuth.objects.get(User.username)
 
-        print("USER SECRECY: " + str(self.user_secrecy))
-        print("QUERY SECRECY: " + str(cleaned_data["new_news_secrecy"]))
+        #print("USER SECRECY: " + str(self.user_secrecy))
+        #print("QUERY SECRECY: " + str(cleaned_data["new_news_secrecy"]))
 
         if cleaned_data["new_news_secrecy"] < self.user_secrecy:
-            print("***VALIDATION ERROR***")
+            #print("***VALIDATION ERROR***")
             raise ValidationError('Cannot create a form above your secrecy level')
 
-        print("CLEANED DATA: ")
-        print(cleaned_data)
+        #print("CLEANED DATA: ")
+        #print(cleaned_data)
 
-        print("***NO ERROR***")
+        #print("***NO ERROR***")
         return cleaned_data
         
 class UpdateNewsForm(forms.Form):
@@ -110,7 +111,8 @@ class UpdateNewsForm(forms.Form):
         # Return a "ValidationError(<err msg>)" if something 
         # is wrong
 
-        if (cleaned_data["data_news_secrecy"] < self.user_secrecy):
-        	raise ValidationError('Cannot edit a form above your secrecy level')
+        if !(cleaned_data["update_news_secrecy"] is None):
+            if (cleaned_data["update_news_secrecy"] < self.user_secrecy):
+                raise ValidationError('Cannot edit a form above your secrecy level')
         
         return cleaned_data
