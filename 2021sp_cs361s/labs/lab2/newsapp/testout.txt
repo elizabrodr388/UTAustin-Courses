@@ -1,0 +1,72 @@
+FFF..F.FFFF
+======================================================================
+FAIL: test_db_cmdline (test1.CrackerTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 104, in test_db_cmdline
+    self.assertTrue(os.path.exists("cracker.py"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_db_cracking (test1.CrackerTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 81, in test_db_cracking
+    self.assertTrue(os.path.exists("cracker.py"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_nonzero_secrecy_login (test1.TokenLoginTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 156, in test_nonzero_secrecy_login
+    self.assertTrue(form.is_valid())
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_form_validation (test1.ViewsTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 528, in test_form_validation
+    self.assertEqual(len(NewsListing.objects.filter(queryId="bcd")), 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_user_account_create (test1.ViewsTestCase)
+The test_user_account_* functions test sending data to the
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 285, in test_user_account_create
+    self.assertTrue(r_1 == 0)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_user_account_delete (test1.ViewsTestCase)
+The test_user_account_* functions test sending data to the
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 365, in test_user_account_delete
+    self.assertTrue(str(render.content).count("bcd") == 0)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_user_account_read (test1.ViewsTestCase)
+The test_user_account_* functions test sending data to the
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 237, in test_user_account_read
+    self.assertTrue(str(render.content).count("bcd") == 0)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_user_account_update (test1.ViewsTestCase)
+The test_user_account_* functions test sending data to the
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/elizabeth/Desktop/ns/UTAustin-Courses/2021sp_cs361s/labs/lab2/newsapp/test1.py", line 408, in test_user_account_update
+    self.assertTrue(str(render.content).count("cde") == 0)
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+
+System check identified no issues (0 silenced).
