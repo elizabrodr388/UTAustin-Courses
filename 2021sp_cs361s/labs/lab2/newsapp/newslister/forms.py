@@ -84,7 +84,7 @@ class UpdateNewsForm(forms.Form):
     update_news_secrecy = forms.IntegerField(label="Update Secrecy", required=False)
     
     def __init__(self, uns, secrecy, *args, **kargs):
-        super().__init__(*args, **kargs)
+        super().__init__(*args, **kargs) # TODO if something is wrong, add the variables
         self.fields['update_news_select'].queryset = uns
         self.user_secrecy = secrecy
         # STUDENT TODO
@@ -111,8 +111,8 @@ class UpdateNewsForm(forms.Form):
         # Return a "ValidationError(<err msg>)" if something 
         # is wrong
 
-        if !(cleaned_data["update_news_secrecy"] is None):
-            if (cleaned_data["update_news_secrecy"] < self.user_secrecy):
-                raise ValidationError('Cannot edit a form above your secrecy level')
+        if cleaned_data["update_news_secrecy"] is not None:
+            if (cleaned_data["update_news_secrecy"] != self.user_secrecy):
+                raise ValidationError('Cannot edit a form above or below your secrecy level')
         
         return cleaned_data

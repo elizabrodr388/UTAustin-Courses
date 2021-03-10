@@ -281,19 +281,19 @@ class ViewsTestCase(TestCase):
         
         # the count of "queryId" should be 2 because it shows up in the drop down
         # and in the table
-        self.assertTrue(str(rookie_render.content).count("abc") == 0)
-        self.assertTrue(str(rookie_render.content).count("bcd") == 0)
-        self.assertTrue(str(rookie_render.content).count("cde") == 2)
+        self.assertEqual(str(rookie_render.content).count("abc"), 0)
+        self.assertEqual(str(rookie_render.content).count("bcd"), 0)
+        self.assertEqual(str(rookie_render.content).count("cde"), 2)
         
         ## the count of these new news sources should be 0 (if not shown) or 1 in the table if shown
-        self.assertTrue(str(rookie_render.content).count(create_rookie_news_source_key) == 0)
+        self.assertEqual(str(rookie_render.content).count(create_rookie_news_source_key), 0)
         self.assertTrue(str(rookie_render.content).count(create_bigshot_news_source_key) == 0)
         
-        self.assertTrue(str(bigshot_render.content).count("abc") == 2)
-        self.assertTrue(str(bigshot_render.content).count("bcd") == 0)
-        self.assertTrue(str(bigshot_render.content).count("cde") == 0)
-        self.assertTrue(str(bigshot_render.content).count(create_rookie_news_source_key) == 1)
-        self.assertTrue(str(bigshot_render.content).count(create_bigshot_news_source_key) == 1)
+        self.assertEqual(str(bigshot_render.content).count("abc"), 2)
+        self.assertEqual(str(bigshot_render.content).count("bcd"), 0)
+        self.assertEqual(str(bigshot_render.content).count("cde"), 0)
+        self.assertEqual(str(bigshot_render.content).count(create_rookie_news_source_key), 1)
+        self.assertEqual(str(bigshot_render.content).count(create_bigshot_news_source_key), 1)
         
         # test trying to have midlevel create data that is low
         # again, we will not check the database. That is a different
@@ -412,19 +412,19 @@ class ViewsTestCase(TestCase):
         request_post_update_hi.user = bigshot
         render = user_account(request_post_update_hi)
         
-        self.assertTrue(str(render.content).count("abc") == 2)
-        self.assertTrue(str(render.content).count("bcd") == 0)
-        self.assertTrue(str(render.content).count("cde") == 0)
-        self.assertTrue(str(render.content).count(hi_source_key) == 1)
+        self.assertEqual(str(render.content).count("abc"), 2)
+        self.assertEqual(str(render.content).count("bcd"), 0)
+        self.assertEqual(str(render.content).count("cde"), 0)
+        self.assertEqual(str(render.content).count(hi_source_key), 1)
         
         #test rookie update
         request_post_update_lo.user = rookie
         render = user_account(request_post_update_lo)
         
-        self.assertTrue(str(render.content).count("abc") == 0)
-        self.assertTrue(str(render.content).count("bcd") == 0)
-        self.assertTrue(str(render.content).count("cde") == 2)
-        self.assertTrue(str(render.content).count(lo_source_key) == 1)
+        self.assertEqual(str(render.content).count("abc"), 0)
+        self.assertEqual(str(render.content).count("bcd"), 0)
+        self.assertEqual(str(render.content).count("cde"), 2)
+        self.assertEqual(str(render.content).count(lo_source_key), 1)
         
             
         
