@@ -8,6 +8,8 @@ from django.contrib.auth.models import User
 from .models import NewsListing, UserXtraAuth
 from .forms import UpdateUserForm, CreateNewsForm, UpdateNewsForm
 import json, random, string, urllib
+from django.core.exceptions import ValidationError
+
 
 key_char_set = string.ascii_letters + string.digits
 
@@ -27,13 +29,7 @@ class NewsApiManager:
         all_results = []
         self.errors = []
         for q in all_queries:
-            # STUDENT TODO:
-            # Currently, all queries are returned with out
-            # respect to secrecy level. You need to implement
-            # the "Simple Security Property" and the "* Property"
-            # (of the Bell Lapadula model).
-            # 
-            # the current secrecy of the viewer is in "self.secrecy"
+            # DONE
             # the secrecy level of the query is in "q.secrecy"
             if q.secrecy <= self.secrecy:
             	escaped_query = urllib.parse.quote(q.query)
@@ -123,9 +119,12 @@ def user_account(request):
         bad = False
         if "create_news" in request.POST:
             create_form = CreateNewsForm(request.POST)
+            print("create_form")
+            print(type(create_form))
             user_auth = UserXtraAuth.objects.get(username=request.user.username)
             create_form.user_secrecy = user_auth.secrecy
             if create_form.is_valid():
+                print("IS VALID RETURNS TRUE")
                 clean_data = create_form.clean()
                 news_listing = NewsListing(
                     queryId = random_key(10),
@@ -136,10 +135,15 @@ def user_account(request):
                 news_listing.save()
                 all_queries = NewsListing.objects.all()
                 for q in all_queries:
+                    #if q.secrecy >= user_auth.secrecy:
                     data.append(q)
                 newsmanager.update_articles()
                 create_form = CreateNewsForm()
-                update_form = UpdateNewsForm()
+                update_form = UpdateNewsForm(NewsListing.objects.all(), user_auth.secrecy)
+            else:
+                print("IS VALID RETURNS FALSE")
+                update_form = UpdateNewsForm(NewsListing.objects.all(), user_auth.secrecy)
+
         elif "update_update" in request.POST or "update_delete" in request.POST:
             update_form = UpdateNewsForm(request.POST)
             if update_form.is_valid():
@@ -155,10 +159,15 @@ def user_account(request):
                     to_update.save()
                 all_queries = NewsListing.objects.all()
                 for q in all_queries:
-                    data.append(q)
+                    if q.secrecy <= user_auth.secrecy:
+                        data.append(q)
                 newsmanager.update_articles()
                 create_form = CreateNewsForm()
                 update_form = UpdateNewsForm()
+            # else:
+            #     create_form = None
+            #     update_form = None
+            #     data = []
         return render(request,'news/update_news.html', {
             'create_form':create_form,
             'update_form':update_form,
