@@ -105,7 +105,7 @@ def user_account(request):
         all_queries = NewsListing.objects.all()
         
         create_form = CreateNewsForm()
-        update_form = UpdateNewsForm()
+        update_form = UpdateNewsForm(all_queries.filter(secrecy__lte=user_auth.secrecy), user_auth.secrecy)
         all_queries = NewsListing.objects.all()
         for q in all_queries:
             if q.secrecy <= user_auth.secrecy:
@@ -139,7 +139,7 @@ def user_account(request):
                     data.append(q)
                 newsmanager.update_articles()
                 create_form = CreateNewsForm()
-                update_form = UpdateNewsForm(NewsListing.objects.all(), user_auth.secrecy)
+                update_form = UpdateNewsForm(all_queries.filter(secrecy <= user_auth.secrecy), user_auth.secrecy)
             else:
                 print("IS VALID RETURNS FALSE")
                 update_form = UpdateNewsForm(NewsListing.objects.all(), user_auth.secrecy)
