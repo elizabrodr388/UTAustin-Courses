@@ -1,11 +1,11 @@
 123456
 123456789
-Qwerty
-Password
+qwerty
+password
 1234567
 12345678
 12345
-Iloveyou
+iloveyou
 111111
 123123
 abc123
