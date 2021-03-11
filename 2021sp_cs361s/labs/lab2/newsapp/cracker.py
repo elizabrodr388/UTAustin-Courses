@@ -132,6 +132,9 @@ def checkPassword (my_str, algo, iters, salt, h):
         b_key = kdf.derive(str.encode(my_str))
         key = base64.b64encode(b_key)
 
+        # print(str(h))
+        # print(str(key))
+
         if h == key:
             print("Password cracked: \'" + my_str + "\'")
             return False
