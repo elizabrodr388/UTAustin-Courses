@@ -1,0 +1,361 @@
+Start
+(1, 'pbkdf2_sha256$216000$GlJ7VGt2uLzJ$JSkAm/IQ0STHiRXN/njsXqQ/K8eAu+GbB3eqaMtLgAk=', '2021-03-10 20:30:33.290822', 1, 'elizabeth', '', 'elizabeth.amanda.rodriguez@gmail.com', 1, 1, '2021-03-03 22:32:14.399609', '')
+(2, 'pbkdf2_sha256$216000$YcCi9yrLqwDC$XkBj5Poudr+bX2DHcTGePnWQT491Pj5oqRKGT3Sj/2g=', '2021-03-09 05:04:22.535413', 0, 'victoria', '', '', 0, 1, '2021-03-06 04:20:43.323860', '')
+(3, 'pbkdf2_sha256$216000$eqjn7DmeRB2s$x3o7MTeELMaFOA+IAvRe7r6rH9qiEgzJ9l7t6Utp8+k=', '2021-03-10 20:32:32.974799', 0, 'armando', '', '', 0, 1, '2021-03-06 04:22:26.621472', '')
+(4, 'pbkdf2_sha256$216000$LiF573iPmbgq$v1kKMS1w6Jdq33v1lA5HRvctJdF+BFXbgdh1sllhe3o=', '2021-03-06 04:29:17.182560', 0, 'teresa', '', '', 0, 1, '2021-03-06 04:22:43.755776', '')
+(5, 'pbkdf2_sha256$216000$3yrAoeEUxsxV$pMYbH5gc+eDZpVxCce28duNOhumaefzcexs9qByh2Ew=', '2021-03-10 22:00:08.713343', 0, 'nati', '', '', 0, 1, '2021-03-06 04:22:59.389594', '')
+(6, 'pbkdf2_sha256$216000$LxPFZdcM4lgn$WW+GLLtlYYXPAmSzw5cFpGDUQneGXZuTeLsfhr0ohOI=', '2021-03-10 07:05:57.577006', 0, 'damon', '', '', 0, 1, '2021-03-06 04:23:14.082417', '')
+(7, 'pbkdf2_sha256$216000$zkBmiRkac3BJ$iE2PeD78b7qaL/rjQCmtgRnssPdgupv1D7inMVT21Y8=', '2021-03-10 20:30:10.186114', 0, 'phillip', '', '', 0, 1, '2021-03-06 04:24:08.581537', '')
+(8, 'pbkdf2_sha256$216000$RzIOZomGTWiX$GZx7k8k0TVO0vpnBjY81g1NIzI6Mnc/Krp8LxRTIPA4=', '2021-03-09 05:06:50.184055', 0, 'bean', '', '', 0, 1, '2021-03-09 05:06:29.775666', '')
+next
+123456
+
+123456789
+
+Qwerty
+
+Password
+
+1234567
+
+12345678
+
+12345
+
+Iloveyou
+
+111111
+
+123123
+
+abc123
+
+qwerty123
+
+1q2w3e4r
+
+admin
+
+qwertyuiop
+
+654321
+
+555555
+
+lovely
+
+7777777
+
+welcome
+
+888888
+
+princess
+
+dragon
+
+password1
+
+123qwe
+
+Start
+<class 'tuple'>
+(1, 'pbkdf2_sha256$216000$GlJ7VGt2uLzJ$JSkAm/IQ0STHiRXN/njsXqQ/K8eAu+GbB3eqaMtLgAk=', '2021-03-10 20:30:33.290822', 1, 'elizabeth', '', 'elizabeth.amanda.rodriguez@gmail.com', 1, 1, '2021-03-03 22:32:14.399609', '')
+<class 'tuple'>
+(2, 'pbkdf2_sha256$216000$YcCi9yrLqwDC$XkBj5Poudr+bX2DHcTGePnWQT491Pj5oqRKGT3Sj/2g=', '2021-03-09 05:04:22.535413', 0, 'victoria', '', '', 0, 1, '2021-03-06 04:20:43.323860', '')
+<class 'tuple'>
+(3, 'pbkdf2_sha256$216000$eqjn7DmeRB2s$x3o7MTeELMaFOA+IAvRe7r6rH9qiEgzJ9l7t6Utp8+k=', '2021-03-10 20:32:32.974799', 0, 'armando', '', '', 0, 1, '2021-03-06 04:22:26.621472', '')
+<class 'tuple'>
+(4, 'pbkdf2_sha256$216000$LiF573iPmbgq$v1kKMS1w6Jdq33v1lA5HRvctJdF+BFXbgdh1sllhe3o=', '2021-03-06 04:29:17.182560', 0, 'teresa', '', '', 0, 1, '2021-03-06 04:22:43.755776', '')
+<class 'tuple'>
+(5, 'pbkdf2_sha256$216000$3yrAoeEUxsxV$pMYbH5gc+eDZpVxCce28duNOhumaefzcexs9qByh2Ew=', '2021-03-10 22:00:08.713343', 0, 'nati', '', '', 0, 1, '2021-03-06 04:22:59.389594', '')
+<class 'tuple'>
+(6, 'pbkdf2_sha256$216000$LxPFZdcM4lgn$WW+GLLtlYYXPAmSzw5cFpGDUQneGXZuTeLsfhr0ohOI=', '2021-03-10 07:05:57.577006', 0, 'damon', '', '', 0, 1, '2021-03-06 04:23:14.082417', '')
+<class 'tuple'>
+(7, 'pbkdf2_sha256$216000$zkBmiRkac3BJ$iE2PeD78b7qaL/rjQCmtgRnssPdgupv1D7inMVT21Y8=', '2021-03-10 20:30:10.186114', 0, 'phillip', '', '', 0, 1, '2021-03-06 04:24:08.581537', '')
+<class 'tuple'>
+(8, 'pbkdf2_sha256$216000$RzIOZomGTWiX$GZx7k8k0TVO0vpnBjY81g1NIzI6Mnc/Krp8LxRTIPA4=', '2021-03-09 05:06:50.184055', 0, 'bean', '', '', 0, 1, '2021-03-09 05:06:29.775666', '')
+next
+123456
+
+123456789
+
+Qwerty
+
+Password
+
+1234567
+
+12345678
+
+12345
+
+Iloveyou
+
+111111
+
+123123
+
+abc123
+
+qwerty123
+
+1q2w3e4r
+
+admin
+
+qwertyuiop
+
+654321
+
+555555
+
+lovely
+
+7777777
+
+welcome
+
+888888
+
+princess
+
+dragon
+
+password1
+
+123qwe
+
+Start
+TYPE: 
+<class 'tuple'>
+(1, 'pbkdf2_sha256$216000$GlJ7VGt2uLzJ$JSkAm/IQ0STHiRXN/njsXqQ/K8eAu+GbB3eqaMtLgAk=', '2021-03-10 20:30:33.290822', 1, 'elizabeth', '', 'elizabeth.amanda.rodriguez@gmail.com', 1, 1, '2021-03-03 22:32:14.399609', '')
+TYPE: 
+<class 'tuple'>
+(2, 'pbkdf2_sha256$216000$YcCi9yrLqwDC$XkBj5Poudr+bX2DHcTGePnWQT491Pj5oqRKGT3Sj/2g=', '2021-03-09 05:04:22.535413', 0, 'victoria', '', '', 0, 1, '2021-03-06 04:20:43.323860', '')
+TYPE: 
+<class 'tuple'>
+(3, 'pbkdf2_sha256$216000$eqjn7DmeRB2s$x3o7MTeELMaFOA+IAvRe7r6rH9qiEgzJ9l7t6Utp8+k=', '2021-03-10 20:32:32.974799', 0, 'armando', '', '', 0, 1, '2021-03-06 04:22:26.621472', '')
+TYPE: 
+<class 'tuple'>
+(4, 'pbkdf2_sha256$216000$LiF573iPmbgq$v1kKMS1w6Jdq33v1lA5HRvctJdF+BFXbgdh1sllhe3o=', '2021-03-06 04:29:17.182560', 0, 'teresa', '', '', 0, 1, '2021-03-06 04:22:43.755776', '')
+TYPE: 
+<class 'tuple'>
+(5, 'pbkdf2_sha256$216000$3yrAoeEUxsxV$pMYbH5gc+eDZpVxCce28duNOhumaefzcexs9qByh2Ew=', '2021-03-10 22:00:08.713343', 0, 'nati', '', '', 0, 1, '2021-03-06 04:22:59.389594', '')
+TYPE: 
+<class 'tuple'>
+(6, 'pbkdf2_sha256$216000$LxPFZdcM4lgn$WW+GLLtlYYXPAmSzw5cFpGDUQneGXZuTeLsfhr0ohOI=', '2021-03-10 07:05:57.577006', 0, 'damon', '', '', 0, 1, '2021-03-06 04:23:14.082417', '')
+TYPE: 
+<class 'tuple'>
+(7, 'pbkdf2_sha256$216000$zkBmiRkac3BJ$iE2PeD78b7qaL/rjQCmtgRnssPdgupv1D7inMVT21Y8=', '2021-03-10 20:30:10.186114', 0, 'phillip', '', '', 0, 1, '2021-03-06 04:24:08.581537', '')
+TYPE: 
+<class 'tuple'>
+(8, 'pbkdf2_sha256$216000$RzIOZomGTWiX$GZx7k8k0TVO0vpnBjY81g1NIzI6Mnc/Krp8LxRTIPA4=', '2021-03-09 05:06:50.184055', 0, 'bean', '', '', 0, 1, '2021-03-09 05:06:29.775666', '')
+next
+123456
+
+123456789
+
+Qwerty
+
+Password
+
+1234567
+
+12345678
+
+12345
+
+Iloveyou
+
+111111
+
+123123
+
+abc123
+
+qwerty123
+
+1q2w3e4r
+
+admin
+
+qwertyuiop
+
+654321
+
+555555
+
+lovely
+
+7777777
+
+welcome
+
+888888
+
+princess
+
+dragon
+
+password1
+
+123qwe
+
+Start
+INFO DICTIONARY
+{'elizabeth': 'pbkdf2_sha256$216000$GlJ7VGt2uLzJ$JSkAm/IQ0STHiRXN/njsXqQ/K8eAu+GbB3eqaMtLgAk=', 'victoria': 'pbkdf2_sha256$216000$YcCi9yrLqwDC$XkBj5Poudr+bX2DHcTGePnWQT491Pj5oqRKGT3Sj/2g=', 'armando': 'pbkdf2_sha256$216000$eqjn7DmeRB2s$x3o7MTeELMaFOA+IAvRe7r6rH9qiEgzJ9l7t6Utp8+k=', 'teresa': 'pbkdf2_sha256$216000$LiF573iPmbgq$v1kKMS1w6Jdq33v1lA5HRvctJdF+BFXbgdh1sllhe3o=', 'nati': 'pbkdf2_sha256$216000$3yrAoeEUxsxV$pMYbH5gc+eDZpVxCce28duNOhumaefzcexs9qByh2Ew=', 'damon': 'pbkdf2_sha256$216000$LxPFZdcM4lgn$WW+GLLtlYYXPAmSzw5cFpGDUQneGXZuTeLsfhr0ohOI=', 'phillip': 'pbkdf2_sha256$216000$zkBmiRkac3BJ$iE2PeD78b7qaL/rjQCmtgRnssPdgupv1D7inMVT21Y8=', 'bean': 'pbkdf2_sha256$216000$RzIOZomGTWiX$GZx7k8k0TVO0vpnBjY81g1NIzI6Mnc/Krp8LxRTIPA4='}
+next
+123456
+
+123456789
+
+Qwerty
+
+Password
+
+1234567
+
+12345678
+
+12345
+
+Iloveyou
+
+111111
+
+123123
+
+abc123
+
+qwerty123
+
+1q2w3e4r
+
+admin
+
+qwertyuiop
+
+654321
+
+555555
+
+lovely
+
+7777777
+
+welcome
+
+888888
+
+princess
+
+dragon
+
+password1
+
+123qwe
+
+Start
+123456
+
+123456789
+
+Qwerty
+
+Password
+
+1234567
+
+12345678
+
+12345
+
+Iloveyou
+
+111111
+
+123123
+
+abc123
+
+qwerty123
+
+1q2w3e4r
+
+admin
+
+qwertyuiop
+
+654321
+
+555555
+
+lovely
+
+7777777
+
+welcome
+
+888888
+
+princess
+
+dragon
+
+password1
+
+123qwe
+
+Start
+HERE
+123456
+
+123456789
+
+Qwerty
+
+Password
+
+1234567
+
+12345678
+
+12345
+
+Iloveyou
+
+111111
+
+123123
+
+abc123
+
+qwerty123
+
+1q2w3e4r
+
+admin
+
+qwertyuiop
+
+654321
+
+555555
+
+lovely
+
+7777777
+
+welcome
+
+888888
+
+princess
+
+dragon
+
+password1
+
+123qwe
+

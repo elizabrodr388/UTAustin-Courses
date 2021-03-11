@@ -21,6 +21,8 @@ from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django import forms
 from newslister.models import UserXtraAuth
 from newslister.views import register_view, account
+from fake_token import FakeToken
+from django.core.exceptions import ValidationError
 
 class TokenLoginForm(AuthenticationForm):
     def clean(self):
@@ -36,7 +38,16 @@ class TokenLoginForm(AuthenticationForm):
             user_secrecy = 0
         else:
             user_xtra_auth = UserXtraAuth.objects.get(username=self.cleaned_data['username'])
-            user_secrecy = 0
+            user_secrecy = user_xtra_auth.secrecy
+            if user_secrecy > 0:
+                time_remaining,ft = next(FakeToken(user_xtra_auth.tokenkey.encode()))
+                pwd_entered = self.cleaned_data["password"]
+                if pwd_entered.endswith(str(ft)):
+                    self.cleaned_data["password"] = pwd_entered[:len(pwd_entered) - len(str(ft))]
+                else:
+                    raise ValidationError ("Invalid TokenCode")
+
+
             
         # the password in the form in self._cleaned_data['password']
         return super().clean()
