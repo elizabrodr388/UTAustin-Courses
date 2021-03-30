@@ -61,11 +61,14 @@ class TLSSession:
         self.handshake_messages = b""
 
     def set_client_random(self, time_part, random_part):
-        # STUDENT TODO
+        # Y STUDENT TODO
         """
         1. set client_time, client_bytes
         2. calculate client_random. There is a method for this
         """
+        self.client_time = int(time_part)
+        self.client_random_bytes = random_part
+        self.client_random = self.time_and_random(time_part,random_part)
         pass
 
     def set_server_random(self):
