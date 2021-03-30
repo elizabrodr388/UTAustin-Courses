@@ -72,7 +72,7 @@ class TLSSession:
         pass
 
     def set_server_random(self):
-        # T STUDENT TODO
+        # Y STUDENT TODO
         """
         1. set server_time, server_bytes
         2. calculate server_random. There is a method for this
@@ -148,6 +148,41 @@ class TLSSession:
         6. NOTE: When you do the HMAC, don't forget to re-create the header with the plaintext len!
         """
         plaintext = b''
+        
+        hdr, efrag = tls_pkt_bytes[:5], tls_pkt_bytes[5:]
+        pkt_type = struct.unpack("!B", hdr[:1])
+        Debug.print('Decrypt Packet Type', pkt_type, hdr.hex())
+        Debug.print("Decrypt got header of size {}, fragment of size {}".format(len(hdr), len(efrag)))
+        explicit_iv, encrypted_data = efrag[:16], efrag[16:]
+        Debug.print("Decrypt with key of size {} and iv of size {}".format(len(self.read_enc), len(explicit_iv)))
+        cipher = Cipher(algorithms.AES(self.read_enc), modes.CBC(explicit_iv), default_backend()).decryptor()        
+        Debug.print("Attempt to decrypt {} bytes".format(len(encrypted_data)))
+        plaintext_data = cipher.update(encrypted_data) + cipher.finalize()
+        Dbug.print("paintext size: ", len(plaintext_data))
+        pad_len = int(plaintext_data[-1]) + 1
+        Debug.print("Pad: {}, len: {}".format(plaintext_data[-pad_len:].hex(), pad_len))
+        plaintext_wo_pad = plaintext_data[:-pad_len]
+        mac = plaintext_wo_pad[-20:]
+        plaintext_only = plaintext_wo_pad[:-20]
+        Debug.print("Decrypt plaintext size: {}, mac_size {}".format(len(plaintext_only), len(mac)))
+        mac_hdr = hdr[:3] + struct.pack("!H", len(plaintext_only))
+        Debug.print("Decrypt plaintext header", mac_hdr.hex())
+
+        """print("Process? packet type is {}".format(struct.unpack("!B", mac_hdr[:1])))
+        m = TLS(mac_hdr+plaintext_only)
+        m.show2()"""
+
+        if not kargs.get("test", False):
+            signature = self.hmac_pkt(mac_hdr, plaintext_only, "receive")
+        else:
+            signature = self.hmac_pkt(mac_hdr, plaintext_only, "test", **kargs)
+            Debug.print("Test signature. Len {}. Hex={}".format(len(signature), signature.hex()))
+        if signature != mac:
+            Debug.print(signature.hex())
+            DEbug.print(mac.hex())
+            raise Exception("INvalid MAC on packet")
+        plaintext = plaintext_only
+
         return plaintext
 
     def encrypt_tls_pkt(self, tls_pkt, test_iv=None):
