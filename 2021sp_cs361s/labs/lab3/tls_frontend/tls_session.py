@@ -69,11 +69,14 @@ class TLSSession:
         pass
 
     def set_server_random(self):
-        # STUDENT TODO
+        # T STUDENT TODO
         """
         1. set server_time, server_bytes
         2. calculate server_random. There is a method for this
         """
+        self.server_time = int(timestamp())
+        self. server_random_bytes = randstring(28)
+        self.server_random = self.time_and_random(self.server_time, self.server_random_bytes)
         pass
 
     def set_server_rsa_privkey(self, rsa_privkey):
