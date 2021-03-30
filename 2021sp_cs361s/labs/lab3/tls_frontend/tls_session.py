@@ -198,7 +198,7 @@ class TLSSession:
         plaintext_msg = tls_pkt.msg[0]
         plaintext_bytes = raw(plaintext_msg)
         
-        # STUDENT TODO
+        # Y STUDENT TODO
         """
         1. the beginning of this function, already provided, extracts the data from scapy
         2. Do the TLS encryption process on the plaintext_bytes
@@ -210,6 +210,27 @@ class TLSSession:
         
         ciphertext = b""
         
+        Debug.print_packet(plaintext_msg)
+        Debug.print("In encrypt. Plaintext of tls pkt msg is ", len(plaintext_bytes))
+
+        orig_header = tls_pkt_bytes[:5]
+        mac = self.hmac_pkt(orig_header, plaintext_bytes, "send")
+        pad_len = 16-((len(plaintext_bytes)+len(mac))%16)
+        Debug.print("encrypt pad len", pad_len)
+        pad = struct.pack('!B', pad_len-1)*pad_len
+        all_plaintext = plaintext_bytes + mac + pad
+        
+        if test_iv is None:
+            explicit_iv = os.urandom(16)
+        else:
+            explicit_iv = test_iv
+        
+        cipher = Cipher(algorithms.AES(self.write_enc), modes.CBC(explicit_iv), default_backend()).encryptor()
+        ciphertext = cipher.update(all_plaintext) + cipher.finalize()
+        efrag = explicit_iv + ciphertext
+        encrypted_bytes = tls_pkt_bytes[:3]+struct.pack("!H",len(efrag))+efrag
+        ciphertext = encrypted_bytes
+
         return ciphertext
 
     def record_handshake_message(self, m):
