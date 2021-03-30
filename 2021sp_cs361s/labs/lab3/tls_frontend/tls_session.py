@@ -90,14 +90,31 @@ class TLSSession:
         self._derive_keys()
 
     def _derive_keys(self):
-        # STUDENT TODO
+        # Y STUDENT TODO
         """
         1. calculate pre_master_secret
         2. calculate master_secret
         3. calculate a key block
         4. split the key block into read and write keys for enc and mac
         """
-        pass
+        if self.pre_master_secret is None:
+            self.pre_master_secret = self.server_dh_privkey.exchange(self.client_dh_pubkey)
+        self.master_secret = self.PRF.compute_master_secret(
+            pre_master_secret = self.pre_master_secret,
+            client_random = self.client_random,
+            server_random = self.server_random)
+        Debug.print("Master secret:", self.master_secret.hex().upper())
+        key_block = self.PRF.derive_key_block(
+            master_secret = self.master_secret,
+            client_random = self.client_random,
+            req_len = self.key_block_len)
+        
+        self.read_mac, key_block  = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
+        self.write_mac, key_block = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
+        self.read_enc, key_block  = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
+        self.write_enc, key_block = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
+        #self.read_iv, key_block   = key_block[:self.iv_size],      key_block[self.iv_size:]
+        #self.read_iv, key_block   = key_block[:self.iv_size],      key_block[self.iv_size:]
 
     def tls_sign(self, bytes):
         """
