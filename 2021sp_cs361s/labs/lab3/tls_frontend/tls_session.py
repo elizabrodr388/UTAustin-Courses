@@ -138,7 +138,7 @@ class TLSSession:
         tls_pkt_bytes = raw(tls_pkt)
         tls_pkt_bytes = struct.pack("!B",packet_type)+tls_pkt_bytes[1:]
         
-        # STUDENT TODO
+        # Y STUDENT TODO
         """
         1. The beginning of this function, already provided, extracts the data from scapy
         2. Do the TLS decryption process on tls_pkt_bytes
@@ -214,7 +214,7 @@ class TLSSession:
         Debug.print("In encrypt. Plaintext of tls pkt msg is ", len(plaintext_bytes))
 
         orig_header = tls_pkt_bytes[:5]
-        mac = self.hmac_pkt(orig_header, plaintext_bytes, "send")
+        mac = self.tls_sign(orig_header, plaintext_bytes, "send")
         pad_len = 16-((len(plaintext_bytes)+len(mac))%16)
         Debug.print("encrypt pad len", pad_len)
         pad = struct.pack('!B', pad_len-1)*pad_len
@@ -237,7 +237,7 @@ class TLSSession:
         self.handshake_messages += m
 
     def compute_handshake_verify(self, mode):
-        # STUDENT TODO
+        # Y STUDENT TODO
         """
         1. use PRF.compute_verify_data to compute the handshake verify data
             arg_1: the string "server"
@@ -247,6 +247,8 @@ class TLSSession:
         """
         verify_data = b""
         
+        verify_data = self.PRF.compute_verify_data("server", mode, self.handshake_messages, self.master_secret)
+
         return verify_data
 
     def time_and_random(self, time_part, random_part=None):
