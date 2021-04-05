@@ -67,7 +67,7 @@ class TLS_Visibility:
         server_key_exchange = None
         server_hello_done = None
         
-        # STUDENT TODO
+        # T STUDENT TODO
         """ 
         Instructions:
         1. process client hello. set the session client random appropriately
@@ -81,6 +81,7 @@ class TLS_Visibility:
             and server_hello_done variables
         """
 
+        """
         # step 1
         self.session.set_client_random(tls_msg.gmt_unix_time, tls_msg.client_random_bytes)
         self.session.set_server_random()
@@ -100,7 +101,7 @@ class TLS_Visibility:
 
         # step 5
         server_hello_done = TLSServerHelloDone()
-
+        """
 
         f_session = tlsSession()
         f_session.tls_version = 0x303
@@ -131,7 +132,7 @@ class TLS_Visibility:
         f_session = tlsSession()
         f_session.tls_version = 0x303
         
-        # STUDENT TODO
+        # IP STUDENT TODO
         """
         1. process the decrypted TLS finished message. OPTIONALLY, verify the data:
             local_verify_data = session.compute_handshake_verify("read")
@@ -140,10 +141,24 @@ class TLS_Visibility:
         3. create the TLSFinished message. 
             Set v_data to session.compute_handshake_verify("write")
             because of scapy weirdness, set tls_session=f_session
-        4. encrypt the tls finished message (server_finished_msg). You already have a method for this.
+        4. encrypt the tls finished message (server_finished_msg). 
+           You already have a method for this.
         5. store the encrypted bytes in encrypted_finished_msg
         """
         
+        
+        # step 2, create the change cipher spec
+        server_change_cipher_spec = TLSChangeCipherSpec() # MY TODO not done
+
+        # step 3, create the TLSFinished message
+        server_finished_msg = TLSFinished(vdata=session.compute_handshake_verify("write"),
+            tls_session = f_session) 
+
+        # step 4, encrypt the tls finished message + more
+        server_pkt = TLS(msg=[server_finished_msg])
+        encrypted_finished_msg = encrypt_tls_pkt(server_pkt)
+        
+
         self.session.handshake = False
 
         change_cipher_msg = TLS(msg=[server_change_cipher_spec])
@@ -163,7 +178,7 @@ class TLS_Visibility:
 
     def process_tls_data(self, data):
         Debug.record("visibility", data)
-        # STUDENT TODO:
+        # Y STUDENT TODO:
         """
         Actually, there's nothing to-do here. However, I have 
         written this code to "swallow" exceptions for stability.
@@ -216,7 +231,7 @@ class TLS_Visibility:
                     raise Exception("Got application data while still in handshake")
                 
                 application_data = b""
-                # STUDENT TODO
+                # Y STUDENT TODO
                 """
                 1. We've received an application data packet. It will be encrypted
                 2. decrypt the packet to application_data. You should already have a method for this.
@@ -225,6 +240,9 @@ class TLS_Visibility:
                 application_pkt = TLSApplicationData(application_data)
                 Debug.print("Got {} bytes of decrypted data".format(len(application_pkt.data)))
                 output += application_pkt.data
+                
+                application_data = decrypt_tls_packet(application_pkt)
+
             else:
                 print("Got unknown tls pkt type {}".format(pkt.type))
                 tls_pkt.show2()
