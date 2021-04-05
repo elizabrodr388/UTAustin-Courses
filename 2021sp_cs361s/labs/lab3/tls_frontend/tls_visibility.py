@@ -80,6 +80,28 @@ class TLS_Visibility:
         6. store in the provided server_hello, server_cert, server_key_exchange,
             and server_hello_done variables
         """
+
+        # step 1
+        self.session.set_client_random(tls_msg.gmt_unix_time, tls_msg.client_random_bytes)
+        self.session.set_server_random()
+
+        # step 2
+        server_hello = TLSServerHello(gmt_unix_time=self.session.server_time, 
+            random_bytes=self.session.server_random_bytes, version=self.session.tls_version,
+            cipher=TLS_DHE_RSA_WITH_AES_128_CBC_SHA.val)
+
+        # step 3
+        server_cert = TLSCertificate(certs=self.cert]                                                                          )
+
+        # step 4
+        server_key_exchange = TLSServerKeyExchange(params=self.session.tls_sign.server_dh_params,
+            sig=self.session.tls_sign(self.session.server_random +
+             self.session.client_random + self.session.server_dh_params))
+
+        # step 5
+        server_hello_done = TLSServerHelloDone()
+
+
         f_session = tlsSession()
         f_session.tls_version = 0x303
         tls_response = TLS(msg=[server_hello, server_cert, server_key_exchange, server_hello_done],
@@ -122,7 +144,6 @@ class TLS_Visibility:
         5. store the encrypted bytes in encrypted_finished_msg
         """
         
-
         self.session.handshake = False
 
         change_cipher_msg = TLS(msg=[server_change_cipher_spec])
@@ -142,7 +163,7 @@ class TLS_Visibility:
 
     def process_tls_data(self, data):
         Debug.record("visibility", data)
-        ## STUDENT TODO:
+        # STUDENT TODO:
         """
         Actually, there's nothing to-do here. However, I have 
         written this code to "swallow" exceptions for stability.
