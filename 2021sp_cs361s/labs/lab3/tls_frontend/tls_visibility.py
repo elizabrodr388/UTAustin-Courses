@@ -12,6 +12,7 @@ from scapy.all import *
 from scapy.layers.tls.keyexchange import _TLSSignature
 from scapy.layers.tls.handshake import _TLSCKExchKeysField
 from scapy.layers.tls.handshake import TLSServerHelloDone
+from scapy.layers.tls.handshake import TLSClientKeyExchange
 from datetime import datetime, timedelta
 
 
@@ -117,14 +118,24 @@ class TLS_Visibility:
         Debug.print_packet(tls_response)
         return tls_response_bytes
             
-    def process_tls_handshake_key_exchange(self, tls_msg):    
+    def process_tls_handshake_key_exchange(self, tls_msg):   
+
+        print("\n\n\n\***key exchange\n\n\n")
+        print(type(tls_msg))
+
         Debug.print("Got key exchange")
         Debug.print_packet(tls_msg)
         
         """
+        STUDENT TODO
         1. process the client key exchange by extracting the "exchkeys"
         2. These can be passed directly to session.set_client_dh_params
         """ 
+
+        print("hereee")
+        e = tls_msg.exchkeys
+        self.session.set_client_dh_params(raw(e))
+
         return b'' # (No response necessary)
             
     def process_tls_handshake_finished(self, tls_msg):

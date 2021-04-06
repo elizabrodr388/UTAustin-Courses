@@ -156,12 +156,15 @@ class TLSSession:
     
 
     def decrypt_tls_pkt(self, tls_pkt, **kargs):
+        print("\n\n\n\n\n\n\n*******************")
         # scapy screws up and changes the first byte if it can't decrypt it
         # from 22 to 23 (handshake to application). Check if this happens and fix
         packet_type = tls_pkt.type
         tls_pkt_bytes = raw(tls_pkt)
         tls_pkt_bytes = struct.pack("!B",packet_type)+tls_pkt_bytes[1:]
         
+        print("**** here 1")
+
         # Y STUDENT TODO
         """
         1. The beginning of this function, already provided, extracts the data from scapy
@@ -178,6 +181,10 @@ class TLSSession:
         Debug.print('Decrypt Packet Type', pkt_type, hdr.hex())
         Debug.print("Decrypt got header of size {}, fragment of size {}".format(len(hdr), len(efrag)))
         explicit_iv, encrypted_data = efrag[:16], efrag[16:]
+        print("explicit_iv")
+        print(explicit_iv)
+        print("read_enc")
+        print(read_enc)
         Debug.print("Decrypt with key of size {} and iv of size {}".format(len(self.read_enc), len(explicit_iv)))
         cipher = Cipher(algorithms.AES(self.read_enc), modes.CBC(explicit_iv), default_backend()).decryptor()        
         Debug.print("Attempt to decrypt {} bytes".format(len(encrypted_data)))
