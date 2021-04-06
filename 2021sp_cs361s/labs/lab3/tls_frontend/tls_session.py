@@ -113,6 +113,7 @@ class TLSSession:
         key_block = self.PRF.derive_key_block(
             master_secret = self.master_secret,
             client_random = self.client_random,
+            server_random = self.server_random,
             req_len = self.key_block_len)
         
         self.read_mac, key_block  = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
@@ -156,7 +157,6 @@ class TLSSession:
     
 
     def decrypt_tls_pkt(self, tls_pkt, **kargs):
-        print("\n\n\n\n\n\n\n*******************")
         # scapy screws up and changes the first byte if it can't decrypt it
         # from 22 to 23 (handshake to application). Check if this happens and fix
         packet_type = tls_pkt.type
@@ -181,15 +181,11 @@ class TLSSession:
         Debug.print('Decrypt Packet Type', pkt_type, hdr.hex())
         Debug.print("Decrypt got header of size {}, fragment of size {}".format(len(hdr), len(efrag)))
         explicit_iv, encrypted_data = efrag[:16], efrag[16:]
-        print("explicit_iv")
-        print(explicit_iv)
-        print("read_enc")
-        print(read_enc)
         Debug.print("Decrypt with key of size {} and iv of size {}".format(len(self.read_enc), len(explicit_iv)))
         cipher = Cipher(algorithms.AES(self.read_enc), modes.CBC(explicit_iv), default_backend()).decryptor()        
         Debug.print("Attempt to decrypt {} bytes".format(len(encrypted_data)))
         plaintext_data = cipher.update(encrypted_data) + cipher.finalize()
-        Dbug.print("paintext size: ", len(plaintext_data))
+        Debug.print("paintext size: ", len(plaintext_data))
         pad_len = int(plaintext_data[-1]) + 1
         Debug.print("Pad: {}, len: {}".format(plaintext_data[-pad_len:].hex(), pad_len))
         plaintext_wo_pad = plaintext_data[:-pad_len]

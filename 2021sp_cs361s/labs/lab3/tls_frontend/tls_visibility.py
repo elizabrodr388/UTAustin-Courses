@@ -120,7 +120,6 @@ class TLS_Visibility:
             
     def process_tls_handshake_key_exchange(self, tls_msg):   
 
-        print("\n\n\n\***key exchange\n\n\n")
         print(type(tls_msg))
 
         Debug.print("Got key exchange")
@@ -134,7 +133,7 @@ class TLS_Visibility:
 
         print("hereee")
         e = tls_msg.exchkeys
-        self.session.set_client_dh_params(raw(e))
+        self.session.set_client_dh_params(ClientDiffieHellmanPublic(raw(e)))
 
         return b'' # (No response necessary)
             
@@ -169,11 +168,11 @@ class TLS_Visibility:
         server_change_cipher_spec = TLSChangeCipherSpec()
 
         # step 3, create the TLSFinished message
-        server_finished_msg = TLSFinished(vdata=session.compute_handshake_verify("write")) 
+        server_finished_msg = TLSFinished(vdata=self.session.compute_handshake_verify("write")) 
 
         # step 4, encrypt the tls finished message + more
         server_pkt = TLS(msg=[server_finished_msg], tls_session=f_session)
-        encrypted_finished_msg = encrypt_tls_pkt(server_pkt)
+        encrypted_finished_msg = self.session.encrypt_tls_pkt(server_pkt)
         
 
         self.session.handshake = False
