@@ -11,7 +11,9 @@ from cryptography.x509.oid import NameOID
 from scapy.all import *
 from scapy.layers.tls.keyexchange import _TLSSignature
 from scapy.layers.tls.handshake import _TLSCKExchKeysField
+from scapy.layers.tls.handshake import TLSServerHelloDone
 from datetime import datetime, timedelta
+
 
 from .debug import Debug
 from .tls_session import TLSSession
@@ -51,6 +53,8 @@ class TLS_Visibility:
             return self.process_tls_handshake_key_exchange(tls_msg)
         if isinstance(tls_msg, TLSFinished):
             # we should never get these unencrypted
+            import traceback
+            traceback.print_exc()
             raise Exception("Unencrypted TLSFinished message")
         if isinstance(tls_msg, Raw):
             # If we get raw data, it means we couldn't interpret it.
@@ -59,6 +63,9 @@ class TLS_Visibility:
             # Decrypt is on the "tls_pkt", not the tls_msg
             tls_finished_msg = self.decrypt_tls_handshake_finished(tls_pkt)
             return self.process_tls_handshake_finished(tls_finished_msg)
+        
+        import traceback
+        traceback.print_exc()
         raise Exception("Unknown packet type {}".format(type(tls_msg)))
         
     def process_tls_handshake_client_hello(self, tls_msg):
@@ -66,7 +73,7 @@ class TLS_Visibility:
         server_cert = None
         server_key_exchange = None
         server_hello_done = None
-        
+
         # T STUDENT TODO
         """ 
         Instructions:
@@ -81,27 +88,25 @@ class TLS_Visibility:
             and server_hello_done variables
         """
 
-        """
+
         # step 1
-        self.session.set_client_random(tls_msg.gmt_unix_time, tls_msg.client_random_bytes)
+        self.session.set_client_random(tls_msg.gmt_unix_time, tls_msg.random_bytes)
         self.session.set_server_random()
 
         # step 2
-        server_hello = TLSServerHello(gmt_unix_time=self.session.server_time, 
-            random_bytes=self.session.server_random_bytes, version=self.session.tls_version,
-            cipher=TLS_DHE_RSA_WITH_AES_128_CBC_SHA.val)
+        server_hello = TLSServerHello(gmt_unix_time=self.session.server_time, random_bytes=self.session.server_random_bytes, version=self.session.tls_version, cipher=TLS_DHE_RSA_WITH_AES_128_CBC_SHA.val)
 
         # step 3
-        server_cert = TLSCertificate(certs=self.cert]                                                                          )
+        server_cert = TLSCertificate(certs=self.cert)
 
         # step 4
-        server_key_exchange = TLSServerKeyExchange(params=self.session.tls_sign.server_dh_params,
-            sig=self.session.tls_sign(self.session.server_random +
-             self.session.client_random + self.session.server_dh_params))
+        server_key_exchange = TLSServerKeyExchange(params=self.session.server_dh_params,
+         sig=self.session.tls_sign(self.session.server_random +
+          self.session.client_random + raw(self.session.server_dh_params)))
 
         # step 5
         server_hello_done = TLSServerHelloDone()
-        """
+        
 
         f_session = tlsSession()
         f_session.tls_version = 0x303
@@ -189,6 +194,8 @@ class TLS_Visibility:
         try:
             return self.process_tls_data_unsafe(data)
         except Exception as e:
+            import traceback
+            traceback.print_exc()
             return ("failure", e)
 
     def process_tls_data_unsafe(self, data):
@@ -224,9 +231,13 @@ class TLS_Visibility:
                 Debug.print_packet(tls_pkt)
             elif tls_pkt.type == 21:
                 print("Got Alert")
+                import traceback
+                traceback.print_exc()
                 raise Exception("Something went wrong with TLS")
             elif tls_pkt.type == 23:
                 if self.session.handshake:
+                    import traceback
+                    traceback.print_exc()
                     raise Exception("Got application data while still in handshake")
                 
                 application_data = b""
