@@ -1,0 +1,40 @@
+CONNECTED(00000003)
+write to 0x55e3abcc82f0 [0x55e3abcdd760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 ba ff 03 d3 94   ....1...-.......
+0010 - 71 e7 b7 6e d6 44 94 cf-18 58 b7 7d 69 34 0a 9a   q..n.D...X.}i4..
+0020 - af 99 a6 c0 3a e5 47 96-5a 20 47 20 e0 92 17 c4   ....:.G.Z G ....
+0030 - a2 62 b8 98 42 61 07 c0-0f ce 2e 0f 45 b2 08 2c   .b..Ba......E..,
+0040 - d6 73 19 14 fc f0 62 fe-e6 79 9a 09 00 3e 13 02   .s....b..y...>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 5b 3c-16 34 b5 95 1d 82 c2 a7   .$... [<.4......
+0120 - 5b ef 57 aa f3 b6 85 1a-e2 dc 4e ef 4a 89 7d 18   [.W.......N.J.}.
+0130 - 02 b0 af e4 4b 3a                                 ....K:
+read from 0x55e3abcc82f0 [0x55e3abcd4543] (5 bytes => 0 (0x0))
+---
+no peer certificate available
+---
+No client certificate CA names sent
+---
+SSL handshake has read 0 bytes and written 310 bytes
+Verification: OK
+---
+New, (NONE), Cipher is (NONE)
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+read from 0x55e3abcc82f0 [0x55e3abcbfd90] (8192 bytes => 0 (0x0))

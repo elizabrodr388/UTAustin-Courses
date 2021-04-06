@@ -134,8 +134,7 @@ class TLSSession:
         
         return sig
 
-    def hmac_pkt (self, hdr, msg, mode, **kargs)
-    {
+    def hmac_pkt (self, hdr, msg, mode, **kargs):
         if mode == "receive":
             seq_num = struct.pack("!Q", self.read_seq_num)
             self.read_seq_num += 1
@@ -154,7 +153,6 @@ class TLSSession:
         tls_hmac = crypto_hmac.HMAC(key, hashes.SHA1(), default_backend())
         tls_hmac.update(seq_num + hdr + msg)
         return tls_hmac.finalize()
-    }
     
 
     def decrypt_tls_pkt(self, tls_pkt, **kargs):

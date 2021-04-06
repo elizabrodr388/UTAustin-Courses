@@ -151,11 +151,10 @@ class TLS_Visibility:
         server_change_cipher_spec = TLSChangeCipherSpec() # MY TODO not done
 
         # step 3, create the TLSFinished message
-        server_finished_msg = TLSFinished(vdata=session.compute_handshake_verify("write"),
-            tls_session = f_session) 
+        server_finished_msg = TLSFinished(vdata=session.compute_handshake_verify("write")) 
 
         # step 4, encrypt the tls finished message + more
-        server_pkt = TLS(msg=[server_finished_msg])
+        server_pkt = TLS(msg=[server_finished_msg], tls_session=f_session)
         encrypted_finished_msg = encrypt_tls_pkt(server_pkt)
         
 
