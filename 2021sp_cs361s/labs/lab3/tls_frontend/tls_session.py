@@ -117,8 +117,8 @@ class TLSSession:
         
         self.read_mac, key_block  = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
         self.write_mac, key_block = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
-        self.read_enc, key_block  = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
-        self.write_enc, key_block = key_block[:self.mac_key_size], key_block[self.mac_key_size:]
+        self.read_enc, key_block  = key_block[:self.enc_key_size], key_block[self.enc_key_size:]
+        self.write_enc, key_block = key_block[:self.enc_key_size], key_block[self.enc_key_size:]
         #self.read_iv, key_block   = key_block[:self.iv_size],      key_block[self.iv_size:]
         #self.read_iv, key_block   = key_block[:self.iv_size],      key_block[self.iv_size:]
 
@@ -204,7 +204,7 @@ class TLSSession:
         if signature != mac:
             Debug.print(signature.hex())
             DEbug.print(mac.hex())
-            raise Exception("INvalid MAC on packet")
+            raise Exception("Invalid MAC on packet")
         plaintext = plaintext_only
 
         return plaintext

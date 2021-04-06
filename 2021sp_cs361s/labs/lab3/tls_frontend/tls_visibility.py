@@ -34,6 +34,7 @@ class TLS_Visibility:
         self.session.set_server_rsa_privkey(self.private_key)
 
     def encrypt_data(self, data):
+        print("********** encrypt_data")
         # Y STUDENT TODO
         """
         Actually, we did this one for you because it was pretty
@@ -69,6 +70,7 @@ class TLS_Visibility:
         raise Exception("Unknown packet type {}".format(type(tls_msg)))
         
     def process_tls_handshake_client_hello(self, tls_msg):
+        print("********** tls_handshake_client_hello")
         server_hello = None
         server_cert = None
         server_key_exchange = None
@@ -97,12 +99,11 @@ class TLS_Visibility:
         server_hello = TLSServerHello(gmt_unix_time=self.session.server_time, random_bytes=self.session.server_random_bytes, version=self.session.tls_version, cipher=TLS_DHE_RSA_WITH_AES_128_CBC_SHA.val)
 
         # step 3
-        server_cert = TLSCertificate(certs=self.cert)
+        server_cert = TLSCertificate(certs=[self.cert])
 
         # step 4
         server_key_exchange = TLSServerKeyExchange(params=self.session.server_dh_params,
-         sig=self.session.tls_sign(self.session.server_random +
-          self.session.client_random + raw(self.session.server_dh_params)))
+         sig=self.session.tls_sign(self.session.client_random + self.session.server_random + raw(self.session.server_dh_params)))
 
         # step 5
         server_hello_done = TLSServerHelloDone()
@@ -126,7 +127,8 @@ class TLS_Visibility:
         """ 
         return b'' # (No response necessary)
             
-    def process_tls_handshake_finished(self, tls_msg):    
+    def process_tls_handshake_finished(self, tls_msg):
+        print("********** process_tls_handshake_finished")    
         Debug.print("Got Client Finished")
         Debug.print_packet(tls_msg)
         
@@ -153,7 +155,7 @@ class TLS_Visibility:
         
         
         # step 2, create the change cipher spec
-        server_change_cipher_spec = TLSChangeCipherSpec() # MY TODO not done
+        server_change_cipher_spec = TLSChangeCipherSpec()
 
         # step 3, create the TLSFinished message
         server_finished_msg = TLSFinished(vdata=session.compute_handshake_verify("write")) 
@@ -171,8 +173,25 @@ class TLS_Visibility:
         server_finished_msg = TLS(msg=[server_finished], tls_session=f_session)
         Debug.print_packet(server_finished_msg)
         server_finished_msg.type = 22 # This is probably not necessary any more.
+
+        return raw(change_cipher_msg) + encrypted_finished_msg
         
         
+
+    def decrypt_tls_handshake_finished (self, tls_pkt):
+        # STUDENT TODO
+
+        """
+        1. was a HANDSHAKE message scapy couldn't process.It's because it's encrypted.
+        2. decrypt the packet to paintext_data. YOu should already have a message for this
+        3. store in plaintext
+        """
+
+        plaintext = b""
+
+        plaintext_data = self.session.decrypt_tls_pkt(tls_pkt)
+        plaintext = plaintext_data
+
         Debug.print("attempt to cast to TLS Finished")
         f_session = tlsSession()
         f_session.tls_version = 0x303
@@ -181,6 +200,7 @@ class TLS_Visibility:
         
 
     def process_tls_data(self, data):
+        print("********** process_tls_data")
         Debug.record("visibility", data)
         # Y STUDENT TODO:
         """
@@ -199,6 +219,7 @@ class TLS_Visibility:
             return ("failure", e)
 
     def process_tls_data_unsafe(self, data):
+        print("********** process_tls_data")
         output = b""
         if self.session.handshake:
             result_type = "local_response"

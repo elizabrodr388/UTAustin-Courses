@@ -1,0 +1,1480 @@
+CONNECTED(00000003)
+write to 0x5567597b12f0 [0x5567597c6760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 d4 da d6 ae 9d   ....1...-.......
+0010 - f9 32 d8 b2 55 9d 91 e8-96 60 6d 86 84 ef 54 ac   .2..U....`m...T.
+0020 - 8a f7 95 46 96 2a ff 8d-71 cc 83 20 81 ae f2 e6   ...F.*..q.. ....
+0030 - 0e c0 23 67 e1 78 70 46-39 4f 33 e0 1c 33 0c b0   ..#g.xpF9O3..3..
+0040 - 52 5c 12 d1 ef a6 0f c5-1c 69 e3 e7 00 3e 13 02   R\.......i...>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 3e 4e-4a b0 d6 67 c6 35 62 2a   .$... >NJ..g.5b*
+0120 - ee d1 8d 60 78 bb ba 96-45 8b 1d 04 96 32 81 3a   ...`x...E....2.:
+0130 - 85 4a 8a e9 e9 75                                 .J...u
+read from 0x5567597b12f0 [0x5567597bd543] (5 bytes => 5 (0x5))
+0000 - 16 03 03 07 01                                    .....
+read from 0x5567597b12f0 [0x5567597bd548] (1793 bytes => 1793 (0x701))
+0000 - 02 00 00 26 03 03 60 6b-dc b8 7e 5c 40 58 76 2c   ...&..`k..~\@Xv,
+0010 - fe b8 33 63 ac a9 6d a5-ae da e6 d2 ec 61 6d bf   ..3c..m......am.
+0020 - ef 83 13 c6 46 3f 00 00-33 00 0b 00 03 c0 00 03   ....F?..3.......
+0030 - bd 00 03 ba 30 82 03 b6-30 82 02 9e 02 14 0d 12   ....0...0.......
+0040 - e6 8d 60 2d 15 0a 70 63-71 5c 8b 64 cd 85 98 22   ..`-..pcq\.d..."
+0050 - 9c 40 30 0d 06 09 2a 86-48 86 f7 0d 01 01 0b 05   .@0...*.H.......
+0060 - 00 30 81 92 31 0b 30 09-06 03 55 04 06 13 02 55   .0..1.0...U....U
+0070 - 53 31 0b 30 09 06 03 55-04 08 0c 02 54 58 31 0f   S1.0...U....TX1.
+0080 - 30 0d 06 03 55 04 07 0c-06 41 75 73 74 69 6e 31   0...U....Austin1
+0090 - 0b 30 09 06 03 55 04 0a-0c 02 55 54 31 0f 30 0d   .0...U....UT1.0.
+00a0 - 06 03 55 04 0b 0c 06 6e-65 74 73 65 63 31 12 30   ..U....netsec1.0
+00b0 - 10 06 03 55 04 03 0c 09-65 6c 69 7a 61 62 65 74   ...U....elizabet
+00c0 - 68 31 33 30 31 06 09 2a-86 48 86 f7 0d 01 09 01   h1301..*.H......
+00d0 - 16 24 65 6c 69 7a 61 62-65 74 68 2e 61 6d 61 6e   .$elizabeth.aman
+00e0 - 64 61 2e 72 6f 64 72 69-67 75 65 7a 40 67 6d 61   da.rodriguez@gma
+00f0 - 69 6c 2e 63 6f 6d 30 1e-17 0d 32 31 30 33 33 30   il.com0...210330
+0100 - 30 33 35 30 33 35 5a 17-0d 32 32 30 33 32 35 30   035035Z..2203250
+0110 - 33 35 30 33 35 5a 30 81-9b 31 0b 30 09 06 03 55   35035Z0..1.0...U
+0120 - 04 06 13 02 55 53 31 0b-30 09 06 03 55 04 08 0c   ....US1.0...U...
+0130 - 02 54 58 31 0f 30 0d 06-03 55 04 07 0c 06 41 75   .TX1.0...U....Au
+0140 - 73 74 69 6e 31 0b 30 09-06 03 55 04 0a 0c 02 55   stin1.0...U....U
+0150 - 54 31 0f 30 0d 06 03 55-04 0b 0c 06 41 75 73 74   T1.0...U....Aust
+0160 - 69 6e 31 1b 30 19 06 03-55 04 03 0c 12 63 73 33   in1.0...U....cs3
+0170 - 36 31 73 2e 75 74 65 78-61 73 2e 6c 61 62 32 31   61s.utexas.lab21
+0180 - 33 30 31 06 09 2a 86 48-86 f7 0d 01 09 01 16 24   301..*.H.......$
+0190 - 65 6c 69 7a 61 62 65 74-68 2e 61 6d 61 6e 64 61   elizabeth.amanda
+01a0 - 2e 72 6f 64 72 69 67 75-65 7a 40 67 6d 61 69 6c   .rodriguez@gmail
+01b0 - 2e 63 6f 6d 30 82 01 22-30 0d 06 09 2a 86 48 86   .com0.."0...*.H.
+01c0 - f7 0d 01 01 01 05 00 03-82 01 0f 00 30 82 01 0a   ............0...
+01d0 - 02 82 01 01 00 b7 19 9c-f9 91 be 42 4a fd c0 65   ...........BJ..e
+01e0 - 4f 76 0b dc 5a 9c bd d9-99 38 87 93 3e b9 80 ee   Ov..Z....8..>...
+01f0 - c7 c7 d7 c7 21 73 7b 7e-27 2e 7c 53 74 be 24 8e   ....!s{~'.|St.$.
+0200 - 35 8e e3 bb 67 10 d3 6f-ed 79 b1 3a 3e 68 66 5d   5...g..o.y.:>hf]
+0210 - 5d c2 f9 c1 5c ee 92 b5-0c c7 34 9c f1 80 7b f9   ]...\.....4...{.
+0220 - 42 53 97 88 92 dc 9e 76-58 80 83 42 c9 9e 60 00   BS.....vX..B..`.
+0230 - f3 0c 3a dc 88 ff bd 7a-af 2f ba 81 a2 cf e5 1c   ..:....z./......
+0240 - 9d 44 54 bf 4b 26 2c 50-2f ac 70 c4 6f 4b 38 43   .DT.K&,P/.p.oK8C
+0250 - 70 7e 78 20 f2 91 46 82-e7 69 f4 7c f6 c2 f9 8c   p~x ..F..i.|....
+0260 - ae 52 78 44 73 c7 47 78-f0 64 49 d2 3e 20 bc 7b   .RxDs.Gx.dI.> .{
+0270 - c9 44 63 ab 9b 49 17 66-9b 3b 86 60 f1 33 8a 74   .Dc..I.f.;.`.3.t
+0280 - 69 07 b7 06 54 51 38 0a-d6 bc 9c ce cf c9 08 20   i...TQ8........ 
+0290 - 75 21 eb 0d df 80 0d b1-c2 f5 ad 8a 62 b2 3c 17   u!..........b.<.
+02a0 - 11 fc ab 3a 4c 32 ac ef-49 87 66 1a 19 68 12 72   ...:L2..I.f..h.r
+02b0 - 2a ee 50 20 9b c0 9b 56-12 70 21 c1 94 24 4d 11   *.P ...V.p!..$M.
+02c0 - dc 55 b8 f5 b4 e5 80 fb-b6 2a 0d d7 e1 89 01 c1   .U.......*......
+02d0 - fe 6a 41 48 d9 02 03 01-00 01 30 0d 06 09 2a 86   .jAH......0...*.
+02e0 - 48 86 f7 0d 01 01 0b 05-00 03 82 01 01 00 3a fa   H.............:.
+02f0 - df e0 68 49 b7 a3 61 29-c2 4e 1d e3 64 c0 82 12   ..hI..a).N..d...
+0300 - 58 03 d3 2b 10 d1 8e 0b-71 a1 06 8f 26 c9 59 b6   X..+....q...&.Y.
+0310 - 65 c9 8e b4 dd 2b 1c fd-97 91 ff cd 43 54 0b ce   e....+......CT..
+0320 - d8 b0 a7 2f b4 24 04 6f-1d 20 7d 64 a5 4d 56 75   .../.$.o. }d.MVu
+0330 - 30 c8 da 94 e5 00 4f d0-21 fa d2 04 b9 cd 0e b4   0.....O.!.......
+0340 - 12 1e 59 be b1 2b d4 6d-21 da b3 99 2a 39 ed 80   ..Y..+.m!...*9..
+0350 - 61 0c 91 b5 f1 15 83 7f-f3 fe 73 73 0b 3b 6c 76   a.........ss.;lv
+0360 - fc 6c 18 f0 6a f8 bd e4-aa 8f 1d 9b a8 66 54 90   .l..j........fT.
+0370 - a9 83 97 7e bc 8a 52 6d-af aa a9 35 5e f9 b0 09   ...~..Rm...5^...
+0380 - 1b d6 5f a7 11 86 eb de-41 f7 88 27 3f da f2 e8   .._.....A..'?...
+0390 - be ed f4 e1 70 a2 6c 65-94 18 fd 30 17 9d 88 c1   ....p.le...0....
+03a0 - ad c7 28 17 ac 69 56 94-15 43 4f 14 05 c7 90 61   ..(..iV..CO....a
+03b0 - 48 27 1e 89 87 d8 ac 36-3a 1a 13 b2 94 bd ae 9c   H'.....6:.......
+03c0 - 7d d4 70 af a0 d4 5c 9e-3d b3 f1 3b 61 ea 18 f8   }.p...\.=..;a...
+03d0 - 34 c9 4d d7 e9 dc bc c0-ac e8 a3 7d cd 54 25 c3   4.M........}.T%.
+03e0 - 3d 3d 80 15 4a a0 e3 c8-d4 6f 8f 32 55 8d 0c 00   ==..J....o.2U...
+03f0 - 03 0b 01 00 ff ff ff ff-ff ff ff ff c9 0f da a2   ................
+0400 - 21 68 c2 34 c4 c6 62 8b-80 dc 1c d1 29 02 4e 08   !h.4..b.....).N.
+0410 - 8a 67 cc 74 02 0b be a6-3b 13 9b 22 51 4a 08 79   .g.t....;.."QJ.y
+0420 - 8e 34 04 dd ef 95 19 b3-cd 3a 43 1b 30 2b 0a 6d   .4.......:C.0+.m
+0430 - f2 5f 14 37 4f e1 35 6d-6d 51 c2 45 e4 85 b5 76   ._.7O.5mmQ.E...v
+0440 - 62 5e 7e c6 f4 4c 42 e9-a6 37 ed 6b 0b ff 5c b6   b^~..LB..7.k..\.
+0450 - f4 06 b7 ed ee 38 6b fb-5a 89 9f a5 ae 9f 24 11   .....8k.Z.....$.
+0460 - 7c 4b 1f e6 49 28 66 51-ec e4 5b 3d c2 00 7c b8   |K..I(fQ..[=..|.
+0470 - a1 63 bf 05 98 da 48 36-1c 55 d3 9a 69 16 3f a8   .c....H6.U..i.?.
+0480 - fd 24 cf 5f 83 65 5d 23-dc a3 ad 96 1c 62 f3 56   .$._.e]#.....b.V
+0490 - 20 85 52 bb 9e d5 29 07-70 96 96 6d 67 0c 35 4e    .R...).p..mg.5N
+04a0 - 4a bc 98 04 f1 74 6c 08-ca 18 21 7c 32 90 5e 46   J....tl...!|2.^F
+04b0 - 2e 36 ce 3b e3 9e 77 2c-18 0e 86 03 9b 27 83 a2   .6.;..w,.....'..
+04c0 - ec 07 a2 8f b5 c5 5d f0-6f 4c 52 c9 de 2b cb f6   ......].oLR..+..
+04d0 - 95 58 17 18 39 95 49 7c-ea 95 6a e5 15 d2 26 18   .X..9.I|..j...&.
+04e0 - 98 fa 05 10 15 72 8e 5a-8a ac aa 68 ff ff ff ff   .....r.Z...h....
+04f0 - ff ff ff ff 00 01 02 01-00 66 f3 e2 b4 c8 af 75   .........f.....u
+0500 - 16 9a 3a dc c4 a4 ec d0-2a 4a 6b e2 81 a0 92 ae   ..:.....*Jk.....
+0510 - 60 d7 93 fc 2e ee ab 6f-1a 7b 8c 7a 31 0f 3c 68   `......o.{.z1.<h
+0520 - a1 c5 62 e3 16 14 61 c6-84 0e fc f6 24 94 17 3b   ..b...a.....$..;
+0530 - 42 c9 36 f5 54 94 0e 0b-71 93 9b 1d d1 b8 98 d9   B.6.T...q.......
+0540 - 76 a1 c7 04 0b 92 b1 98-9d f0 c2 e2 65 8f c9 1f   v...........e...
+0550 - ca ea ff 67 e1 2c fc 27-80 0a b8 64 08 c0 c5 46   ...g.,.'...d...F
+0560 - 60 d4 bf 63 cf e9 4a e3-47 65 1f 84 9c 8f 37 d7   `..c..J.Ge....7.
+0570 - 96 3a 1d 6b 95 fb c0 54-c8 a1 c3 5e 54 58 9c 15   .:.k...T...^TX..
+0580 - db a0 02 9d 03 49 0f 17-c3 40 6a 09 f2 58 49 b0   .....I...@j..XI.
+0590 - 65 24 10 a0 b3 49 52 5b-cc fc 51 1c fe 5e 38 84   e$...IR[..Q..^8.
+05a0 - e5 3d 78 70 e8 70 9d 87-bc 13 a7 77 fc 3e 0f 3d   .=xp.p.....w.>.=
+05b0 - 59 05 d5 5f a2 0f 40 9e-de 05 cc 4f 4a 9c 94 a4   Y.._..@....OJ...
+05c0 - 41 87 0e 04 68 b9 f1 cd-5a 7b 48 83 b0 64 3c ee   A...h...Z{H..d<.
+05d0 - 9f ad 87 6e 84 a1 0d 67-d4 de f8 fc c5 4e 63 c9   ...n...g.....Nc.
+05e0 - 72 ac c7 7c ca f8 43 c8-a5 35 7f 67 2d b3 13 5b   r..|..C..5.g-..[
+05f0 - 42 38 9d 14 ec d1 4d cc-9d 04 01 01 00 8b a6 0d   B8....M.........
+0600 - 3f e7 77 3f 1f b4 82 11-ee 2c 70 11 22 d2 05 8a   ?.w?.....,p."...
+0610 - eb 17 3b fd 10 fd a6 5e-99 32 f3 1d a4 82 3a 1a   ..;....^.2....:.
+0620 - 2e b4 42 c8 68 ac e0 32-96 ab 2b 09 67 67 ce 9e   ..B.h..2..+.gg..
+0630 - f9 33 73 cd 86 03 58 4e-09 26 82 fa e4 b1 66 a3   .3s...XN.&....f.
+0640 - 22 2f 34 47 cb 73 00 28-6f 6e a3 04 05 aa e0 97   "/4G.s.(on......
+0650 - d5 1b ba 78 2d 2a d4 d4-33 02 5a 36 7e 52 a6 35   ...x-*..3.Z6~R.5
+0660 - f6 49 d4 ed 4b d6 1b dd-a5 36 d0 45 0c 48 ad d7   .I..K....6.E.H..
+0670 - 39 3f 17 bc af 91 86 82-2d ae 96 7e 0e d1 34 a2   9?......-..~..4.
+0680 - 37 52 35 78 d0 a9 5d dc-7c 5d b2 3f 82 6d bb 48   7R5x..].|].?.m.H
+0690 - 04 0c d9 7d be 9e ab 9f-63 d7 9f ed a0 a0 de 7c   ...}....c......|
+06a0 - 3c 3a 41 c6 74 db 48 94-9d 2b af ba bc 5a 08 23   <:A.t.H..+...Z.#
+06b0 - d8 fa c6 54 fb 63 e1 91-59 d9 d9 09 c1 e4 47 d7   ...T.c..Y.....G.
+06c0 - 45 08 42 d6 cc 0d d3 a9-a7 92 4e 8b c7 00 68 56   E.B.......N...hV
+06d0 - 38 97 47 4a 62 ad 72 61-0a 72 d7 81 e6 38 62 cf   8.GJb.ra.r...8b.
+06e0 - 4c db fe a7 c3 40 8f 10-f3 d9 28 2d f2 e4 a8 a9   L....@....(-....
+06f0 - 30 44 61 a5 2d 45 ca 75-9d 89 b6 b5 0a 0e 00 00   0Da.-E.u........
+0700 - 00                                                .
+write to 0x5567597b12f0 [0x5567597c6760] (7 bytes => 7 (0x7))
+0000 - 15 03 03 00 02 02 33                              ......3
+---
+Certificate chain
+ 0 s:C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+   i:C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDtjCCAp4CFA0S5o1gLRUKcGNxXItkzYWYIpxAMA0GCSqGSIb3DQEBCwUAMIGS
+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCVFgxDzANBgNVBAcMBkF1c3RpbjELMAkG
+A1UECgwCVVQxDzANBgNVBAsMBm5ldHNlYzESMBAGA1UEAwwJZWxpemFiZXRoMTMw
+MQYJKoZIhvcNAQkBFiRlbGl6YWJldGguYW1hbmRhLnJvZHJpZ3VlekBnbWFpbC5j
+b20wHhcNMjEwMzMwMDM1MDM1WhcNMjIwMzI1MDM1MDM1WjCBmzELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAlRYMQ8wDQYDVQQHDAZBdXN0aW4xCzAJBgNVBAoMAlVUMQ8w
+DQYDVQQLDAZBdXN0aW4xGzAZBgNVBAMMEmNzMzYxcy51dGV4YXMubGFiMjEzMDEG
+CSqGSIb3DQEJARYkZWxpemFiZXRoLmFtYW5kYS5yb2RyaWd1ZXpAZ21haWwuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxmc+ZG+Qkr9wGVPdgvc
+Wpy92Zk4h5M+uYDux8fXxyFze34nLnxTdL4kjjWO47tnENNv7XmxOj5oZl1dwvnB
+XO6StQzHNJzxgHv5QlOXiJLcnnZYgINCyZ5gAPMMOtyI/716ry+6gaLP5RydRFS/
+SyYsUC+scMRvSzhDcH54IPKRRoLnafR89sL5jK5SeERzx0d48GRJ0j4gvHvJRGOr
+m0kXZps7hmDxM4p0aQe3BlRROArWvJzOz8kIIHUh6w3fgA2xwvWtimKyPBcR/Ks6
+TDKs70mHZhoZaBJyKu5QIJvAm1YScCHBlCRNEdxVuPW05YD7tioN1+GJAcH+akFI
+2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6+t/gaEm3o2Epwk4d42TAghJYA9Mr
+ENGOC3GhBo8myVm2ZcmOtN0rHP2Xkf/NQ1QLztiwpy+0JARvHSB9ZKVNVnUwyNqU
+5QBP0CH60gS5zQ60Eh5ZvrEr1G0h2rOZKjntgGEMkbXxFYN/8/5zcws7bHb8bBjw
+avi95KqPHZuoZlSQqYOXfryKUm2vqqk1XvmwCRvWX6cRhuveQfeIJz/a8ui+7fTh
+cKJsZZQY/TAXnYjBrccoF6xpVpQVQ08UBceQYUgnHomH2Kw2OhoTspS9rpx91HCv
+oNRcnj2z8Tth6hj4NMlN1+ncvMCs6KN9zVQlwz09gBVKoOPI1G+PMlWN
+-----END CERTIFICATE-----
+subject=C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+issuer=C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 1798 bytes and written 317 bytes
+Verification: OK
+---
+New, (NONE), Cipher is (NONE)
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : 0000
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: 
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1617681592
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+read from 0x5567597b12f0 [0x5567597a8d90] (8192 bytes => 0 (0x0))
+CONNECTED(00000003)
+write to 0x5583a1f6c2f0 [0x5583a1f81760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 24 47 fc 05 73   ....1...-..$G..s
+0010 - 20 55 e0 3d 30 44 17 ed-ef 0e eb b8 56 db 1e ab    U.=0D......V...
+0020 - 1b 2e 1b 25 c5 59 82 60-02 29 7b 20 7a 9b f3 df   ...%.Y.`.){ z...
+0030 - 52 1c 48 14 64 82 30 4b-82 94 ab 93 9d 30 eb a6   R.H.d.0K.....0..
+0040 - 6d 0a c0 0d 77 bf 6c 73-6d 2f d3 4b 00 3e 13 02   m...w.lsm/.K.>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 cc fb-e4 43 9d a5 b6 c7 4a ab   .$... ...C....J.
+0120 - bb 07 91 8d 5d 82 12 bc-0b f5 9a 03 89 28 a4 42   ....]........(.B
+0130 - 35 41 50 9d 1d 18                                 5AP...
+read from 0x5583a1f6c2f0 [0x5583a1f78543] (5 bytes => 5 (0x5))
+0000 - 16 03 03 07 01                                    .....
+read from 0x5583a1f6c2f0 [0x5583a1f78548] (1793 bytes => 1793 (0x701))
+0000 - 02 00 00 26 03 03 60 6b-df 3f e5 75 44 d4 a8 f2   ...&..`k.?.uD...
+0010 - 5c 4b ec ec 71 bb 13 e9-05 4a ad 8f 2d 93 09 63   \K..q....J..-..c
+0020 - 5e 3a a0 13 d6 4d 00 00-33 00 0b 00 03 c0 00 03   ^:...M..3.......
+0030 - bd 00 03 ba 30 82 03 b6-30 82 02 9e 02 14 0d 12   ....0...0.......
+0040 - e6 8d 60 2d 15 0a 70 63-71 5c 8b 64 cd 85 98 22   ..`-..pcq\.d..."
+0050 - 9c 40 30 0d 06 09 2a 86-48 86 f7 0d 01 01 0b 05   .@0...*.H.......
+0060 - 00 30 81 92 31 0b 30 09-06 03 55 04 06 13 02 55   .0..1.0...U....U
+0070 - 53 31 0b 30 09 06 03 55-04 08 0c 02 54 58 31 0f   S1.0...U....TX1.
+0080 - 30 0d 06 03 55 04 07 0c-06 41 75 73 74 69 6e 31   0...U....Austin1
+0090 - 0b 30 09 06 03 55 04 0a-0c 02 55 54 31 0f 30 0d   .0...U....UT1.0.
+00a0 - 06 03 55 04 0b 0c 06 6e-65 74 73 65 63 31 12 30   ..U....netsec1.0
+00b0 - 10 06 03 55 04 03 0c 09-65 6c 69 7a 61 62 65 74   ...U....elizabet
+00c0 - 68 31 33 30 31 06 09 2a-86 48 86 f7 0d 01 09 01   h1301..*.H......
+00d0 - 16 24 65 6c 69 7a 61 62-65 74 68 2e 61 6d 61 6e   .$elizabeth.aman
+00e0 - 64 61 2e 72 6f 64 72 69-67 75 65 7a 40 67 6d 61   da.rodriguez@gma
+00f0 - 69 6c 2e 63 6f 6d 30 1e-17 0d 32 31 30 33 33 30   il.com0...210330
+0100 - 30 33 35 30 33 35 5a 17-0d 32 32 30 33 32 35 30   035035Z..2203250
+0110 - 33 35 30 33 35 5a 30 81-9b 31 0b 30 09 06 03 55   35035Z0..1.0...U
+0120 - 04 06 13 02 55 53 31 0b-30 09 06 03 55 04 08 0c   ....US1.0...U...
+0130 - 02 54 58 31 0f 30 0d 06-03 55 04 07 0c 06 41 75   .TX1.0...U....Au
+0140 - 73 74 69 6e 31 0b 30 09-06 03 55 04 0a 0c 02 55   stin1.0...U....U
+0150 - 54 31 0f 30 0d 06 03 55-04 0b 0c 06 41 75 73 74   T1.0...U....Aust
+0160 - 69 6e 31 1b 30 19 06 03-55 04 03 0c 12 63 73 33   in1.0...U....cs3
+0170 - 36 31 73 2e 75 74 65 78-61 73 2e 6c 61 62 32 31   61s.utexas.lab21
+0180 - 33 30 31 06 09 2a 86 48-86 f7 0d 01 09 01 16 24   301..*.H.......$
+0190 - 65 6c 69 7a 61 62 65 74-68 2e 61 6d 61 6e 64 61   elizabeth.amanda
+01a0 - 2e 72 6f 64 72 69 67 75-65 7a 40 67 6d 61 69 6c   .rodriguez@gmail
+01b0 - 2e 63 6f 6d 30 82 01 22-30 0d 06 09 2a 86 48 86   .com0.."0...*.H.
+01c0 - f7 0d 01 01 01 05 00 03-82 01 0f 00 30 82 01 0a   ............0...
+01d0 - 02 82 01 01 00 b7 19 9c-f9 91 be 42 4a fd c0 65   ...........BJ..e
+01e0 - 4f 76 0b dc 5a 9c bd d9-99 38 87 93 3e b9 80 ee   Ov..Z....8..>...
+01f0 - c7 c7 d7 c7 21 73 7b 7e-27 2e 7c 53 74 be 24 8e   ....!s{~'.|St.$.
+0200 - 35 8e e3 bb 67 10 d3 6f-ed 79 b1 3a 3e 68 66 5d   5...g..o.y.:>hf]
+0210 - 5d c2 f9 c1 5c ee 92 b5-0c c7 34 9c f1 80 7b f9   ]...\.....4...{.
+0220 - 42 53 97 88 92 dc 9e 76-58 80 83 42 c9 9e 60 00   BS.....vX..B..`.
+0230 - f3 0c 3a dc 88 ff bd 7a-af 2f ba 81 a2 cf e5 1c   ..:....z./......
+0240 - 9d 44 54 bf 4b 26 2c 50-2f ac 70 c4 6f 4b 38 43   .DT.K&,P/.p.oK8C
+0250 - 70 7e 78 20 f2 91 46 82-e7 69 f4 7c f6 c2 f9 8c   p~x ..F..i.|....
+0260 - ae 52 78 44 73 c7 47 78-f0 64 49 d2 3e 20 bc 7b   .RxDs.Gx.dI.> .{
+0270 - c9 44 63 ab 9b 49 17 66-9b 3b 86 60 f1 33 8a 74   .Dc..I.f.;.`.3.t
+0280 - 69 07 b7 06 54 51 38 0a-d6 bc 9c ce cf c9 08 20   i...TQ8........ 
+0290 - 75 21 eb 0d df 80 0d b1-c2 f5 ad 8a 62 b2 3c 17   u!..........b.<.
+02a0 - 11 fc ab 3a 4c 32 ac ef-49 87 66 1a 19 68 12 72   ...:L2..I.f..h.r
+02b0 - 2a ee 50 20 9b c0 9b 56-12 70 21 c1 94 24 4d 11   *.P ...V.p!..$M.
+02c0 - dc 55 b8 f5 b4 e5 80 fb-b6 2a 0d d7 e1 89 01 c1   .U.......*......
+02d0 - fe 6a 41 48 d9 02 03 01-00 01 30 0d 06 09 2a 86   .jAH......0...*.
+02e0 - 48 86 f7 0d 01 01 0b 05-00 03 82 01 01 00 3a fa   H.............:.
+02f0 - df e0 68 49 b7 a3 61 29-c2 4e 1d e3 64 c0 82 12   ..hI..a).N..d...
+0300 - 58 03 d3 2b 10 d1 8e 0b-71 a1 06 8f 26 c9 59 b6   X..+....q...&.Y.
+0310 - 65 c9 8e b4 dd 2b 1c fd-97 91 ff cd 43 54 0b ce   e....+......CT..
+0320 - d8 b0 a7 2f b4 24 04 6f-1d 20 7d 64 a5 4d 56 75   .../.$.o. }d.MVu
+0330 - 30 c8 da 94 e5 00 4f d0-21 fa d2 04 b9 cd 0e b4   0.....O.!.......
+0340 - 12 1e 59 be b1 2b d4 6d-21 da b3 99 2a 39 ed 80   ..Y..+.m!...*9..
+0350 - 61 0c 91 b5 f1 15 83 7f-f3 fe 73 73 0b 3b 6c 76   a.........ss.;lv
+0360 - fc 6c 18 f0 6a f8 bd e4-aa 8f 1d 9b a8 66 54 90   .l..j........fT.
+0370 - a9 83 97 7e bc 8a 52 6d-af aa a9 35 5e f9 b0 09   ...~..Rm...5^...
+0380 - 1b d6 5f a7 11 86 eb de-41 f7 88 27 3f da f2 e8   .._.....A..'?...
+0390 - be ed f4 e1 70 a2 6c 65-94 18 fd 30 17 9d 88 c1   ....p.le...0....
+03a0 - ad c7 28 17 ac 69 56 94-15 43 4f 14 05 c7 90 61   ..(..iV..CO....a
+03b0 - 48 27 1e 89 87 d8 ac 36-3a 1a 13 b2 94 bd ae 9c   H'.....6:.......
+03c0 - 7d d4 70 af a0 d4 5c 9e-3d b3 f1 3b 61 ea 18 f8   }.p...\.=..;a...
+03d0 - 34 c9 4d d7 e9 dc bc c0-ac e8 a3 7d cd 54 25 c3   4.M........}.T%.
+03e0 - 3d 3d 80 15 4a a0 e3 c8-d4 6f 8f 32 55 8d 0c 00   ==..J....o.2U...
+03f0 - 03 0b 01 00 ff ff ff ff-ff ff ff ff c9 0f da a2   ................
+0400 - 21 68 c2 34 c4 c6 62 8b-80 dc 1c d1 29 02 4e 08   !h.4..b.....).N.
+0410 - 8a 67 cc 74 02 0b be a6-3b 13 9b 22 51 4a 08 79   .g.t....;.."QJ.y
+0420 - 8e 34 04 dd ef 95 19 b3-cd 3a 43 1b 30 2b 0a 6d   .4.......:C.0+.m
+0430 - f2 5f 14 37 4f e1 35 6d-6d 51 c2 45 e4 85 b5 76   ._.7O.5mmQ.E...v
+0440 - 62 5e 7e c6 f4 4c 42 e9-a6 37 ed 6b 0b ff 5c b6   b^~..LB..7.k..\.
+0450 - f4 06 b7 ed ee 38 6b fb-5a 89 9f a5 ae 9f 24 11   .....8k.Z.....$.
+0460 - 7c 4b 1f e6 49 28 66 51-ec e4 5b 3d c2 00 7c b8   |K..I(fQ..[=..|.
+0470 - a1 63 bf 05 98 da 48 36-1c 55 d3 9a 69 16 3f a8   .c....H6.U..i.?.
+0480 - fd 24 cf 5f 83 65 5d 23-dc a3 ad 96 1c 62 f3 56   .$._.e]#.....b.V
+0490 - 20 85 52 bb 9e d5 29 07-70 96 96 6d 67 0c 35 4e    .R...).p..mg.5N
+04a0 - 4a bc 98 04 f1 74 6c 08-ca 18 21 7c 32 90 5e 46   J....tl...!|2.^F
+04b0 - 2e 36 ce 3b e3 9e 77 2c-18 0e 86 03 9b 27 83 a2   .6.;..w,.....'..
+04c0 - ec 07 a2 8f b5 c5 5d f0-6f 4c 52 c9 de 2b cb f6   ......].oLR..+..
+04d0 - 95 58 17 18 39 95 49 7c-ea 95 6a e5 15 d2 26 18   .X..9.I|..j...&.
+04e0 - 98 fa 05 10 15 72 8e 5a-8a ac aa 68 ff ff ff ff   .....r.Z...h....
+04f0 - ff ff ff ff 00 01 02 01-00 05 17 02 2f 1d 71 ed   ............/.q.
+0500 - 14 c1 22 e5 31 dc 75 61-6f c8 32 a3 6f e7 fc 24   ..".1.uao.2.o..$
+0510 - ec ac 5d a6 31 7d 48 e5-06 0a c5 ae d8 f5 cc e5   ..].1}H.........
+0520 - 6a 63 31 2c 37 ad ad 17-61 6c 7d b4 f0 2e 03 d5   jc1,7...al}.....
+0530 - 0c bb ae 9f ef 6a d6 ec-e5 01 ab 73 2c c5 62 c1   .....j.....s,.b.
+0540 - 84 f3 a9 4d e6 85 3b 50-89 4c d8 d0 a9 2b 58 e8   ...M..;P.L...+X.
+0550 - ec 2e b9 66 5b d8 25 2a-23 ef 60 64 8f 7d b0 7a   ...f[.%*#.`d.}.z
+0560 - 49 f2 2f f3 ea ba 80 9e-d7 05 b4 fb 7d 5e e2 06   I./.........}^..
+0570 - 8e ac 18 9d 77 60 e4 3d-7b 43 35 b4 a6 b3 f9 8a   ....w`.={C5.....
+0580 - 44 c5 76 e3 df b9 9f 8b-08 aa 0a ab 89 dd 8a 40   D.v............@
+0590 - 27 ec ce ae 05 07 21 8f-6c f6 5c a8 51 ef 96 11   '.....!.l.\.Q...
+05a0 - 8a 38 59 71 c4 6b 65 84-44 03 82 ad 31 72 03 c6   .8Yq.ke.D...1r..
+05b0 - 74 81 ad 60 5a da a8 e0-4e fb 31 c4 f8 04 4b 55   t..`Z...N.1...KU
+05c0 - c3 ab d3 38 a8 19 f2 86-4d 44 7c d4 21 1c c7 01   ...8....MD|.!...
+05d0 - 9a 34 f8 7b c4 03 a0 46-d2 4d 20 8b 24 58 85 96   .4.{...F.M .$X..
+05e0 - 44 1f 2f 6c 55 d6 aa 2b-de 30 52 e2 c5 97 13 04   D./lU..+.0R.....
+05f0 - d1 4b 83 11 b8 78 de 3f-d6 04 01 01 00 aa c2 d5   .K...x.?........
+0600 - c9 55 42 bf a0 fc 6f 87-28 27 d2 e1 b9 ae de f4   .UB...o.('......
+0610 - b2 1e c4 94 22 c3 25 fc-a5 50 6f d3 d3 c9 28 eb   ....".%..Po...(.
+0620 - a0 ee 06 10 d1 b3 80 bc-7b b7 18 ea 2a c8 a6 73   ........{...*..s
+0630 - f4 c4 e7 42 81 29 5f 24-0b 17 0c f1 c8 9e 33 f1   ...B.)_$......3.
+0640 - b8 b7 ff ca 07 ac 56 f3-f1 64 49 30 51 62 1d ab   ......V..dI0Qb..
+0650 - 74 72 b7 6d 02 a3 eb 9e-26 fe f6 87 8b 66 8b 2a   tr.m....&....f.*
+0660 - 2f 1c f5 ab c6 a3 80 6a-76 35 50 26 04 94 2d 51   /......jv5P&..-Q
+0670 - f8 35 2c 62 0b 97 f2 72-99 b7 22 ce b1 90 a7 c9   .5,b...r..".....
+0680 - c7 c5 3c f6 e2 da c1 05-84 a2 52 a4 e3 4b 10 f6   ..<.......R..K..
+0690 - ab 31 82 3a 11 c0 f2 fb-10 52 dd 9b 6f 14 de ae   .1.:.....R..o...
+06a0 - c0 ae a1 77 3a c0 ea 1b-51 32 66 0b 84 9b f9 0a   ...w:...Q2f.....
+06b0 - 36 33 18 05 ec e4 30 99-d9 ef 53 cb 62 45 df f8   63....0...S.bE..
+06c0 - cf bc 37 12 a2 42 72 8e-b3 64 29 7b 56 e6 11 b7   ..7..Br..d){V...
+06d0 - e7 6c 48 cd c8 5a 49 3b-51 16 75 23 a7 c5 17 c7   .lH..ZI;Q.u#....
+06e0 - 4a 77 31 dd 73 d3 27 5a-28 1a 37 ad 55 bc 62 24   Jw1.s.'Z(.7.U.b$
+06f0 - 70 fe e5 b5 ae 56 90 29-a6 7c b5 72 77 0e 00 00   p....V.).|.rw...
+0700 - 00                                                .
+write to 0x5583a1f6c2f0 [0x5583a1f81760] (7 bytes => 7 (0x7))
+0000 - 15 03 03 00 02 02 33                              ......3
+---
+Certificate chain
+ 0 s:C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+   i:C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDtjCCAp4CFA0S5o1gLRUKcGNxXItkzYWYIpxAMA0GCSqGSIb3DQEBCwUAMIGS
+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCVFgxDzANBgNVBAcMBkF1c3RpbjELMAkG
+A1UECgwCVVQxDzANBgNVBAsMBm5ldHNlYzESMBAGA1UEAwwJZWxpemFiZXRoMTMw
+MQYJKoZIhvcNAQkBFiRlbGl6YWJldGguYW1hbmRhLnJvZHJpZ3VlekBnbWFpbC5j
+b20wHhcNMjEwMzMwMDM1MDM1WhcNMjIwMzI1MDM1MDM1WjCBmzELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAlRYMQ8wDQYDVQQHDAZBdXN0aW4xCzAJBgNVBAoMAlVUMQ8w
+DQYDVQQLDAZBdXN0aW4xGzAZBgNVBAMMEmNzMzYxcy51dGV4YXMubGFiMjEzMDEG
+CSqGSIb3DQEJARYkZWxpemFiZXRoLmFtYW5kYS5yb2RyaWd1ZXpAZ21haWwuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxmc+ZG+Qkr9wGVPdgvc
+Wpy92Zk4h5M+uYDux8fXxyFze34nLnxTdL4kjjWO47tnENNv7XmxOj5oZl1dwvnB
+XO6StQzHNJzxgHv5QlOXiJLcnnZYgINCyZ5gAPMMOtyI/716ry+6gaLP5RydRFS/
+SyYsUC+scMRvSzhDcH54IPKRRoLnafR89sL5jK5SeERzx0d48GRJ0j4gvHvJRGOr
+m0kXZps7hmDxM4p0aQe3BlRROArWvJzOz8kIIHUh6w3fgA2xwvWtimKyPBcR/Ks6
+TDKs70mHZhoZaBJyKu5QIJvAm1YScCHBlCRNEdxVuPW05YD7tioN1+GJAcH+akFI
+2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6+t/gaEm3o2Epwk4d42TAghJYA9Mr
+ENGOC3GhBo8myVm2ZcmOtN0rHP2Xkf/NQ1QLztiwpy+0JARvHSB9ZKVNVnUwyNqU
+5QBP0CH60gS5zQ60Eh5ZvrEr1G0h2rOZKjntgGEMkbXxFYN/8/5zcws7bHb8bBjw
+avi95KqPHZuoZlSQqYOXfryKUm2vqqk1XvmwCRvWX6cRhuveQfeIJz/a8ui+7fTh
+cKJsZZQY/TAXnYjBrccoF6xpVpQVQ08UBceQYUgnHomH2Kw2OhoTspS9rpx91HCv
+oNRcnj2z8Tth6hj4NMlN1+ncvMCs6KN9zVQlwz09gBVKoOPI1G+PMlWN
+-----END CERTIFICATE-----
+subject=C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+issuer=C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 1798 bytes and written 317 bytes
+Verification: OK
+---
+New, (NONE), Cipher is (NONE)
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : 0000
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: 
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1617682239
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+read from 0x5583a1f6c2f0 [0x5583a1f63d90] (8192 bytes => 0 (0x0))
+CONNECTED(00000003)
+write to 0x562437e022f0 [0x562437e17760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 6f 33 cb 0e 30   ....1...-..o3..0
+0010 - 01 cf c0 b9 f0 98 7a e9-13 d7 58 d0 74 16 94 9e   ......z...X.t...
+0020 - ce d9 47 1b 2d c5 0f 19-cd 61 e2 20 a6 7b a8 3e   ..G.-....a. .{.>
+0030 - 37 ec 8a 02 41 1d ac 0a-06 29 ba 15 77 89 a0 10   7...A....)..w...
+0040 - f3 b2 2e 83 8c 00 df ee-d7 b1 e9 69 00 3e 13 02   ...........i.>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 c4 71-9e ae 4a b9 7f 90 16 b4   .$... .q..J.....
+0120 - c3 e7 98 b9 87 4c 5c e9-f7 fd fb 89 c7 ec b9 95   .....L\.........
+0130 - 38 87 6b 27 b9 1e                                 8.k'..
+read from 0x562437e022f0 [0x562437e0e543] (5 bytes => 5 (0x5))
+0000 - 16 03 03 07 01                                    .....
+read from 0x562437e022f0 [0x562437e0e548] (1793 bytes => 1793 (0x701))
+0000 - 02 00 00 26 03 03 60 6b-e4 a3 d5 26 29 f8 a6 e3   ...&..`k...&)...
+0010 - 03 da 7e e1 b6 ba 43 3e-6d bd 51 cf bf f2 89 7a   ..~...C>m.Q....z
+0020 - ed ea fe 7a 70 b0 00 00-33 00 0b 00 03 c0 00 03   ...zp...3.......
+0030 - bd 00 03 ba 30 82 03 b6-30 82 02 9e 02 14 0d 12   ....0...0.......
+0040 - e6 8d 60 2d 15 0a 70 63-71 5c 8b 64 cd 85 98 22   ..`-..pcq\.d..."
+0050 - 9c 40 30 0d 06 09 2a 86-48 86 f7 0d 01 01 0b 05   .@0...*.H.......
+0060 - 00 30 81 92 31 0b 30 09-06 03 55 04 06 13 02 55   .0..1.0...U....U
+0070 - 53 31 0b 30 09 06 03 55-04 08 0c 02 54 58 31 0f   S1.0...U....TX1.
+0080 - 30 0d 06 03 55 04 07 0c-06 41 75 73 74 69 6e 31   0...U....Austin1
+0090 - 0b 30 09 06 03 55 04 0a-0c 02 55 54 31 0f 30 0d   .0...U....UT1.0.
+00a0 - 06 03 55 04 0b 0c 06 6e-65 74 73 65 63 31 12 30   ..U....netsec1.0
+00b0 - 10 06 03 55 04 03 0c 09-65 6c 69 7a 61 62 65 74   ...U....elizabet
+00c0 - 68 31 33 30 31 06 09 2a-86 48 86 f7 0d 01 09 01   h1301..*.H......
+00d0 - 16 24 65 6c 69 7a 61 62-65 74 68 2e 61 6d 61 6e   .$elizabeth.aman
+00e0 - 64 61 2e 72 6f 64 72 69-67 75 65 7a 40 67 6d 61   da.rodriguez@gma
+00f0 - 69 6c 2e 63 6f 6d 30 1e-17 0d 32 31 30 33 33 30   il.com0...210330
+0100 - 30 33 35 30 33 35 5a 17-0d 32 32 30 33 32 35 30   035035Z..2203250
+0110 - 33 35 30 33 35 5a 30 81-9b 31 0b 30 09 06 03 55   35035Z0..1.0...U
+0120 - 04 06 13 02 55 53 31 0b-30 09 06 03 55 04 08 0c   ....US1.0...U...
+0130 - 02 54 58 31 0f 30 0d 06-03 55 04 07 0c 06 41 75   .TX1.0...U....Au
+0140 - 73 74 69 6e 31 0b 30 09-06 03 55 04 0a 0c 02 55   stin1.0...U....U
+0150 - 54 31 0f 30 0d 06 03 55-04 0b 0c 06 41 75 73 74   T1.0...U....Aust
+0160 - 69 6e 31 1b 30 19 06 03-55 04 03 0c 12 63 73 33   in1.0...U....cs3
+0170 - 36 31 73 2e 75 74 65 78-61 73 2e 6c 61 62 32 31   61s.utexas.lab21
+0180 - 33 30 31 06 09 2a 86 48-86 f7 0d 01 09 01 16 24   301..*.H.......$
+0190 - 65 6c 69 7a 61 62 65 74-68 2e 61 6d 61 6e 64 61   elizabeth.amanda
+01a0 - 2e 72 6f 64 72 69 67 75-65 7a 40 67 6d 61 69 6c   .rodriguez@gmail
+01b0 - 2e 63 6f 6d 30 82 01 22-30 0d 06 09 2a 86 48 86   .com0.."0...*.H.
+01c0 - f7 0d 01 01 01 05 00 03-82 01 0f 00 30 82 01 0a   ............0...
+01d0 - 02 82 01 01 00 b7 19 9c-f9 91 be 42 4a fd c0 65   ...........BJ..e
+01e0 - 4f 76 0b dc 5a 9c bd d9-99 38 87 93 3e b9 80 ee   Ov..Z....8..>...
+01f0 - c7 c7 d7 c7 21 73 7b 7e-27 2e 7c 53 74 be 24 8e   ....!s{~'.|St.$.
+0200 - 35 8e e3 bb 67 10 d3 6f-ed 79 b1 3a 3e 68 66 5d   5...g..o.y.:>hf]
+0210 - 5d c2 f9 c1 5c ee 92 b5-0c c7 34 9c f1 80 7b f9   ]...\.....4...{.
+0220 - 42 53 97 88 92 dc 9e 76-58 80 83 42 c9 9e 60 00   BS.....vX..B..`.
+0230 - f3 0c 3a dc 88 ff bd 7a-af 2f ba 81 a2 cf e5 1c   ..:....z./......
+0240 - 9d 44 54 bf 4b 26 2c 50-2f ac 70 c4 6f 4b 38 43   .DT.K&,P/.p.oK8C
+0250 - 70 7e 78 20 f2 91 46 82-e7 69 f4 7c f6 c2 f9 8c   p~x ..F..i.|....
+0260 - ae 52 78 44 73 c7 47 78-f0 64 49 d2 3e 20 bc 7b   .RxDs.Gx.dI.> .{
+0270 - c9 44 63 ab 9b 49 17 66-9b 3b 86 60 f1 33 8a 74   .Dc..I.f.;.`.3.t
+0280 - 69 07 b7 06 54 51 38 0a-d6 bc 9c ce cf c9 08 20   i...TQ8........ 
+0290 - 75 21 eb 0d df 80 0d b1-c2 f5 ad 8a 62 b2 3c 17   u!..........b.<.
+02a0 - 11 fc ab 3a 4c 32 ac ef-49 87 66 1a 19 68 12 72   ...:L2..I.f..h.r
+02b0 - 2a ee 50 20 9b c0 9b 56-12 70 21 c1 94 24 4d 11   *.P ...V.p!..$M.
+02c0 - dc 55 b8 f5 b4 e5 80 fb-b6 2a 0d d7 e1 89 01 c1   .U.......*......
+02d0 - fe 6a 41 48 d9 02 03 01-00 01 30 0d 06 09 2a 86   .jAH......0...*.
+02e0 - 48 86 f7 0d 01 01 0b 05-00 03 82 01 01 00 3a fa   H.............:.
+02f0 - df e0 68 49 b7 a3 61 29-c2 4e 1d e3 64 c0 82 12   ..hI..a).N..d...
+0300 - 58 03 d3 2b 10 d1 8e 0b-71 a1 06 8f 26 c9 59 b6   X..+....q...&.Y.
+0310 - 65 c9 8e b4 dd 2b 1c fd-97 91 ff cd 43 54 0b ce   e....+......CT..
+0320 - d8 b0 a7 2f b4 24 04 6f-1d 20 7d 64 a5 4d 56 75   .../.$.o. }d.MVu
+0330 - 30 c8 da 94 e5 00 4f d0-21 fa d2 04 b9 cd 0e b4   0.....O.!.......
+0340 - 12 1e 59 be b1 2b d4 6d-21 da b3 99 2a 39 ed 80   ..Y..+.m!...*9..
+0350 - 61 0c 91 b5 f1 15 83 7f-f3 fe 73 73 0b 3b 6c 76   a.........ss.;lv
+0360 - fc 6c 18 f0 6a f8 bd e4-aa 8f 1d 9b a8 66 54 90   .l..j........fT.
+0370 - a9 83 97 7e bc 8a 52 6d-af aa a9 35 5e f9 b0 09   ...~..Rm...5^...
+0380 - 1b d6 5f a7 11 86 eb de-41 f7 88 27 3f da f2 e8   .._.....A..'?...
+0390 - be ed f4 e1 70 a2 6c 65-94 18 fd 30 17 9d 88 c1   ....p.le...0....
+03a0 - ad c7 28 17 ac 69 56 94-15 43 4f 14 05 c7 90 61   ..(..iV..CO....a
+03b0 - 48 27 1e 89 87 d8 ac 36-3a 1a 13 b2 94 bd ae 9c   H'.....6:.......
+03c0 - 7d d4 70 af a0 d4 5c 9e-3d b3 f1 3b 61 ea 18 f8   }.p...\.=..;a...
+03d0 - 34 c9 4d d7 e9 dc bc c0-ac e8 a3 7d cd 54 25 c3   4.M........}.T%.
+03e0 - 3d 3d 80 15 4a a0 e3 c8-d4 6f 8f 32 55 8d 0c 00   ==..J....o.2U...
+03f0 - 03 0b 01 00 ff ff ff ff-ff ff ff ff c9 0f da a2   ................
+0400 - 21 68 c2 34 c4 c6 62 8b-80 dc 1c d1 29 02 4e 08   !h.4..b.....).N.
+0410 - 8a 67 cc 74 02 0b be a6-3b 13 9b 22 51 4a 08 79   .g.t....;.."QJ.y
+0420 - 8e 34 04 dd ef 95 19 b3-cd 3a 43 1b 30 2b 0a 6d   .4.......:C.0+.m
+0430 - f2 5f 14 37 4f e1 35 6d-6d 51 c2 45 e4 85 b5 76   ._.7O.5mmQ.E...v
+0440 - 62 5e 7e c6 f4 4c 42 e9-a6 37 ed 6b 0b ff 5c b6   b^~..LB..7.k..\.
+0450 - f4 06 b7 ed ee 38 6b fb-5a 89 9f a5 ae 9f 24 11   .....8k.Z.....$.
+0460 - 7c 4b 1f e6 49 28 66 51-ec e4 5b 3d c2 00 7c b8   |K..I(fQ..[=..|.
+0470 - a1 63 bf 05 98 da 48 36-1c 55 d3 9a 69 16 3f a8   .c....H6.U..i.?.
+0480 - fd 24 cf 5f 83 65 5d 23-dc a3 ad 96 1c 62 f3 56   .$._.e]#.....b.V
+0490 - 20 85 52 bb 9e d5 29 07-70 96 96 6d 67 0c 35 4e    .R...).p..mg.5N
+04a0 - 4a bc 98 04 f1 74 6c 08-ca 18 21 7c 32 90 5e 46   J....tl...!|2.^F
+04b0 - 2e 36 ce 3b e3 9e 77 2c-18 0e 86 03 9b 27 83 a2   .6.;..w,.....'..
+04c0 - ec 07 a2 8f b5 c5 5d f0-6f 4c 52 c9 de 2b cb f6   ......].oLR..+..
+04d0 - 95 58 17 18 39 95 49 7c-ea 95 6a e5 15 d2 26 18   .X..9.I|..j...&.
+04e0 - 98 fa 05 10 15 72 8e 5a-8a ac aa 68 ff ff ff ff   .....r.Z...h....
+04f0 - ff ff ff ff 00 01 02 01-00 9c 70 16 15 09 d1 f5   ..........p.....
+0500 - 7c 88 06 0d 2c 21 fb 47-9f 01 c6 09 18 c6 55 e2   |...,!.G......U.
+0510 - d9 d6 66 fc 7d 44 ee 3c-95 b3 e6 bc 70 06 4f e7   ..f.}D.<....p.O.
+0520 - 1f ae e0 52 c0 bc 07 9d-92 c8 a6 30 5d dd 2a f2   ...R.......0].*.
+0530 - ec 00 fe 4f cd 27 ad 48-49 b0 11 34 c8 5f a3 63   ...O.'.HI..4._.c
+0540 - 37 fb a3 c1 35 b4 e5 bc-1b d2 84 04 83 91 94 73   7...5..........s
+0550 - 94 33 78 bd ef f1 2f d3-18 36 89 d9 ea f4 ac 29   .3x.../..6.....)
+0560 - 2e 6f e1 90 92 5e 9b a1-2a 95 26 2e f9 1d be f9   .o...^..*.&.....
+0570 - 3b 9e ad fa 9c 6c e9 41-52 d7 a4 4c 63 64 8e 86   ;....l.AR..Lcd..
+0580 - 37 93 15 35 fb 31 ff ad-9b 3b f5 db 9b 94 4a e8   7..5.1...;....J.
+0590 - 31 e9 5a b3 4e 87 89 0e-da 49 a3 87 b9 97 c2 98   1.Z.N....I......
+05a0 - 72 c9 a0 42 1a 47 3e 2b-26 76 66 ec 3b 33 8e 81   r..B.G>+&vf.;3..
+05b0 - f0 84 72 e9 b4 de 3f 7a-d4 92 79 67 d8 7f 32 cf   ..r...?z..yg..2.
+05c0 - 81 8a ef 38 21 be 8b 5a-fd 2f f9 81 e1 c1 b2 10   ...8!..Z./......
+05d0 - e6 75 10 d9 ce 42 51 46-87 a0 d4 8a d1 64 8d 20   .u...BQF.....d. 
+05e0 - 39 ab 09 b1 88 72 f9 45-dc 76 d6 af c7 7d 8b c7   9....r.E.v...}..
+05f0 - 22 cc eb 89 fc bd d5 b4-3e 04 01 01 00 40 a8 55   ".......>....@.U
+0600 - 8c 20 d9 70 ab b1 e0 dc-75 bb 9f 02 fb c7 da bc   . .p....u.......
+0610 - 7c 9b 7f bd 46 a9 a5 78-62 53 8d 2b 06 96 b3 c1   |...F..xbS.+....
+0620 - d1 c9 7f f1 d2 80 2f 53-e2 dd 37 e1 3d d5 bd d1   ....../S..7.=...
+0630 - 70 f8 32 69 46 13 49 fd-6f 1f 97 50 3b 7a b3 9b   p.2iF.I.o..P;z..
+0640 - 93 83 e8 ac ee 16 53 d5-bf 79 92 c1 f3 fa 46 c2   ......S..y....F.
+0650 - b0 8d 5c 94 c6 07 7e 32-13 29 0e 29 64 93 3d 15   ..\...~2.).)d.=.
+0660 - 58 f7 59 2b 87 6d e5 63-bd 59 27 6f 89 5d 21 ec   X.Y+.m.c.Y'o.]!.
+0670 - 59 55 d9 00 9e eb cf db-03 77 03 3e 61 82 9b be   YU.......w.>a...
+0680 - ce 99 2b 45 32 24 70 30-a0 5f 6d ec 4c 10 d8 6d   ..+E2$p0._m.L..m
+0690 - ce f9 f3 a0 c4 dc 98 cc-36 15 45 44 2f 75 f5 1b   ........6.ED/u..
+06a0 - 5e f0 dc 1c ce 85 5d 6a-70 cd 18 cd 5b 4c c3 48   ^.....]jp...[L.H
+06b0 - ab ad 86 66 4d 72 e2 69-55 ad 58 9e 82 ea c8 d0   ...fMr.iU.X.....
+06c0 - be c2 6d 36 a2 f3 52 7d-ac e7 4d 0d 0c 94 3a 95   ..m6..R}..M...:.
+06d0 - 95 7a 81 bd 7a 69 df a1-ea c9 11 fb 1b 84 85 7c   .z..zi.........|
+06e0 - 25 fb 4d 58 28 f9 32 f2-e7 48 45 40 33 74 be 6e   %.MX(.2..HE@3t.n
+06f0 - 96 54 17 91 62 db a1 d9-17 72 57 0f 41 0e 00 00   .T..b....rW.A...
+0700 - 00                                                .
+write to 0x562437e022f0 [0x562437e17760] (7 bytes => 7 (0x7))
+0000 - 15 03 03 00 02 02 33                              ......3
+---
+Certificate chain
+ 0 s:C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+   i:C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDtjCCAp4CFA0S5o1gLRUKcGNxXItkzYWYIpxAMA0GCSqGSIb3DQEBCwUAMIGS
+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCVFgxDzANBgNVBAcMBkF1c3RpbjELMAkG
+A1UECgwCVVQxDzANBgNVBAsMBm5ldHNlYzESMBAGA1UEAwwJZWxpemFiZXRoMTMw
+MQYJKoZIhvcNAQkBFiRlbGl6YWJldGguYW1hbmRhLnJvZHJpZ3VlekBnbWFpbC5j
+b20wHhcNMjEwMzMwMDM1MDM1WhcNMjIwMzI1MDM1MDM1WjCBmzELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAlRYMQ8wDQYDVQQHDAZBdXN0aW4xCzAJBgNVBAoMAlVUMQ8w
+DQYDVQQLDAZBdXN0aW4xGzAZBgNVBAMMEmNzMzYxcy51dGV4YXMubGFiMjEzMDEG
+CSqGSIb3DQEJARYkZWxpemFiZXRoLmFtYW5kYS5yb2RyaWd1ZXpAZ21haWwuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxmc+ZG+Qkr9wGVPdgvc
+Wpy92Zk4h5M+uYDux8fXxyFze34nLnxTdL4kjjWO47tnENNv7XmxOj5oZl1dwvnB
+XO6StQzHNJzxgHv5QlOXiJLcnnZYgINCyZ5gAPMMOtyI/716ry+6gaLP5RydRFS/
+SyYsUC+scMRvSzhDcH54IPKRRoLnafR89sL5jK5SeERzx0d48GRJ0j4gvHvJRGOr
+m0kXZps7hmDxM4p0aQe3BlRROArWvJzOz8kIIHUh6w3fgA2xwvWtimKyPBcR/Ks6
+TDKs70mHZhoZaBJyKu5QIJvAm1YScCHBlCRNEdxVuPW05YD7tioN1+GJAcH+akFI
+2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6+t/gaEm3o2Epwk4d42TAghJYA9Mr
+ENGOC3GhBo8myVm2ZcmOtN0rHP2Xkf/NQ1QLztiwpy+0JARvHSB9ZKVNVnUwyNqU
+5QBP0CH60gS5zQ60Eh5ZvrEr1G0h2rOZKjntgGEMkbXxFYN/8/5zcws7bHb8bBjw
+avi95KqPHZuoZlSQqYOXfryKUm2vqqk1XvmwCRvWX6cRhuveQfeIJz/a8ui+7fTh
+cKJsZZQY/TAXnYjBrccoF6xpVpQVQ08UBceQYUgnHomH2Kw2OhoTspS9rpx91HCv
+oNRcnj2z8Tth6hj4NMlN1+ncvMCs6KN9zVQlwz09gBVKoOPI1G+PMlWN
+-----END CERTIFICATE-----
+subject=C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+issuer=C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 1798 bytes and written 317 bytes
+Verification: OK
+---
+New, (NONE), Cipher is (NONE)
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : 0000
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: 
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1617683619
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+read from 0x562437e022f0 [0x562437df9d90] (8192 bytes => 0 (0x0))
+CONNECTED(00000003)
+write to 0x55a33cdec2f0 [0x55a33ce01760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 ff 07 db 87 08   ....1...-.......
+0010 - 84 c8 6b 68 c0 5b ce 2f-43 7a 31 82 ef 02 48 54   ..kh.[./Cz1...HT
+0020 - 00 c6 5c 10 00 e3 da 18-73 53 34 20 c8 01 ae 6f   ..\.....sS4 ...o
+0030 - 38 1a b0 47 5e 07 57 c1-a6 10 c3 a5 35 9d 96 ff   8..G^.W.....5...
+0040 - d1 0c 01 21 fd 6e 0c e9-6a 3e d0 42 00 3e 13 02   ...!.n..j>.B.>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 96 c4-7b 6f 28 c9 4c 66 b8 2f   .$... ..{o(.Lf./
+0120 - fe 6b 9a 89 6c 22 f3 75-88 da c6 be 22 b0 e0 a0   .k..l".u...."...
+0130 - 0b c7 f7 85 0b 2b                                 .....+
+read from 0x55a33cdec2f0 [0x55a33cdf8543] (5 bytes => 5 (0x5))
+0000 - 16 03 03 07 01                                    .....
+read from 0x55a33cdec2f0 [0x55a33cdf8548] (1793 bytes => 1793 (0x701))
+0000 - 02 00 00 26 03 03 60 6b-e6 ed 81 a5 61 dd d5 d7   ...&..`k....a...
+0010 - fe 26 14 4c 0b bf 3c 82-af fd b4 d7 89 77 64 31   .&.L..<......wd1
+0020 - 17 05 80 2e 30 a9 00 00-33 00 0b 00 03 c0 00 03   ....0...3.......
+0030 - bd 00 03 ba 30 82 03 b6-30 82 02 9e 02 14 0d 12   ....0...0.......
+0040 - e6 8d 60 2d 15 0a 70 63-71 5c 8b 64 cd 85 98 22   ..`-..pcq\.d..."
+0050 - 9c 40 30 0d 06 09 2a 86-48 86 f7 0d 01 01 0b 05   .@0...*.H.......
+0060 - 00 30 81 92 31 0b 30 09-06 03 55 04 06 13 02 55   .0..1.0...U....U
+0070 - 53 31 0b 30 09 06 03 55-04 08 0c 02 54 58 31 0f   S1.0...U....TX1.
+0080 - 30 0d 06 03 55 04 07 0c-06 41 75 73 74 69 6e 31   0...U....Austin1
+0090 - 0b 30 09 06 03 55 04 0a-0c 02 55 54 31 0f 30 0d   .0...U....UT1.0.
+00a0 - 06 03 55 04 0b 0c 06 6e-65 74 73 65 63 31 12 30   ..U....netsec1.0
+00b0 - 10 06 03 55 04 03 0c 09-65 6c 69 7a 61 62 65 74   ...U....elizabet
+00c0 - 68 31 33 30 31 06 09 2a-86 48 86 f7 0d 01 09 01   h1301..*.H......
+00d0 - 16 24 65 6c 69 7a 61 62-65 74 68 2e 61 6d 61 6e   .$elizabeth.aman
+00e0 - 64 61 2e 72 6f 64 72 69-67 75 65 7a 40 67 6d 61   da.rodriguez@gma
+00f0 - 69 6c 2e 63 6f 6d 30 1e-17 0d 32 31 30 33 33 30   il.com0...210330
+0100 - 30 33 35 30 33 35 5a 17-0d 32 32 30 33 32 35 30   035035Z..2203250
+0110 - 33 35 30 33 35 5a 30 81-9b 31 0b 30 09 06 03 55   35035Z0..1.0...U
+0120 - 04 06 13 02 55 53 31 0b-30 09 06 03 55 04 08 0c   ....US1.0...U...
+0130 - 02 54 58 31 0f 30 0d 06-03 55 04 07 0c 06 41 75   .TX1.0...U....Au
+0140 - 73 74 69 6e 31 0b 30 09-06 03 55 04 0a 0c 02 55   stin1.0...U....U
+0150 - 54 31 0f 30 0d 06 03 55-04 0b 0c 06 41 75 73 74   T1.0...U....Aust
+0160 - 69 6e 31 1b 30 19 06 03-55 04 03 0c 12 63 73 33   in1.0...U....cs3
+0170 - 36 31 73 2e 75 74 65 78-61 73 2e 6c 61 62 32 31   61s.utexas.lab21
+0180 - 33 30 31 06 09 2a 86 48-86 f7 0d 01 09 01 16 24   301..*.H.......$
+0190 - 65 6c 69 7a 61 62 65 74-68 2e 61 6d 61 6e 64 61   elizabeth.amanda
+01a0 - 2e 72 6f 64 72 69 67 75-65 7a 40 67 6d 61 69 6c   .rodriguez@gmail
+01b0 - 2e 63 6f 6d 30 82 01 22-30 0d 06 09 2a 86 48 86   .com0.."0...*.H.
+01c0 - f7 0d 01 01 01 05 00 03-82 01 0f 00 30 82 01 0a   ............0...
+01d0 - 02 82 01 01 00 b7 19 9c-f9 91 be 42 4a fd c0 65   ...........BJ..e
+01e0 - 4f 76 0b dc 5a 9c bd d9-99 38 87 93 3e b9 80 ee   Ov..Z....8..>...
+01f0 - c7 c7 d7 c7 21 73 7b 7e-27 2e 7c 53 74 be 24 8e   ....!s{~'.|St.$.
+0200 - 35 8e e3 bb 67 10 d3 6f-ed 79 b1 3a 3e 68 66 5d   5...g..o.y.:>hf]
+0210 - 5d c2 f9 c1 5c ee 92 b5-0c c7 34 9c f1 80 7b f9   ]...\.....4...{.
+0220 - 42 53 97 88 92 dc 9e 76-58 80 83 42 c9 9e 60 00   BS.....vX..B..`.
+0230 - f3 0c 3a dc 88 ff bd 7a-af 2f ba 81 a2 cf e5 1c   ..:....z./......
+0240 - 9d 44 54 bf 4b 26 2c 50-2f ac 70 c4 6f 4b 38 43   .DT.K&,P/.p.oK8C
+0250 - 70 7e 78 20 f2 91 46 82-e7 69 f4 7c f6 c2 f9 8c   p~x ..F..i.|....
+0260 - ae 52 78 44 73 c7 47 78-f0 64 49 d2 3e 20 bc 7b   .RxDs.Gx.dI.> .{
+0270 - c9 44 63 ab 9b 49 17 66-9b 3b 86 60 f1 33 8a 74   .Dc..I.f.;.`.3.t
+0280 - 69 07 b7 06 54 51 38 0a-d6 bc 9c ce cf c9 08 20   i...TQ8........ 
+0290 - 75 21 eb 0d df 80 0d b1-c2 f5 ad 8a 62 b2 3c 17   u!..........b.<.
+02a0 - 11 fc ab 3a 4c 32 ac ef-49 87 66 1a 19 68 12 72   ...:L2..I.f..h.r
+02b0 - 2a ee 50 20 9b c0 9b 56-12 70 21 c1 94 24 4d 11   *.P ...V.p!..$M.
+02c0 - dc 55 b8 f5 b4 e5 80 fb-b6 2a 0d d7 e1 89 01 c1   .U.......*......
+02d0 - fe 6a 41 48 d9 02 03 01-00 01 30 0d 06 09 2a 86   .jAH......0...*.
+02e0 - 48 86 f7 0d 01 01 0b 05-00 03 82 01 01 00 3a fa   H.............:.
+02f0 - df e0 68 49 b7 a3 61 29-c2 4e 1d e3 64 c0 82 12   ..hI..a).N..d...
+0300 - 58 03 d3 2b 10 d1 8e 0b-71 a1 06 8f 26 c9 59 b6   X..+....q...&.Y.
+0310 - 65 c9 8e b4 dd 2b 1c fd-97 91 ff cd 43 54 0b ce   e....+......CT..
+0320 - d8 b0 a7 2f b4 24 04 6f-1d 20 7d 64 a5 4d 56 75   .../.$.o. }d.MVu
+0330 - 30 c8 da 94 e5 00 4f d0-21 fa d2 04 b9 cd 0e b4   0.....O.!.......
+0340 - 12 1e 59 be b1 2b d4 6d-21 da b3 99 2a 39 ed 80   ..Y..+.m!...*9..
+0350 - 61 0c 91 b5 f1 15 83 7f-f3 fe 73 73 0b 3b 6c 76   a.........ss.;lv
+0360 - fc 6c 18 f0 6a f8 bd e4-aa 8f 1d 9b a8 66 54 90   .l..j........fT.
+0370 - a9 83 97 7e bc 8a 52 6d-af aa a9 35 5e f9 b0 09   ...~..Rm...5^...
+0380 - 1b d6 5f a7 11 86 eb de-41 f7 88 27 3f da f2 e8   .._.....A..'?...
+0390 - be ed f4 e1 70 a2 6c 65-94 18 fd 30 17 9d 88 c1   ....p.le...0....
+03a0 - ad c7 28 17 ac 69 56 94-15 43 4f 14 05 c7 90 61   ..(..iV..CO....a
+03b0 - 48 27 1e 89 87 d8 ac 36-3a 1a 13 b2 94 bd ae 9c   H'.....6:.......
+03c0 - 7d d4 70 af a0 d4 5c 9e-3d b3 f1 3b 61 ea 18 f8   }.p...\.=..;a...
+03d0 - 34 c9 4d d7 e9 dc bc c0-ac e8 a3 7d cd 54 25 c3   4.M........}.T%.
+03e0 - 3d 3d 80 15 4a a0 e3 c8-d4 6f 8f 32 55 8d 0c 00   ==..J....o.2U...
+03f0 - 03 0b 01 00 ff ff ff ff-ff ff ff ff c9 0f da a2   ................
+0400 - 21 68 c2 34 c4 c6 62 8b-80 dc 1c d1 29 02 4e 08   !h.4..b.....).N.
+0410 - 8a 67 cc 74 02 0b be a6-3b 13 9b 22 51 4a 08 79   .g.t....;.."QJ.y
+0420 - 8e 34 04 dd ef 95 19 b3-cd 3a 43 1b 30 2b 0a 6d   .4.......:C.0+.m
+0430 - f2 5f 14 37 4f e1 35 6d-6d 51 c2 45 e4 85 b5 76   ._.7O.5mmQ.E...v
+0440 - 62 5e 7e c6 f4 4c 42 e9-a6 37 ed 6b 0b ff 5c b6   b^~..LB..7.k..\.
+0450 - f4 06 b7 ed ee 38 6b fb-5a 89 9f a5 ae 9f 24 11   .....8k.Z.....$.
+0460 - 7c 4b 1f e6 49 28 66 51-ec e4 5b 3d c2 00 7c b8   |K..I(fQ..[=..|.
+0470 - a1 63 bf 05 98 da 48 36-1c 55 d3 9a 69 16 3f a8   .c....H6.U..i.?.
+0480 - fd 24 cf 5f 83 65 5d 23-dc a3 ad 96 1c 62 f3 56   .$._.e]#.....b.V
+0490 - 20 85 52 bb 9e d5 29 07-70 96 96 6d 67 0c 35 4e    .R...).p..mg.5N
+04a0 - 4a bc 98 04 f1 74 6c 08-ca 18 21 7c 32 90 5e 46   J....tl...!|2.^F
+04b0 - 2e 36 ce 3b e3 9e 77 2c-18 0e 86 03 9b 27 83 a2   .6.;..w,.....'..
+04c0 - ec 07 a2 8f b5 c5 5d f0-6f 4c 52 c9 de 2b cb f6   ......].oLR..+..
+04d0 - 95 58 17 18 39 95 49 7c-ea 95 6a e5 15 d2 26 18   .X..9.I|..j...&.
+04e0 - 98 fa 05 10 15 72 8e 5a-8a ac aa 68 ff ff ff ff   .....r.Z...h....
+04f0 - ff ff ff ff 00 01 02 01-00 38 38 2c 03 6e fb 66   .........88,.n.f
+0500 - 54 23 03 1f 5e f4 eb 17-c8 6e 2f c0 75 9d 9d 4b   T#..^....n/.u..K
+0510 - 3f e9 67 8c 96 b0 18 04-21 99 3e 2d 84 37 6c fe   ?.g.....!.>-.7l.
+0520 - ca c4 a7 81 f3 9d 9c d9-4f 21 49 0e 45 c8 3b cc   ........O!I.E.;.
+0530 - c1 6b 80 6b 75 a8 73 db-0d 07 df 7f ec 4d f9 06   .k.ku.s......M..
+0540 - e7 26 aa d5 ff 6e c0 f1-47 7c 95 a0 70 a8 31 67   .&...n..G|..p.1g
+0550 - e5 47 75 17 b5 21 52 50-4f d2 a5 05 d2 06 9c c5   .Gu..!RPO.......
+0560 - 83 4e 87 35 5f 6a ec 35-90 23 ae fe 42 3a 08 92   .N.5_j.5.#..B:..
+0570 - bd 63 07 4b 2f 60 ec 44-6f f5 26 8c 87 61 64 54   .c.K/`.Do.&..adT
+0580 - be 76 e9 3a b3 56 01 f3-7b be ab a4 60 18 60 f0   .v.:.V..{...`.`.
+0590 - ba df 50 40 61 b9 fa 64-77 f2 04 dc e1 3a 54 3a   ..P@a..dw....:T:
+05a0 - ba 26 c6 9a 32 49 72 37-03 c5 63 36 3c a2 62 97   .&..2Ir7..c6<.b.
+05b0 - b3 04 6e cc 67 c1 97 dc-9f 02 00 8f 43 e4 bc 15   ..n.g.......C...
+05c0 - ca 19 68 8b 9e 1d ca 5c-54 55 79 87 47 e3 b9 58   ..h....\TUy.G..X
+05d0 - a8 78 a8 bb 58 09 f0 7c-8b 5b 62 93 70 fd 50 e7   .x..X..|.[b.p.P.
+05e0 - 3f cd bb c4 f0 c2 68 9d-b4 1e e3 4c 65 73 ed 2c   ?.....h....Les.,
+05f0 - 57 86 a2 d1 d3 13 ce 5b-fd 04 01 01 00 ac 07 d4   W......[........
+0600 - c5 e1 8a e1 66 1c ae ee-4e db ca 53 a6 b9 57 0e   ....f...N..S..W.
+0610 - 63 35 31 8d 38 25 93 b5-e8 c0 8b 58 ad e1 16 79   c51.8%.....X...y
+0620 - 32 6f 07 ea a2 ef 30 ba-71 30 51 94 13 c8 9f 9d   2o....0.q0Q.....
+0630 - d3 b5 26 f1 23 d2 b9 87-ad 3f 31 48 9c cb 4b e6   ..&.#....?1H..K.
+0640 - 07 a0 3f 9d b2 9f f9 76-5d d9 7d 50 35 13 8f 9e   ..?....v].}P5...
+0650 - e0 1e 8c 78 df 63 e0 38-0d ae 14 ee 2f f1 50 70   ...x.c.8..../.Pp
+0660 - 6b 67 be 06 cf 1d a5 7f-ec 28 60 02 3f 8e 02 fd   kg.......(`.?...
+0670 - fc b8 f7 83 8e 2c 21 e0-cf 83 0d e7 ec bc 15 78   .....,!........x
+0680 - b9 bc df 9b 63 ab 07 74-fc ac 71 a7 44 fe fe 7a   ....c..t..q.D..z
+0690 - f5 27 82 a1 53 ed 68 45-fe ff 71 95 a6 2b e2 11   .'..S.hE..q..+..
+06a0 - d7 78 19 5d 9d 17 0c 65-8a 65 58 a4 0d 16 4c 19   .x.]...e.eX...L.
+06b0 - c9 97 a1 1a ab 43 d2 1b-f0 8d 9d c9 e3 76 00 71   .....C.......v.q
+06c0 - 86 89 17 4d e5 1b 51 8a-f2 17 59 e0 9a 6e 16 59   ...M..Q...Y..n.Y
+06d0 - 0e e6 5c d6 b9 a6 39 bd-1e f8 f1 18 67 a9 50 d8   ..\...9.....g.P.
+06e0 - 74 bd ca 93 be 48 6d 45-34 77 2a 46 5e 78 76 87   t....HmE4w*F^xv.
+06f0 - 68 0a bd 5a dd 4b d7 10-b3 98 28 3a 03 0e 00 00   h..Z.K....(:....
+0700 - 00                                                .
+write to 0x55a33cdec2f0 [0x55a33ce01760] (7 bytes => 7 (0x7))
+0000 - 15 03 03 00 02 02 33                              ......3
+---
+Certificate chain
+ 0 s:C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+   i:C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDtjCCAp4CFA0S5o1gLRUKcGNxXItkzYWYIpxAMA0GCSqGSIb3DQEBCwUAMIGS
+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCVFgxDzANBgNVBAcMBkF1c3RpbjELMAkG
+A1UECgwCVVQxDzANBgNVBAsMBm5ldHNlYzESMBAGA1UEAwwJZWxpemFiZXRoMTMw
+MQYJKoZIhvcNAQkBFiRlbGl6YWJldGguYW1hbmRhLnJvZHJpZ3VlekBnbWFpbC5j
+b20wHhcNMjEwMzMwMDM1MDM1WhcNMjIwMzI1MDM1MDM1WjCBmzELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAlRYMQ8wDQYDVQQHDAZBdXN0aW4xCzAJBgNVBAoMAlVUMQ8w
+DQYDVQQLDAZBdXN0aW4xGzAZBgNVBAMMEmNzMzYxcy51dGV4YXMubGFiMjEzMDEG
+CSqGSIb3DQEJARYkZWxpemFiZXRoLmFtYW5kYS5yb2RyaWd1ZXpAZ21haWwuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxmc+ZG+Qkr9wGVPdgvc
+Wpy92Zk4h5M+uYDux8fXxyFze34nLnxTdL4kjjWO47tnENNv7XmxOj5oZl1dwvnB
+XO6StQzHNJzxgHv5QlOXiJLcnnZYgINCyZ5gAPMMOtyI/716ry+6gaLP5RydRFS/
+SyYsUC+scMRvSzhDcH54IPKRRoLnafR89sL5jK5SeERzx0d48GRJ0j4gvHvJRGOr
+m0kXZps7hmDxM4p0aQe3BlRROArWvJzOz8kIIHUh6w3fgA2xwvWtimKyPBcR/Ks6
+TDKs70mHZhoZaBJyKu5QIJvAm1YScCHBlCRNEdxVuPW05YD7tioN1+GJAcH+akFI
+2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6+t/gaEm3o2Epwk4d42TAghJYA9Mr
+ENGOC3GhBo8myVm2ZcmOtN0rHP2Xkf/NQ1QLztiwpy+0JARvHSB9ZKVNVnUwyNqU
+5QBP0CH60gS5zQ60Eh5ZvrEr1G0h2rOZKjntgGEMkbXxFYN/8/5zcws7bHb8bBjw
+avi95KqPHZuoZlSQqYOXfryKUm2vqqk1XvmwCRvWX6cRhuveQfeIJz/a8ui+7fTh
+cKJsZZQY/TAXnYjBrccoF6xpVpQVQ08UBceQYUgnHomH2Kw2OhoTspS9rpx91HCv
+oNRcnj2z8Tth6hj4NMlN1+ncvMCs6KN9zVQlwz09gBVKoOPI1G+PMlWN
+-----END CERTIFICATE-----
+subject=C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+issuer=C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 1798 bytes and written 317 bytes
+Verification: OK
+---
+New, (NONE), Cipher is (NONE)
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : 0000
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: 
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1617684205
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+read from 0x55a33cdec2f0 [0x55a33cde3d90] (8192 bytes => 0 (0x0))
+CONNECTED(00000003)
+write to 0x5648b1e5a2f0 [0x5648b1e6f760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 68 40 70 23 2d   ....1...-..h@p#-
+0010 - da a0 64 7f ed c3 08 42-70 54 d3 ae b4 f2 43 20   ..d....BpT....C 
+0020 - 76 01 1c 8a 0f e9 6f 1f-0b c1 18 20 c7 7d 86 79   v.....o.... .}.y
+0030 - f1 a3 c6 4e 78 8c f1 e7-58 f5 a8 0c 83 1b bd b6   ...Nx...X.......
+0040 - 66 21 22 72 3a a0 0e e5-33 1f 53 93 00 3e 13 02   f!"r:...3.S..>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 06 43-e0 c1 03 0e a8 10 12 34   .$... .C.......4
+0120 - ab 50 ba e9 c3 d8 9c 30-c9 ad 47 45 97 bb f3 94   .P.....0..GE....
+0130 - e7 d4 b5 9a 83 37                                 .....7
+read from 0x5648b1e5a2f0 [0x5648b1e66543] (5 bytes => 5 (0x5))
+0000 - 16 03 03 07 01                                    .....
+read from 0x5648b1e5a2f0 [0x5648b1e66548] (1793 bytes => 1793 (0x701))
+0000 - 02 00 00 26 03 03 60 6b-e7 77 ba dc 9e e6 bf 58   ...&..`k.w.....X
+0010 - d4 f7 b9 ad 70 01 d5 61-ce cf 3e e1 48 01 20 4c   ....p..a..>.H. L
+0020 - c2 32 98 a2 55 3e 00 00-33 00 0b 00 03 c0 00 03   .2..U>..3.......
+0030 - bd 00 03 ba 30 82 03 b6-30 82 02 9e 02 14 0d 12   ....0...0.......
+0040 - e6 8d 60 2d 15 0a 70 63-71 5c 8b 64 cd 85 98 22   ..`-..pcq\.d..."
+0050 - 9c 40 30 0d 06 09 2a 86-48 86 f7 0d 01 01 0b 05   .@0...*.H.......
+0060 - 00 30 81 92 31 0b 30 09-06 03 55 04 06 13 02 55   .0..1.0...U....U
+0070 - 53 31 0b 30 09 06 03 55-04 08 0c 02 54 58 31 0f   S1.0...U....TX1.
+0080 - 30 0d 06 03 55 04 07 0c-06 41 75 73 74 69 6e 31   0...U....Austin1
+0090 - 0b 30 09 06 03 55 04 0a-0c 02 55 54 31 0f 30 0d   .0...U....UT1.0.
+00a0 - 06 03 55 04 0b 0c 06 6e-65 74 73 65 63 31 12 30   ..U....netsec1.0
+00b0 - 10 06 03 55 04 03 0c 09-65 6c 69 7a 61 62 65 74   ...U....elizabet
+00c0 - 68 31 33 30 31 06 09 2a-86 48 86 f7 0d 01 09 01   h1301..*.H......
+00d0 - 16 24 65 6c 69 7a 61 62-65 74 68 2e 61 6d 61 6e   .$elizabeth.aman
+00e0 - 64 61 2e 72 6f 64 72 69-67 75 65 7a 40 67 6d 61   da.rodriguez@gma
+00f0 - 69 6c 2e 63 6f 6d 30 1e-17 0d 32 31 30 33 33 30   il.com0...210330
+0100 - 30 33 35 30 33 35 5a 17-0d 32 32 30 33 32 35 30   035035Z..2203250
+0110 - 33 35 30 33 35 5a 30 81-9b 31 0b 30 09 06 03 55   35035Z0..1.0...U
+0120 - 04 06 13 02 55 53 31 0b-30 09 06 03 55 04 08 0c   ....US1.0...U...
+0130 - 02 54 58 31 0f 30 0d 06-03 55 04 07 0c 06 41 75   .TX1.0...U....Au
+0140 - 73 74 69 6e 31 0b 30 09-06 03 55 04 0a 0c 02 55   stin1.0...U....U
+0150 - 54 31 0f 30 0d 06 03 55-04 0b 0c 06 41 75 73 74   T1.0...U....Aust
+0160 - 69 6e 31 1b 30 19 06 03-55 04 03 0c 12 63 73 33   in1.0...U....cs3
+0170 - 36 31 73 2e 75 74 65 78-61 73 2e 6c 61 62 32 31   61s.utexas.lab21
+0180 - 33 30 31 06 09 2a 86 48-86 f7 0d 01 09 01 16 24   301..*.H.......$
+0190 - 65 6c 69 7a 61 62 65 74-68 2e 61 6d 61 6e 64 61   elizabeth.amanda
+01a0 - 2e 72 6f 64 72 69 67 75-65 7a 40 67 6d 61 69 6c   .rodriguez@gmail
+01b0 - 2e 63 6f 6d 30 82 01 22-30 0d 06 09 2a 86 48 86   .com0.."0...*.H.
+01c0 - f7 0d 01 01 01 05 00 03-82 01 0f 00 30 82 01 0a   ............0...
+01d0 - 02 82 01 01 00 b7 19 9c-f9 91 be 42 4a fd c0 65   ...........BJ..e
+01e0 - 4f 76 0b dc 5a 9c bd d9-99 38 87 93 3e b9 80 ee   Ov..Z....8..>...
+01f0 - c7 c7 d7 c7 21 73 7b 7e-27 2e 7c 53 74 be 24 8e   ....!s{~'.|St.$.
+0200 - 35 8e e3 bb 67 10 d3 6f-ed 79 b1 3a 3e 68 66 5d   5...g..o.y.:>hf]
+0210 - 5d c2 f9 c1 5c ee 92 b5-0c c7 34 9c f1 80 7b f9   ]...\.....4...{.
+0220 - 42 53 97 88 92 dc 9e 76-58 80 83 42 c9 9e 60 00   BS.....vX..B..`.
+0230 - f3 0c 3a dc 88 ff bd 7a-af 2f ba 81 a2 cf e5 1c   ..:....z./......
+0240 - 9d 44 54 bf 4b 26 2c 50-2f ac 70 c4 6f 4b 38 43   .DT.K&,P/.p.oK8C
+0250 - 70 7e 78 20 f2 91 46 82-e7 69 f4 7c f6 c2 f9 8c   p~x ..F..i.|....
+0260 - ae 52 78 44 73 c7 47 78-f0 64 49 d2 3e 20 bc 7b   .RxDs.Gx.dI.> .{
+0270 - c9 44 63 ab 9b 49 17 66-9b 3b 86 60 f1 33 8a 74   .Dc..I.f.;.`.3.t
+0280 - 69 07 b7 06 54 51 38 0a-d6 bc 9c ce cf c9 08 20   i...TQ8........ 
+0290 - 75 21 eb 0d df 80 0d b1-c2 f5 ad 8a 62 b2 3c 17   u!..........b.<.
+02a0 - 11 fc ab 3a 4c 32 ac ef-49 87 66 1a 19 68 12 72   ...:L2..I.f..h.r
+02b0 - 2a ee 50 20 9b c0 9b 56-12 70 21 c1 94 24 4d 11   *.P ...V.p!..$M.
+02c0 - dc 55 b8 f5 b4 e5 80 fb-b6 2a 0d d7 e1 89 01 c1   .U.......*......
+02d0 - fe 6a 41 48 d9 02 03 01-00 01 30 0d 06 09 2a 86   .jAH......0...*.
+02e0 - 48 86 f7 0d 01 01 0b 05-00 03 82 01 01 00 3a fa   H.............:.
+02f0 - df e0 68 49 b7 a3 61 29-c2 4e 1d e3 64 c0 82 12   ..hI..a).N..d...
+0300 - 58 03 d3 2b 10 d1 8e 0b-71 a1 06 8f 26 c9 59 b6   X..+....q...&.Y.
+0310 - 65 c9 8e b4 dd 2b 1c fd-97 91 ff cd 43 54 0b ce   e....+......CT..
+0320 - d8 b0 a7 2f b4 24 04 6f-1d 20 7d 64 a5 4d 56 75   .../.$.o. }d.MVu
+0330 - 30 c8 da 94 e5 00 4f d0-21 fa d2 04 b9 cd 0e b4   0.....O.!.......
+0340 - 12 1e 59 be b1 2b d4 6d-21 da b3 99 2a 39 ed 80   ..Y..+.m!...*9..
+0350 - 61 0c 91 b5 f1 15 83 7f-f3 fe 73 73 0b 3b 6c 76   a.........ss.;lv
+0360 - fc 6c 18 f0 6a f8 bd e4-aa 8f 1d 9b a8 66 54 90   .l..j........fT.
+0370 - a9 83 97 7e bc 8a 52 6d-af aa a9 35 5e f9 b0 09   ...~..Rm...5^...
+0380 - 1b d6 5f a7 11 86 eb de-41 f7 88 27 3f da f2 e8   .._.....A..'?...
+0390 - be ed f4 e1 70 a2 6c 65-94 18 fd 30 17 9d 88 c1   ....p.le...0....
+03a0 - ad c7 28 17 ac 69 56 94-15 43 4f 14 05 c7 90 61   ..(..iV..CO....a
+03b0 - 48 27 1e 89 87 d8 ac 36-3a 1a 13 b2 94 bd ae 9c   H'.....6:.......
+03c0 - 7d d4 70 af a0 d4 5c 9e-3d b3 f1 3b 61 ea 18 f8   }.p...\.=..;a...
+03d0 - 34 c9 4d d7 e9 dc bc c0-ac e8 a3 7d cd 54 25 c3   4.M........}.T%.
+03e0 - 3d 3d 80 15 4a a0 e3 c8-d4 6f 8f 32 55 8d 0c 00   ==..J....o.2U...
+03f0 - 03 0b 01 00 ff ff ff ff-ff ff ff ff c9 0f da a2   ................
+0400 - 21 68 c2 34 c4 c6 62 8b-80 dc 1c d1 29 02 4e 08   !h.4..b.....).N.
+0410 - 8a 67 cc 74 02 0b be a6-3b 13 9b 22 51 4a 08 79   .g.t....;.."QJ.y
+0420 - 8e 34 04 dd ef 95 19 b3-cd 3a 43 1b 30 2b 0a 6d   .4.......:C.0+.m
+0430 - f2 5f 14 37 4f e1 35 6d-6d 51 c2 45 e4 85 b5 76   ._.7O.5mmQ.E...v
+0440 - 62 5e 7e c6 f4 4c 42 e9-a6 37 ed 6b 0b ff 5c b6   b^~..LB..7.k..\.
+0450 - f4 06 b7 ed ee 38 6b fb-5a 89 9f a5 ae 9f 24 11   .....8k.Z.....$.
+0460 - 7c 4b 1f e6 49 28 66 51-ec e4 5b 3d c2 00 7c b8   |K..I(fQ..[=..|.
+0470 - a1 63 bf 05 98 da 48 36-1c 55 d3 9a 69 16 3f a8   .c....H6.U..i.?.
+0480 - fd 24 cf 5f 83 65 5d 23-dc a3 ad 96 1c 62 f3 56   .$._.e]#.....b.V
+0490 - 20 85 52 bb 9e d5 29 07-70 96 96 6d 67 0c 35 4e    .R...).p..mg.5N
+04a0 - 4a bc 98 04 f1 74 6c 08-ca 18 21 7c 32 90 5e 46   J....tl...!|2.^F
+04b0 - 2e 36 ce 3b e3 9e 77 2c-18 0e 86 03 9b 27 83 a2   .6.;..w,.....'..
+04c0 - ec 07 a2 8f b5 c5 5d f0-6f 4c 52 c9 de 2b cb f6   ......].oLR..+..
+04d0 - 95 58 17 18 39 95 49 7c-ea 95 6a e5 15 d2 26 18   .X..9.I|..j...&.
+04e0 - 98 fa 05 10 15 72 8e 5a-8a ac aa 68 ff ff ff ff   .....r.Z...h....
+04f0 - ff ff ff ff 00 01 02 01-00 74 a8 1b 79 b9 4a 42   .........t..y.JB
+0500 - fb dc 51 62 df 3f 11 fa-88 13 7e 19 15 12 5e d7   ..Qb.?....~...^.
+0510 - 82 6d 2e 92 6a 71 2e f1-9c 25 03 60 29 fa 1b 97   .m..jq...%.`)...
+0520 - a3 b3 46 f7 fe a1 5a 63-32 50 de 90 71 79 ad f4   ..F...Zc2P..qy..
+0530 - 01 21 95 41 f1 bb cc 4c-8a 44 ad 0f 91 36 66 19   .!.A...L.D...6f.
+0540 - b5 d7 0e aa e7 c2 02 08-3f 20 d6 06 e7 c0 bd 49   ........? .....I
+0550 - c2 a2 a6 51 c6 36 86 2f-ca 65 90 52 37 7b f2 b6   ...Q.6./.e.R7{..
+0560 - 63 d2 85 25 af 7b 75 5f-84 9b 3e 9b ce 10 00 17   c..%.{u_..>.....
+0570 - 1a ea 1e 8c d4 b9 08 03-fa 46 98 fe 5b 64 a7 9a   .........F..[d..
+0580 - 11 1f f3 19 ce 77 16 e2-49 50 c2 9e 55 14 37 95   .....w..IP..U.7.
+0590 - d4 4f 93 00 a7 a4 a1 5b-bd 53 bd f4 71 ae 89 5a   .O.....[.S..q..Z
+05a0 - 26 da b0 a6 bf 7f 16 01-b1 b9 74 8e fa 93 f8 36   &.........t....6
+05b0 - 4f e9 38 14 01 a7 15 a2-f4 16 ab 91 4f 8d f5 b9   O.8.........O...
+05c0 - 7c 94 88 ab 1f 38 d7 08-d1 f6 05 22 b2 dc d4 05   |....8....."....
+05d0 - 3c f6 bd 73 7c b0 5e 2d-94 0b da bf 49 11 4c a7   <..s|.^-....I.L.
+05e0 - ec 67 b3 31 f6 0d a1 91-fb 24 71 e8 b0 f3 02 fd   .g.1.....$q.....
+05f0 - 4e d4 59 ee fe aa 4e e4-7c 04 01 01 00 97 aa 98   N.Y...N.|.......
+0600 - a1 9d 78 8a e4 6a 55 af-32 ee 29 70 da 6e 26 40   ..x..jU.2.)p.n&@
+0610 - 5c 2b 0d ce c0 8a c3 b2-ed 27 ee 4c fb 7f 7b a9   \+.......'.L..{.
+0620 - 20 e6 dc f5 fb 48 ac f4-7d 8c f3 eb 9e d8 2b 43    ....H..}.....+C
+0630 - 05 c1 97 d3 e6 45 fc f8-a3 e0 29 c5 bb 98 9f 19   .....E....).....
+0640 - 71 d1 6c a1 5f fa 9e 64-60 87 48 a4 e7 0f d1 62   q.l._..d`.H....b
+0650 - f0 03 f9 4c 1b f2 64 43-ae 28 87 be db 37 f6 c1   ...L..dC.(...7..
+0660 - 12 bd b6 7d 12 44 ed b7-e5 3b f9 06 28 02 cf d9   ...}.D...;..(...
+0670 - 7f 9b 55 31 b6 1e 8e 6d-12 2f 19 5c a2 d6 61 ef   ..U1...m./.\..a.
+0680 - 49 a7 d3 56 ce 8b 98 43-14 70 8d 9c 94 f1 f3 5b   I..V...C.p.....[
+0690 - a9 cd 00 26 d6 3a 32 49-a9 17 f6 a3 5d 2a 71 40   ...&.:2I....]*q@
+06a0 - 02 2d d1 b0 7f 6f 3d 62-5e 3a ef 4c d4 d2 3c b9   .-...o=b^:.L..<.
+06b0 - 53 ec 3e a2 0f 01 97 c6-80 32 c7 81 70 0c ce 0a   S.>......2..p...
+06c0 - ad 84 c6 10 d3 ad 9a 5b-8a 94 3f 25 4f bd 0f f0   .......[..?%O...
+06d0 - 4c ba ea b0 02 1b ff ea-8c 6d 98 31 fd 06 35 e3   L........m.1..5.
+06e0 - 8f 32 59 1b 95 a1 7e ff-fa 38 21 9a ae 71 f8 da   .2Y...~..8!..q..
+06f0 - 50 1e 61 29 5c cb 85 f8-ee 0f 17 d2 bb 0e 00 00   P.a)\...........
+0700 - 00                                                .
+write to 0x5648b1e5a2f0 [0x5648b1e6f760] (342 bytes => 342 (0x156))
+0000 - 16 03 03 01 06 10 00 01-02 01 00 27 d4 69 83 6a   ...........'.i.j
+0010 - bd 79 92 b3 ba 42 1f b5-d6 8a 2c 39 c1 40 f2 72   .y...B....,9.@.r
+0020 - 1f 47 e8 66 59 20 bb 9d-db f6 19 5f e2 78 9c 2d   .G.fY ....._.x.-
+0030 - 70 06 70 78 7d bf 4a 7f-35 34 22 97 92 49 41 12   p.px}.J.54"..IA.
+0040 - 8a 62 41 4f 70 d9 c7 1c-df 3e 04 db 0b ef 7e 29   .bAOp....>....~)
+0050 - 31 38 63 d9 8f 24 54 34-7d 9c da dc 9c 09 1c a8   18c..$T4}.......
+0060 - ee 23 eb bb 23 11 81 38-32 ae a3 21 85 59 b3 72   .#..#..82..!.Y.r
+0070 - b9 1a 42 cd 94 3f 5b 2e-20 04 d5 e7 4e 52 82 73   ..B..?[. ...NR.s
+0080 - 4d 1a c3 23 9b ea 58 61-4d d3 27 44 d7 66 ba 0c   M..#..XaM.'D.f..
+0090 - 57 ff ad 66 83 6f 2b 5b-f3 c1 3f 5a 4e 58 7e 52   W..f.o+[..?ZNX~R
+00a0 - 39 dd 16 48 07 09 7a b5-15 47 6c d7 81 d0 50 6f   9..H..z..Gl...Po
+00b0 - eb 65 f3 41 39 c0 c0 98-12 81 74 f8 a7 af 31 73   .e.A9.....t...1s
+00c0 - d6 58 3f e5 7d 41 84 43-a8 87 1c 9a d4 ff 00 dd   .X?.}A.C........
+00d0 - 26 73 15 76 92 76 ff 7a-fa 3f 72 2b 35 bc 71 cd   &s.v.v.z.?r+5.q.
+00e0 - 8c fa 91 a6 f5 89 85 9b-53 bc 50 47 ad 87 7d 86   ........S.PG..}.
+00f0 - c9 a0 1e 0d bc 10 ff 94-52 f4 21 51 4b 5f a5 98   ........R.!QK_..
+0100 - 04 52 f1 54 fc 6f 88 5d-4b 65 91 14 03 03 00 01   .R.T.o.]Ke......
+0110 - 01 16 03 03 00 40 2d 31-40 32 ee 19 cd 73 a2 25   .....@-1@2...s.%
+0120 - 7d a3 90 13 4e b8 8e 42-9c 79 5f 3b 01 59 bf 7d   }...N..B.y_;.Y.}
+0130 - ee 52 c2 e5 f7 9b 52 62-68 54 f4 7f d3 4a 68 35   .R....RbhT...Jh5
+0140 - be 7d 1f 5f 5e 0c d6 47-fb 0f 9d 38 17 a1 f5 c0   .}._^..G...8....
+0150 - 84 e5 88 2a 38 dd                                 ...*8.
+read from 0x5648b1e5a2f0 [0x5648b1e66543] (5 bytes => 0 (0x0))
+---
+Certificate chain
+ 0 s:C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+   i:C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDtjCCAp4CFA0S5o1gLRUKcGNxXItkzYWYIpxAMA0GCSqGSIb3DQEBCwUAMIGS
+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCVFgxDzANBgNVBAcMBkF1c3RpbjELMAkG
+A1UECgwCVVQxDzANBgNVBAsMBm5ldHNlYzESMBAGA1UEAwwJZWxpemFiZXRoMTMw
+MQYJKoZIhvcNAQkBFiRlbGl6YWJldGguYW1hbmRhLnJvZHJpZ3VlekBnbWFpbC5j
+b20wHhcNMjEwMzMwMDM1MDM1WhcNMjIwMzI1MDM1MDM1WjCBmzELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAlRYMQ8wDQYDVQQHDAZBdXN0aW4xCzAJBgNVBAoMAlVUMQ8w
+DQYDVQQLDAZBdXN0aW4xGzAZBgNVBAMMEmNzMzYxcy51dGV4YXMubGFiMjEzMDEG
+CSqGSIb3DQEJARYkZWxpemFiZXRoLmFtYW5kYS5yb2RyaWd1ZXpAZ21haWwuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxmc+ZG+Qkr9wGVPdgvc
+Wpy92Zk4h5M+uYDux8fXxyFze34nLnxTdL4kjjWO47tnENNv7XmxOj5oZl1dwvnB
+XO6StQzHNJzxgHv5QlOXiJLcnnZYgINCyZ5gAPMMOtyI/716ry+6gaLP5RydRFS/
+SyYsUC+scMRvSzhDcH54IPKRRoLnafR89sL5jK5SeERzx0d48GRJ0j4gvHvJRGOr
+m0kXZps7hmDxM4p0aQe3BlRROArWvJzOz8kIIHUh6w3fgA2xwvWtimKyPBcR/Ks6
+TDKs70mHZhoZaBJyKu5QIJvAm1YScCHBlCRNEdxVuPW05YD7tioN1+GJAcH+akFI
+2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6+t/gaEm3o2Epwk4d42TAghJYA9Mr
+ENGOC3GhBo8myVm2ZcmOtN0rHP2Xkf/NQ1QLztiwpy+0JARvHSB9ZKVNVnUwyNqU
+5QBP0CH60gS5zQ60Eh5ZvrEr1G0h2rOZKjntgGEMkbXxFYN/8/5zcws7bHb8bBjw
+avi95KqPHZuoZlSQqYOXfryKUm2vqqk1XvmwCRvWX6cRhuveQfeIJz/a8ui+7fTh
+cKJsZZQY/TAXnYjBrccoF6xpVpQVQ08UBceQYUgnHomH2Kw2OhoTspS9rpx91HCv
+oNRcnj2z8Tth6hj4NMlN1+ncvMCs6KN9zVQlwz09gBVKoOPI1G+PMlWN
+-----END CERTIFICATE-----
+subject=C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+issuer=C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 1798 bytes and written 652 bytes
+Verification: OK
+---
+New, SSLv3, Cipher is DHE-RSA-AES128-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : DHE-RSA-AES128-SHA
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: F05860B3C250B1488D4383956941CD9E5D45570970A1017DEB7940E2598DF5FAFB199E713D7B807C64720C590F4A22B8
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1617684343
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+read from 0x5648b1e5a2f0 [0x5648b1e51d90] (8192 bytes => 0 (0x0))
+CONNECTED(00000003)
+write to 0x56293fb562f0 [0x56293fb6b760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 13 1d e1 b6 b7   ....1...-.......
+0010 - a1 9a 6c 99 62 50 5f 96-48 a3 7e 83 d4 d9 1f 7b   ..l.bP_.H.~....{
+0020 - 8e 8f 20 d2 a0 ba b2 8a-90 ef ae 20 75 21 63 f1   .. ........ u!c.
+0030 - 1d e8 9c 0e b8 af 76 0a-a0 cc 50 0d 23 d3 aa 5e   ......v...P.#..^
+0040 - dd b0 93 e7 00 ea 69 a0-5f 62 11 ad 00 3e 13 02   ......i._b...>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 70 bd-b0 8c 83 02 c3 f3 bb e8   .$... p.........
+0120 - e6 fe 98 93 63 70 ff f5-3f 2e 07 11 5a 6b 3c 24   ....cp..?...Zk<$
+0130 - d4 8b be 7a 66 45                                 ...zfE
+read from 0x56293fb562f0 [0x56293fb62543] (5 bytes => 5 (0x5))
+0000 - 16 03 03 07 01                                    .....
+read from 0x56293fb562f0 [0x56293fb62548] (1793 bytes => 1793 (0x701))
+0000 - 02 00 00 26 03 03 60 6b-e9 b1 42 e7 f9 df 6a c4   ...&..`k..B...j.
+0010 - 6d 60 57 60 f7 4d bc 22-fd 60 c7 54 c0 de 23 ae   m`W`.M.".`.T..#.
+0020 - 1d 20 40 2c 81 d6 00 00-33 00 0b 00 03 c0 00 03   . @,....3.......
+0030 - bd 00 03 ba 30 82 03 b6-30 82 02 9e 02 14 0d 12   ....0...0.......
+0040 - e6 8d 60 2d 15 0a 70 63-71 5c 8b 64 cd 85 98 22   ..`-..pcq\.d..."
+0050 - 9c 40 30 0d 06 09 2a 86-48 86 f7 0d 01 01 0b 05   .@0...*.H.......
+0060 - 00 30 81 92 31 0b 30 09-06 03 55 04 06 13 02 55   .0..1.0...U....U
+0070 - 53 31 0b 30 09 06 03 55-04 08 0c 02 54 58 31 0f   S1.0...U....TX1.
+0080 - 30 0d 06 03 55 04 07 0c-06 41 75 73 74 69 6e 31   0...U....Austin1
+0090 - 0b 30 09 06 03 55 04 0a-0c 02 55 54 31 0f 30 0d   .0...U....UT1.0.
+00a0 - 06 03 55 04 0b 0c 06 6e-65 74 73 65 63 31 12 30   ..U....netsec1.0
+00b0 - 10 06 03 55 04 03 0c 09-65 6c 69 7a 61 62 65 74   ...U....elizabet
+00c0 - 68 31 33 30 31 06 09 2a-86 48 86 f7 0d 01 09 01   h1301..*.H......
+00d0 - 16 24 65 6c 69 7a 61 62-65 74 68 2e 61 6d 61 6e   .$elizabeth.aman
+00e0 - 64 61 2e 72 6f 64 72 69-67 75 65 7a 40 67 6d 61   da.rodriguez@gma
+00f0 - 69 6c 2e 63 6f 6d 30 1e-17 0d 32 31 30 33 33 30   il.com0...210330
+0100 - 30 33 35 30 33 35 5a 17-0d 32 32 30 33 32 35 30   035035Z..2203250
+0110 - 33 35 30 33 35 5a 30 81-9b 31 0b 30 09 06 03 55   35035Z0..1.0...U
+0120 - 04 06 13 02 55 53 31 0b-30 09 06 03 55 04 08 0c   ....US1.0...U...
+0130 - 02 54 58 31 0f 30 0d 06-03 55 04 07 0c 06 41 75   .TX1.0...U....Au
+0140 - 73 74 69 6e 31 0b 30 09-06 03 55 04 0a 0c 02 55   stin1.0...U....U
+0150 - 54 31 0f 30 0d 06 03 55-04 0b 0c 06 41 75 73 74   T1.0...U....Aust
+0160 - 69 6e 31 1b 30 19 06 03-55 04 03 0c 12 63 73 33   in1.0...U....cs3
+0170 - 36 31 73 2e 75 74 65 78-61 73 2e 6c 61 62 32 31   61s.utexas.lab21
+0180 - 33 30 31 06 09 2a 86 48-86 f7 0d 01 09 01 16 24   301..*.H.......$
+0190 - 65 6c 69 7a 61 62 65 74-68 2e 61 6d 61 6e 64 61   elizabeth.amanda
+01a0 - 2e 72 6f 64 72 69 67 75-65 7a 40 67 6d 61 69 6c   .rodriguez@gmail
+01b0 - 2e 63 6f 6d 30 82 01 22-30 0d 06 09 2a 86 48 86   .com0.."0...*.H.
+01c0 - f7 0d 01 01 01 05 00 03-82 01 0f 00 30 82 01 0a   ............0...
+01d0 - 02 82 01 01 00 b7 19 9c-f9 91 be 42 4a fd c0 65   ...........BJ..e
+01e0 - 4f 76 0b dc 5a 9c bd d9-99 38 87 93 3e b9 80 ee   Ov..Z....8..>...
+01f0 - c7 c7 d7 c7 21 73 7b 7e-27 2e 7c 53 74 be 24 8e   ....!s{~'.|St.$.
+0200 - 35 8e e3 bb 67 10 d3 6f-ed 79 b1 3a 3e 68 66 5d   5...g..o.y.:>hf]
+0210 - 5d c2 f9 c1 5c ee 92 b5-0c c7 34 9c f1 80 7b f9   ]...\.....4...{.
+0220 - 42 53 97 88 92 dc 9e 76-58 80 83 42 c9 9e 60 00   BS.....vX..B..`.
+0230 - f3 0c 3a dc 88 ff bd 7a-af 2f ba 81 a2 cf e5 1c   ..:....z./......
+0240 - 9d 44 54 bf 4b 26 2c 50-2f ac 70 c4 6f 4b 38 43   .DT.K&,P/.p.oK8C
+0250 - 70 7e 78 20 f2 91 46 82-e7 69 f4 7c f6 c2 f9 8c   p~x ..F..i.|....
+0260 - ae 52 78 44 73 c7 47 78-f0 64 49 d2 3e 20 bc 7b   .RxDs.Gx.dI.> .{
+0270 - c9 44 63 ab 9b 49 17 66-9b 3b 86 60 f1 33 8a 74   .Dc..I.f.;.`.3.t
+0280 - 69 07 b7 06 54 51 38 0a-d6 bc 9c ce cf c9 08 20   i...TQ8........ 
+0290 - 75 21 eb 0d df 80 0d b1-c2 f5 ad 8a 62 b2 3c 17   u!..........b.<.
+02a0 - 11 fc ab 3a 4c 32 ac ef-49 87 66 1a 19 68 12 72   ...:L2..I.f..h.r
+02b0 - 2a ee 50 20 9b c0 9b 56-12 70 21 c1 94 24 4d 11   *.P ...V.p!..$M.
+02c0 - dc 55 b8 f5 b4 e5 80 fb-b6 2a 0d d7 e1 89 01 c1   .U.......*......
+02d0 - fe 6a 41 48 d9 02 03 01-00 01 30 0d 06 09 2a 86   .jAH......0...*.
+02e0 - 48 86 f7 0d 01 01 0b 05-00 03 82 01 01 00 3a fa   H.............:.
+02f0 - df e0 68 49 b7 a3 61 29-c2 4e 1d e3 64 c0 82 12   ..hI..a).N..d...
+0300 - 58 03 d3 2b 10 d1 8e 0b-71 a1 06 8f 26 c9 59 b6   X..+....q...&.Y.
+0310 - 65 c9 8e b4 dd 2b 1c fd-97 91 ff cd 43 54 0b ce   e....+......CT..
+0320 - d8 b0 a7 2f b4 24 04 6f-1d 20 7d 64 a5 4d 56 75   .../.$.o. }d.MVu
+0330 - 30 c8 da 94 e5 00 4f d0-21 fa d2 04 b9 cd 0e b4   0.....O.!.......
+0340 - 12 1e 59 be b1 2b d4 6d-21 da b3 99 2a 39 ed 80   ..Y..+.m!...*9..
+0350 - 61 0c 91 b5 f1 15 83 7f-f3 fe 73 73 0b 3b 6c 76   a.........ss.;lv
+0360 - fc 6c 18 f0 6a f8 bd e4-aa 8f 1d 9b a8 66 54 90   .l..j........fT.
+0370 - a9 83 97 7e bc 8a 52 6d-af aa a9 35 5e f9 b0 09   ...~..Rm...5^...
+0380 - 1b d6 5f a7 11 86 eb de-41 f7 88 27 3f da f2 e8   .._.....A..'?...
+0390 - be ed f4 e1 70 a2 6c 65-94 18 fd 30 17 9d 88 c1   ....p.le...0....
+03a0 - ad c7 28 17 ac 69 56 94-15 43 4f 14 05 c7 90 61   ..(..iV..CO....a
+03b0 - 48 27 1e 89 87 d8 ac 36-3a 1a 13 b2 94 bd ae 9c   H'.....6:.......
+03c0 - 7d d4 70 af a0 d4 5c 9e-3d b3 f1 3b 61 ea 18 f8   }.p...\.=..;a...
+03d0 - 34 c9 4d d7 e9 dc bc c0-ac e8 a3 7d cd 54 25 c3   4.M........}.T%.
+03e0 - 3d 3d 80 15 4a a0 e3 c8-d4 6f 8f 32 55 8d 0c 00   ==..J....o.2U...
+03f0 - 03 0b 01 00 ff ff ff ff-ff ff ff ff c9 0f da a2   ................
+0400 - 21 68 c2 34 c4 c6 62 8b-80 dc 1c d1 29 02 4e 08   !h.4..b.....).N.
+0410 - 8a 67 cc 74 02 0b be a6-3b 13 9b 22 51 4a 08 79   .g.t....;.."QJ.y
+0420 - 8e 34 04 dd ef 95 19 b3-cd 3a 43 1b 30 2b 0a 6d   .4.......:C.0+.m
+0430 - f2 5f 14 37 4f e1 35 6d-6d 51 c2 45 e4 85 b5 76   ._.7O.5mmQ.E...v
+0440 - 62 5e 7e c6 f4 4c 42 e9-a6 37 ed 6b 0b ff 5c b6   b^~..LB..7.k..\.
+0450 - f4 06 b7 ed ee 38 6b fb-5a 89 9f a5 ae 9f 24 11   .....8k.Z.....$.
+0460 - 7c 4b 1f e6 49 28 66 51-ec e4 5b 3d c2 00 7c b8   |K..I(fQ..[=..|.
+0470 - a1 63 bf 05 98 da 48 36-1c 55 d3 9a 69 16 3f a8   .c....H6.U..i.?.
+0480 - fd 24 cf 5f 83 65 5d 23-dc a3 ad 96 1c 62 f3 56   .$._.e]#.....b.V
+0490 - 20 85 52 bb 9e d5 29 07-70 96 96 6d 67 0c 35 4e    .R...).p..mg.5N
+04a0 - 4a bc 98 04 f1 74 6c 08-ca 18 21 7c 32 90 5e 46   J....tl...!|2.^F
+04b0 - 2e 36 ce 3b e3 9e 77 2c-18 0e 86 03 9b 27 83 a2   .6.;..w,.....'..
+04c0 - ec 07 a2 8f b5 c5 5d f0-6f 4c 52 c9 de 2b cb f6   ......].oLR..+..
+04d0 - 95 58 17 18 39 95 49 7c-ea 95 6a e5 15 d2 26 18   .X..9.I|..j...&.
+04e0 - 98 fa 05 10 15 72 8e 5a-8a ac aa 68 ff ff ff ff   .....r.Z...h....
+04f0 - ff ff ff ff 00 01 02 01-00 0c 91 99 ca 3b d9 d9   .............;..
+0500 - 24 d0 d0 c8 3c 83 22 62-11 59 78 fc 9d dd 0a 5d   $...<."b.Yx....]
+0510 - b5 91 c8 4f 70 5e 74 18-84 8d 4d a5 29 0c 9b 66   ...Op^t...M.)..f
+0520 - dc 6e f5 ae 33 9d 90 ad-07 aa d9 1b ca 72 f3 bf   .n..3........r..
+0530 - 8d f6 35 bf b7 94 db 1f-64 ab cb 36 68 55 04 83   ..5.....d..6hU..
+0540 - df 8a 92 fe 4b a1 5f 53-64 09 3b f4 f5 24 fe 77   ....K._Sd.;..$.w
+0550 - 10 2c 75 a3 1e 7e 3d 2d-a0 fa db 14 60 ac 0e d3   .,u..~=-....`...
+0560 - 6d e2 fb b3 fa 60 eb f9-ef fc 89 61 ed e0 88 a8   m....`.....a....
+0570 - b8 e9 f8 c1 75 9a ca a4-ad 73 c4 d8 5c be a4 4b   ....u....s..\..K
+0580 - 50 58 aa 4d 96 ff c4 bf-a5 6a 49 82 20 97 3c 42   PX.M.....jI. .<B
+0590 - b8 e6 9a c7 d4 62 4f eb-6e bd f4 5c 96 16 74 ff   .....bO.n..\..t.
+05a0 - 66 e2 c1 ab b3 e7 5c 23-a2 1d 8e c6 53 36 43 48   f.....\#....S6CH
+05b0 - 2b ee 34 a9 c8 c4 b7 24-1f 74 ca 4a 78 32 24 44   +.4....$.t.Jx2$D
+05c0 - 7a a3 44 bf b2 d6 35 01-e0 e3 18 b3 35 41 2d cb   z.D...5.....5A-.
+05d0 - 84 41 48 6e ce d0 f3 8d-64 85 03 fa 6c fc 3e e8   .AHn....d...l.>.
+05e0 - de 5e eb 2c f1 3b 52 fa-fb 6b 83 da e0 50 09 21   .^.,.;R..k...P.!
+05f0 - 01 7b 93 41 0c e2 cc f5-40 04 01 01 00 29 23 58   .{.A....@....)#X
+0600 - b4 55 b4 7c 3f ce dc e2-4c 7f 44 e3 fa 6b 46 a9   .U.|?...L.D..kF.
+0610 - 0c e4 4a dd ce 16 34 18-d7 7c 4c 01 5d b9 40 66   ..J...4..|L.].@f
+0620 - 08 f9 72 dc a2 f5 d7 4b-40 3b c1 e8 dd b8 4d c5   ..r....K@;....M.
+0630 - 90 ea dc 24 84 78 b7 69-15 39 0a 1a 2e bb 81 e1   ...$.x.i.9......
+0640 - 50 cd ba 00 8f 0a 5b 94-76 82 5d 7c d6 69 c9 78   P.....[.v.]|.i.x
+0650 - 64 64 cd be 6c 99 76 81-a8 53 bf cd 55 f1 e6 fb   dd..l.v..S..U...
+0660 - 7f 8a bc 2f ce 51 4b 0d-fc c1 96 e1 bd 55 0b 3e   .../.QK......U.>
+0670 - 76 8e 1e ec 5f ba 4e b4-f8 24 32 f0 90 f7 65 cd   v..._.N..$2...e.
+0680 - 8c 3e 9f ff 2f 3f c7 d0-69 3c af 94 ba 39 52 bc   .>../?..i<...9R.
+0690 - d3 f4 0f 7b e1 29 31 27-5a 89 a6 1a 66 67 49 41   ...{.)1'Z...fgIA
+06a0 - 26 97 87 05 fd 01 fc 98-13 d4 4a cf 65 bd 94 54   &.........J.e..T
+06b0 - e7 96 4f 29 96 d5 d5 8f-51 39 56 93 39 c2 c6 2f   ..O)....Q9V.9../
+06c0 - 82 59 1d 70 c8 82 b3 90-8f 58 29 0a 9a c7 2d fc   .Y.p.....X)...-.
+06d0 - d4 3a 24 a6 bc a3 e5 73-f9 f4 b4 8f 9b ff bb e1   .:$....s........
+06e0 - 7e 2e e5 78 94 eb cc fa-57 44 0d 29 8d ba a0 cc   ~..x....WD.)....
+06f0 - 20 16 a3 72 87 3a d0 ff-6a db 9b 7e cd 0e 00 00    ..r.:..j..~....
+0700 - 00                                                .
+write to 0x56293fb562f0 [0x56293fb6b760] (342 bytes => 342 (0x156))
+0000 - 16 03 03 01 06 10 00 01-02 01 00 2d 25 a3 06 a9   ...........-%...
+0010 - 71 9e ec 79 5b 35 9a bc-f5 c6 33 e3 9a 07 98 36   q..y[5....3....6
+0020 - a3 60 6a 2a 39 d4 78 aa-63 a0 84 af a6 4b 32 81   .`j*9.x.c....K2.
+0030 - 3c cd f5 96 b4 38 fc a4-c6 14 db bf 46 a0 9f 19   <....8......F...
+0040 - 51 00 9b 4a f2 d2 86 e2-3f 0d b8 e5 2b 7c fe 91   Q..J....?...+|..
+0050 - 39 a0 78 fa 9c dc f6 07-43 80 dc de 94 0a bc f6   9.x.....C.......
+0060 - 27 a4 46 03 4d b9 aa e4-b6 3a 9e ec 03 95 f0 1d   '.F.M....:......
+0070 - bc c6 b4 56 3c bd 96 cf-53 9e dd d0 33 0e 5a 78   ...V<...S...3.Zx
+0080 - 19 86 92 39 a8 38 1e 95-85 24 be 28 ac e9 f3 f7   ...9.8...$.(....
+0090 - be 7f 1d 91 e0 e6 92 18-70 f0 70 2f 50 4f 01 8e   ........p.p/PO..
+00a0 - c5 2e b4 66 43 4b 67 eb-fa 6c 84 2d 2c 76 60 66   ...fCKg..l.-,v`f
+00b0 - de 02 81 14 3b ee 41 b3-47 ca 1c 2a 0e 32 df ef   ....;.A.G..*.2..
+00c0 - 0b e7 5a 45 08 95 45 25-07 4b 48 1b 4b d7 f6 52   ..ZE..E%.KH.K..R
+00d0 - fe 14 45 70 0e 35 cf e4-aa a0 bb e7 b5 dd ac e6   ..Ep.5..........
+00e0 - 00 a2 00 98 c3 78 25 8e-88 0f 2d 4c 38 63 fc fd   .....x%...-L8c..
+00f0 - 8e ef 0f de a8 df 19 cd-5c aa 41 fa 4d 02 c0 1a   ........\.A.M...
+0100 - e8 6e 81 58 87 60 42 3d-03 64 6c 14 03 03 00 01   .n.X.`B=.dl.....
+0110 - 01 16 03 03 00 40 c5 42-6c a8 7d a9 67 e1 22 86   .....@.Bl.}.g.".
+0120 - b8 5a b0 0b 9f 8a b9 a1-96 c1 c1 fe ea 1e 47 56   .Z............GV
+0130 - 7a 90 74 08 bd f0 6c ef-db 63 6f ea f7 07 8f 33   z.t...l..co....3
+0140 - 3a 78 6e 4c 6d c8 31 1d-b6 6b 0c 23 25 77 63 f1   :xnLm.1..k.#%wc.
+0150 - 53 84 5b 72 5c 80                                 S.[r\.
+read from 0x56293fb562f0 [0x56293fb62543] (5 bytes => 0 (0x0))
+---
+Certificate chain
+ 0 s:C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+   i:C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDtjCCAp4CFA0S5o1gLRUKcGNxXItkzYWYIpxAMA0GCSqGSIb3DQEBCwUAMIGS
+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCVFgxDzANBgNVBAcMBkF1c3RpbjELMAkG
+A1UECgwCVVQxDzANBgNVBAsMBm5ldHNlYzESMBAGA1UEAwwJZWxpemFiZXRoMTMw
+MQYJKoZIhvcNAQkBFiRlbGl6YWJldGguYW1hbmRhLnJvZHJpZ3VlekBnbWFpbC5j
+b20wHhcNMjEwMzMwMDM1MDM1WhcNMjIwMzI1MDM1MDM1WjCBmzELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAlRYMQ8wDQYDVQQHDAZBdXN0aW4xCzAJBgNVBAoMAlVUMQ8w
+DQYDVQQLDAZBdXN0aW4xGzAZBgNVBAMMEmNzMzYxcy51dGV4YXMubGFiMjEzMDEG
+CSqGSIb3DQEJARYkZWxpemFiZXRoLmFtYW5kYS5yb2RyaWd1ZXpAZ21haWwuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxmc+ZG+Qkr9wGVPdgvc
+Wpy92Zk4h5M+uYDux8fXxyFze34nLnxTdL4kjjWO47tnENNv7XmxOj5oZl1dwvnB
+XO6StQzHNJzxgHv5QlOXiJLcnnZYgINCyZ5gAPMMOtyI/716ry+6gaLP5RydRFS/
+SyYsUC+scMRvSzhDcH54IPKRRoLnafR89sL5jK5SeERzx0d48GRJ0j4gvHvJRGOr
+m0kXZps7hmDxM4p0aQe3BlRROArWvJzOz8kIIHUh6w3fgA2xwvWtimKyPBcR/Ks6
+TDKs70mHZhoZaBJyKu5QIJvAm1YScCHBlCRNEdxVuPW05YD7tioN1+GJAcH+akFI
+2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6+t/gaEm3o2Epwk4d42TAghJYA9Mr
+ENGOC3GhBo8myVm2ZcmOtN0rHP2Xkf/NQ1QLztiwpy+0JARvHSB9ZKVNVnUwyNqU
+5QBP0CH60gS5zQ60Eh5ZvrEr1G0h2rOZKjntgGEMkbXxFYN/8/5zcws7bHb8bBjw
+avi95KqPHZuoZlSQqYOXfryKUm2vqqk1XvmwCRvWX6cRhuveQfeIJz/a8ui+7fTh
+cKJsZZQY/TAXnYjBrccoF6xpVpQVQ08UBceQYUgnHomH2Kw2OhoTspS9rpx91HCv
+oNRcnj2z8Tth6hj4NMlN1+ncvMCs6KN9zVQlwz09gBVKoOPI1G+PMlWN
+-----END CERTIFICATE-----
+subject=C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+issuer=C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 1798 bytes and written 652 bytes
+Verification: OK
+---
+New, SSLv3, Cipher is DHE-RSA-AES128-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : DHE-RSA-AES128-SHA
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: 7AD559A605183A716AAFED93B104EC5057043443F29EF6818F67AA1C1306C3C476AB0B68D95E5CFDF13588E9BEC69FAD
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1617684913
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+read from 0x56293fb562f0 [0x56293fb4dd90] (8192 bytes => 0 (0x0))
+CONNECTED(00000003)
+write to 0x5578a9e842f0 [0x5578a9e99760] (310 bytes => 310 (0x136))
+0000 - 16 03 01 01 31 01 00 01-2d 03 03 49 34 32 55 32   ....1...-..I42U2
+0010 - 9a 41 eb 07 a1 ef 95 7b-35 60 2c 22 e6 23 46 2f   .A.....{5`,".#F/
+0020 - 64 f1 70 e5 e1 4c 65 0f-0b ff 3a 20 09 b4 e2 5c   d.p..Le...: ...\
+0030 - ab 35 ca 51 7c a4 6b 5b-e8 98 30 a8 27 fd b5 5c   .5.Q|.k[..0.'..\
+0040 - d6 cf f7 c4 aa 77 4f a9-e3 d9 8b 88 00 3e 13 02   .....wO......>..
+0050 - 13 03 13 01 c0 2c c0 30-00 9f cc a9 cc a8 cc aa   .....,.0........
+0060 - c0 2b c0 2f 00 9e c0 24-c0 28 00 6b c0 23 c0 27   .+./...$.(.k.#.'
+0070 - 00 67 c0 0a c0 14 00 39-c0 09 c0 13 00 33 00 9d   .g.....9.....3..
+0080 - 00 9c 00 3d 00 3c 00 35-00 2f 00 ff 01 00 00 a6   ...=.<.5./......
+0090 - 00 00 00 17 00 15 00 00-12 63 73 33 36 31 73 2e   .........cs361s.
+00a0 - 75 74 65 78 61 73 2e 6c-61 62 32 00 0b 00 04 03   utexas.lab2.....
+00b0 - 00 01 02 00 0a 00 0c 00-0a 00 1d 00 17 00 1e 00   ................
+00c0 - 19 00 18 00 23 00 00 00-16 00 00 00 17 00 00 00   ....#...........
+00d0 - 0d 00 2a 00 28 04 03 05-03 06 03 08 07 08 08 08   ..*.(...........
+00e0 - 09 08 0a 08 0b 08 04 08-05 08 06 04 01 05 01 06   ................
+00f0 - 01 03 03 03 01 03 02 04-02 05 02 06 02 00 2b 00   ..............+.
+0100 - 05 04 03 04 03 03 00 2d-00 02 01 01 00 33 00 26   .......-.....3.&
+0110 - 00 24 00 1d 00 20 1e 27-7a c0 5a c3 00 a2 2a 57   .$... .'z.Z...*W
+0120 - 68 a9 9a 85 07 ea 52 20-e5 e2 58 a5 d0 5b cd 06   h.....R ..X..[..
+0130 - 2c 37 10 d4 48 47                                 ,7..HG
+read from 0x5578a9e842f0 [0x5578a9e90543] (5 bytes => 5 (0x5))
+0000 - 16 03 03 07 01                                    .....
+read from 0x5578a9e842f0 [0x5578a9e90548] (1793 bytes => 1793 (0x701))
+0000 - 02 00 00 26 03 03 60 6b-ea 01 c3 83 40 4c 2c 0a   ...&..`k....@L,.
+0010 - c9 a8 0a fb 15 f1 d4 8f-62 e6 ef 1f 3c fa e5 d7   ........b...<...
+0020 - ff d5 62 d1 42 db 00 00-33 00 0b 00 03 c0 00 03   ..b.B...3.......
+0030 - bd 00 03 ba 30 82 03 b6-30 82 02 9e 02 14 0d 12   ....0...0.......
+0040 - e6 8d 60 2d 15 0a 70 63-71 5c 8b 64 cd 85 98 22   ..`-..pcq\.d..."
+0050 - 9c 40 30 0d 06 09 2a 86-48 86 f7 0d 01 01 0b 05   .@0...*.H.......
+0060 - 00 30 81 92 31 0b 30 09-06 03 55 04 06 13 02 55   .0..1.0...U....U
+0070 - 53 31 0b 30 09 06 03 55-04 08 0c 02 54 58 31 0f   S1.0...U....TX1.
+0080 - 30 0d 06 03 55 04 07 0c-06 41 75 73 74 69 6e 31   0...U....Austin1
+0090 - 0b 30 09 06 03 55 04 0a-0c 02 55 54 31 0f 30 0d   .0...U....UT1.0.
+00a0 - 06 03 55 04 0b 0c 06 6e-65 74 73 65 63 31 12 30   ..U....netsec1.0
+00b0 - 10 06 03 55 04 03 0c 09-65 6c 69 7a 61 62 65 74   ...U....elizabet
+00c0 - 68 31 33 30 31 06 09 2a-86 48 86 f7 0d 01 09 01   h1301..*.H......
+00d0 - 16 24 65 6c 69 7a 61 62-65 74 68 2e 61 6d 61 6e   .$elizabeth.aman
+00e0 - 64 61 2e 72 6f 64 72 69-67 75 65 7a 40 67 6d 61   da.rodriguez@gma
+00f0 - 69 6c 2e 63 6f 6d 30 1e-17 0d 32 31 30 33 33 30   il.com0...210330
+0100 - 30 33 35 30 33 35 5a 17-0d 32 32 30 33 32 35 30   035035Z..2203250
+0110 - 33 35 30 33 35 5a 30 81-9b 31 0b 30 09 06 03 55   35035Z0..1.0...U
+0120 - 04 06 13 02 55 53 31 0b-30 09 06 03 55 04 08 0c   ....US1.0...U...
+0130 - 02 54 58 31 0f 30 0d 06-03 55 04 07 0c 06 41 75   .TX1.0...U....Au
+0140 - 73 74 69 6e 31 0b 30 09-06 03 55 04 0a 0c 02 55   stin1.0...U....U
+0150 - 54 31 0f 30 0d 06 03 55-04 0b 0c 06 41 75 73 74   T1.0...U....Aust
+0160 - 69 6e 31 1b 30 19 06 03-55 04 03 0c 12 63 73 33   in1.0...U....cs3
+0170 - 36 31 73 2e 75 74 65 78-61 73 2e 6c 61 62 32 31   61s.utexas.lab21
+0180 - 33 30 31 06 09 2a 86 48-86 f7 0d 01 09 01 16 24   301..*.H.......$
+0190 - 65 6c 69 7a 61 62 65 74-68 2e 61 6d 61 6e 64 61   elizabeth.amanda
+01a0 - 2e 72 6f 64 72 69 67 75-65 7a 40 67 6d 61 69 6c   .rodriguez@gmail
+01b0 - 2e 63 6f 6d 30 82 01 22-30 0d 06 09 2a 86 48 86   .com0.."0...*.H.
+01c0 - f7 0d 01 01 01 05 00 03-82 01 0f 00 30 82 01 0a   ............0...
+01d0 - 02 82 01 01 00 b7 19 9c-f9 91 be 42 4a fd c0 65   ...........BJ..e
+01e0 - 4f 76 0b dc 5a 9c bd d9-99 38 87 93 3e b9 80 ee   Ov..Z....8..>...
+01f0 - c7 c7 d7 c7 21 73 7b 7e-27 2e 7c 53 74 be 24 8e   ....!s{~'.|St.$.
+0200 - 35 8e e3 bb 67 10 d3 6f-ed 79 b1 3a 3e 68 66 5d   5...g..o.y.:>hf]
+0210 - 5d c2 f9 c1 5c ee 92 b5-0c c7 34 9c f1 80 7b f9   ]...\.....4...{.
+0220 - 42 53 97 88 92 dc 9e 76-58 80 83 42 c9 9e 60 00   BS.....vX..B..`.
+0230 - f3 0c 3a dc 88 ff bd 7a-af 2f ba 81 a2 cf e5 1c   ..:....z./......
+0240 - 9d 44 54 bf 4b 26 2c 50-2f ac 70 c4 6f 4b 38 43   .DT.K&,P/.p.oK8C
+0250 - 70 7e 78 20 f2 91 46 82-e7 69 f4 7c f6 c2 f9 8c   p~x ..F..i.|....
+0260 - ae 52 78 44 73 c7 47 78-f0 64 49 d2 3e 20 bc 7b   .RxDs.Gx.dI.> .{
+0270 - c9 44 63 ab 9b 49 17 66-9b 3b 86 60 f1 33 8a 74   .Dc..I.f.;.`.3.t
+0280 - 69 07 b7 06 54 51 38 0a-d6 bc 9c ce cf c9 08 20   i...TQ8........ 
+0290 - 75 21 eb 0d df 80 0d b1-c2 f5 ad 8a 62 b2 3c 17   u!..........b.<.
+02a0 - 11 fc ab 3a 4c 32 ac ef-49 87 66 1a 19 68 12 72   ...:L2..I.f..h.r
+02b0 - 2a ee 50 20 9b c0 9b 56-12 70 21 c1 94 24 4d 11   *.P ...V.p!..$M.
+02c0 - dc 55 b8 f5 b4 e5 80 fb-b6 2a 0d d7 e1 89 01 c1   .U.......*......
+02d0 - fe 6a 41 48 d9 02 03 01-00 01 30 0d 06 09 2a 86   .jAH......0...*.
+02e0 - 48 86 f7 0d 01 01 0b 05-00 03 82 01 01 00 3a fa   H.............:.
+02f0 - df e0 68 49 b7 a3 61 29-c2 4e 1d e3 64 c0 82 12   ..hI..a).N..d...
+0300 - 58 03 d3 2b 10 d1 8e 0b-71 a1 06 8f 26 c9 59 b6   X..+....q...&.Y.
+0310 - 65 c9 8e b4 dd 2b 1c fd-97 91 ff cd 43 54 0b ce   e....+......CT..
+0320 - d8 b0 a7 2f b4 24 04 6f-1d 20 7d 64 a5 4d 56 75   .../.$.o. }d.MVu
+0330 - 30 c8 da 94 e5 00 4f d0-21 fa d2 04 b9 cd 0e b4   0.....O.!.......
+0340 - 12 1e 59 be b1 2b d4 6d-21 da b3 99 2a 39 ed 80   ..Y..+.m!...*9..
+0350 - 61 0c 91 b5 f1 15 83 7f-f3 fe 73 73 0b 3b 6c 76   a.........ss.;lv
+0360 - fc 6c 18 f0 6a f8 bd e4-aa 8f 1d 9b a8 66 54 90   .l..j........fT.
+0370 - a9 83 97 7e bc 8a 52 6d-af aa a9 35 5e f9 b0 09   ...~..Rm...5^...
+0380 - 1b d6 5f a7 11 86 eb de-41 f7 88 27 3f da f2 e8   .._.....A..'?...
+0390 - be ed f4 e1 70 a2 6c 65-94 18 fd 30 17 9d 88 c1   ....p.le...0....
+03a0 - ad c7 28 17 ac 69 56 94-15 43 4f 14 05 c7 90 61   ..(..iV..CO....a
+03b0 - 48 27 1e 89 87 d8 ac 36-3a 1a 13 b2 94 bd ae 9c   H'.....6:.......
+03c0 - 7d d4 70 af a0 d4 5c 9e-3d b3 f1 3b 61 ea 18 f8   }.p...\.=..;a...
+03d0 - 34 c9 4d d7 e9 dc bc c0-ac e8 a3 7d cd 54 25 c3   4.M........}.T%.
+03e0 - 3d 3d 80 15 4a a0 e3 c8-d4 6f 8f 32 55 8d 0c 00   ==..J....o.2U...
+03f0 - 03 0b 01 00 ff ff ff ff-ff ff ff ff c9 0f da a2   ................
+0400 - 21 68 c2 34 c4 c6 62 8b-80 dc 1c d1 29 02 4e 08   !h.4..b.....).N.
+0410 - 8a 67 cc 74 02 0b be a6-3b 13 9b 22 51 4a 08 79   .g.t....;.."QJ.y
+0420 - 8e 34 04 dd ef 95 19 b3-cd 3a 43 1b 30 2b 0a 6d   .4.......:C.0+.m
+0430 - f2 5f 14 37 4f e1 35 6d-6d 51 c2 45 e4 85 b5 76   ._.7O.5mmQ.E...v
+0440 - 62 5e 7e c6 f4 4c 42 e9-a6 37 ed 6b 0b ff 5c b6   b^~..LB..7.k..\.
+0450 - f4 06 b7 ed ee 38 6b fb-5a 89 9f a5 ae 9f 24 11   .....8k.Z.....$.
+0460 - 7c 4b 1f e6 49 28 66 51-ec e4 5b 3d c2 00 7c b8   |K..I(fQ..[=..|.
+0470 - a1 63 bf 05 98 da 48 36-1c 55 d3 9a 69 16 3f a8   .c....H6.U..i.?.
+0480 - fd 24 cf 5f 83 65 5d 23-dc a3 ad 96 1c 62 f3 56   .$._.e]#.....b.V
+0490 - 20 85 52 bb 9e d5 29 07-70 96 96 6d 67 0c 35 4e    .R...).p..mg.5N
+04a0 - 4a bc 98 04 f1 74 6c 08-ca 18 21 7c 32 90 5e 46   J....tl...!|2.^F
+04b0 - 2e 36 ce 3b e3 9e 77 2c-18 0e 86 03 9b 27 83 a2   .6.;..w,.....'..
+04c0 - ec 07 a2 8f b5 c5 5d f0-6f 4c 52 c9 de 2b cb f6   ......].oLR..+..
+04d0 - 95 58 17 18 39 95 49 7c-ea 95 6a e5 15 d2 26 18   .X..9.I|..j...&.
+04e0 - 98 fa 05 10 15 72 8e 5a-8a ac aa 68 ff ff ff ff   .....r.Z...h....
+04f0 - ff ff ff ff 00 01 02 01-00 62 99 69 26 dd 21 46   .........b.i&.!F
+0500 - b3 65 8f ab 89 21 26 68-ed af 50 75 ec 84 7b fb   .e...!&h..Pu..{.
+0510 - e2 b5 cc bd 1a b8 f5 65-ed 9c b5 99 69 31 30 9c   .......e....i10.
+0520 - 49 23 18 80 dd b1 f9 da-42 30 dd d7 a7 37 c8 07   I#......B0...7..
+0530 - 39 1c 7b ed 1f f1 0f 6c-8a fd 71 90 56 1c 1d dd   9.{....l..q.V...
+0540 - ac 4f da ac 13 bc 1c 44-a2 39 12 c1 67 57 88 76   .O.....D.9..gW.v
+0550 - 99 95 bc 08 01 35 e1 a8-e8 85 82 c0 58 3d 0c da   .....5......X=..
+0560 - 07 6f 40 cd 56 78 b8 39-42 14 8d 78 98 4c 8c b5   .o@.Vx.9B..x.L..
+0570 - b6 23 28 ba 64 19 89 b9-0f 5e 73 c3 d0 c0 27 56   .#(.d....^s...'V
+0580 - 91 36 64 be 63 f8 f0 db-19 7b 5e 76 fe a2 db 24   .6d.c....{^v...$
+0590 - d3 31 aa d2 e1 9f 4f 97-cf e7 e4 b5 4c 3f 43 67   .1....O.....L?Cg
+05a0 - a6 50 fe 4d 02 15 90 d9-b5 8c e1 d3 0a 3f 39 fb   .P.M.........?9.
+05b0 - 96 93 ad a6 c1 5e d9 8e-eb 7c 9e 4a 70 ff 90 eb   .....^...|.Jp...
+05c0 - 03 62 86 d7 5a df c3 e8-ac 29 ed 9e 0f b0 fa be   .b..Z....)......
+05d0 - c2 26 64 b2 5c 58 87 3d-c1 41 97 3c ee d3 c1 43   .&d.\X.=.A.<...C
+05e0 - 54 5f 0e 92 85 06 9f 7d-3d 8e c7 72 0b 47 f7 51   T_.....}=..r.G.Q
+05f0 - c8 a3 5e 63 4e ac f1 a3-c2 04 01 01 00 06 ff 98   ..^cN...........
+0600 - d7 77 cd 12 3e b7 a3 6e-e9 2a f4 c3 b9 82 8a 04   .w..>..n.*......
+0610 - a3 26 f0 b0 a9 61 21 0b-48 4f 3a a7 85 af 9e 3e   .&...a!.HO:....>
+0620 - bd 2f c9 46 10 f8 2c 87-23 72 87 ca c6 6e 6e 93   ./.F..,.#r...nn.
+0630 - 61 00 2b 75 ec d2 6d 6f-3c 86 6a 2b 01 94 9e a1   a.+u..mo<.j+....
+0640 - 84 a8 e8 0e 1c e4 49 81-4e ee e1 b0 c2 07 e9 48   ......I.N......H
+0650 - e5 44 5c e8 2f 10 0b 1c-bb 0c 79 e9 9d eb 0d 16   .D\./.....y.....
+0660 - e3 18 4b 22 67 4c 8c eb-43 24 a7 31 43 71 f6 26   ..K"gL..C$.1Cq.&
+0670 - 9d c4 90 c4 9c 4c 90 b1-ef 59 a7 72 35 93 a6 73   .....L...Y.r5..s
+0680 - 9c cf 86 e7 1c 96 55 be-9d ca 26 a9 6e e2 68 2c   ......U...&.n.h,
+0690 - f8 d6 06 a3 31 22 35 89-c4 6b b4 3f 38 8b 0a 18   ....1"5..k.?8...
+06a0 - 92 b5 4a b2 2e 62 b8 e5-6f 36 9a 8b ac 23 53 ff   ..J..b..o6...#S.
+06b0 - 96 0e 3e a5 e3 6e b0 a7-3e 8f 0e 58 6d fd 33 1f   ..>..n..>..Xm.3.
+06c0 - 38 b3 5e 1c 6c 01 fa e9-34 e4 7d 67 49 3c 7b f2   8.^.l...4.}gI<{.
+06d0 - a0 39 69 a8 f4 1d 70 54-95 f7 9a ad 72 8b dd b0   .9i...pT....r...
+06e0 - f0 0a 9d 15 3f c9 ce 32-f2 4e 5f 61 91 4e b6 e6   ....?..2.N_a.N..
+06f0 - 43 5c 5b e6 f2 7e ab 57-83 76 be de 90 0e 00 00   C\[..~.W.v......
+0700 - 00                                                .
+write to 0x5578a9e842f0 [0x5578a9e99760] (342 bytes => 342 (0x156))
+0000 - 16 03 03 01 06 10 00 01-02 01 00 6d 6a bd 9a c0   ...........mj...
+0010 - f3 d7 25 6a 3d 7e bf a1-3d 81 ff f6 74 70 00 de   ..%j=~..=...tp..
+0020 - 61 96 2c 00 75 91 05 47-65 9b 00 6a b8 64 7f 51   a.,.u..Ge..j.d.Q
+0030 - bd ba 48 c6 06 82 93 a2-a7 c8 2f 34 62 41 7a 3f   ..H......./4bAz?
+0040 - 56 f2 f4 3b 36 d8 13 67-53 c2 01 79 f4 46 37 f5   V..;6..gS..y.F7.
+0050 - 45 1e 2f 31 7e c6 82 a7-8e f9 e9 35 fc 98 14 45   E./1~......5...E
+0060 - 39 37 03 3f d4 14 02 2b-e4 f8 da 1a f9 9e bc 16   97.?...+........
+0070 - 09 94 ca 45 b5 61 66 ac-44 29 71 50 9c 5b 84 96   ...E.af.D)qP.[..
+0080 - 37 5c 3d dd eb 39 65 d7-7a ac 68 58 b8 7e 1c c9   7\=..9e.z.hX.~..
+0090 - 55 37 ae 59 01 45 4e 63-a9 5d a6 5a c1 a8 dd a2   U7.Y.ENc.].Z....
+00a0 - 49 f6 60 67 e1 75 fa 47-f3 9d 66 82 c9 cf 6c 64   I.`g.u.G..f...ld
+00b0 - 05 45 82 9b 45 2d 0f 98-10 9e 3e 8a 69 06 a6 58   .E..E-....>.i..X
+00c0 - 2a 54 a9 cb fb e9 f1 74-39 7f 6e db c0 59 85 89   *T.....t9.n..Y..
+00d0 - 36 f5 77 57 e1 bb 45 64-4d 01 48 9b 68 91 2e 32   6.wW..EdM.H.h..2
+00e0 - a2 e5 13 59 2d fb b7 38-24 cf fa a5 f9 7e 65 66   ...Y-..8$....~ef
+00f0 - f5 63 7b 8a bb a6 fe a8-f2 8f 15 e1 67 0a 41 76   .c{.........g.Av
+0100 - dd 02 a2 ba b3 7d 50 a9-16 f4 f6 14 03 03 00 01   .....}P.........
+0110 - 01 16 03 03 00 40 5e cc-94 89 3f b6 fe a9 25 a7   .....@^...?...%.
+0120 - 06 a0 45 93 a3 89 89 e5-78 63 d4 03 b9 d2 5c 38   ..E.....xc....\8
+0130 - af 3b c5 61 b0 ef 01 fb-40 20 96 4d 9e 7f c0 84   .;.a....@ .M....
+0140 - fe 24 b3 b8 c2 94 34 5b-75 8e 43 00 f1 e9 30 56   .$....4[u.C...0V
+0150 - c8 90 47 4c 64 38                                 ..GLd8
+read from 0x5578a9e842f0 [0x5578a9e90543] (5 bytes => 0 (0x0))
+---
+Certificate chain
+ 0 s:C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+   i:C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDtjCCAp4CFA0S5o1gLRUKcGNxXItkzYWYIpxAMA0GCSqGSIb3DQEBCwUAMIGS
+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCVFgxDzANBgNVBAcMBkF1c3RpbjELMAkG
+A1UECgwCVVQxDzANBgNVBAsMBm5ldHNlYzESMBAGA1UEAwwJZWxpemFiZXRoMTMw
+MQYJKoZIhvcNAQkBFiRlbGl6YWJldGguYW1hbmRhLnJvZHJpZ3VlekBnbWFpbC5j
+b20wHhcNMjEwMzMwMDM1MDM1WhcNMjIwMzI1MDM1MDM1WjCBmzELMAkGA1UEBhMC
+VVMxCzAJBgNVBAgMAlRYMQ8wDQYDVQQHDAZBdXN0aW4xCzAJBgNVBAoMAlVUMQ8w
+DQYDVQQLDAZBdXN0aW4xGzAZBgNVBAMMEmNzMzYxcy51dGV4YXMubGFiMjEzMDEG
+CSqGSIb3DQEJARYkZWxpemFiZXRoLmFtYW5kYS5yb2RyaWd1ZXpAZ21haWwuY29t
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtxmc+ZG+Qkr9wGVPdgvc
+Wpy92Zk4h5M+uYDux8fXxyFze34nLnxTdL4kjjWO47tnENNv7XmxOj5oZl1dwvnB
+XO6StQzHNJzxgHv5QlOXiJLcnnZYgINCyZ5gAPMMOtyI/716ry+6gaLP5RydRFS/
+SyYsUC+scMRvSzhDcH54IPKRRoLnafR89sL5jK5SeERzx0d48GRJ0j4gvHvJRGOr
+m0kXZps7hmDxM4p0aQe3BlRROArWvJzOz8kIIHUh6w3fgA2xwvWtimKyPBcR/Ks6
+TDKs70mHZhoZaBJyKu5QIJvAm1YScCHBlCRNEdxVuPW05YD7tioN1+GJAcH+akFI
+2QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQA6+t/gaEm3o2Epwk4d42TAghJYA9Mr
+ENGOC3GhBo8myVm2ZcmOtN0rHP2Xkf/NQ1QLztiwpy+0JARvHSB9ZKVNVnUwyNqU
+5QBP0CH60gS5zQ60Eh5ZvrEr1G0h2rOZKjntgGEMkbXxFYN/8/5zcws7bHb8bBjw
+avi95KqPHZuoZlSQqYOXfryKUm2vqqk1XvmwCRvWX6cRhuveQfeIJz/a8ui+7fTh
+cKJsZZQY/TAXnYjBrccoF6xpVpQVQ08UBceQYUgnHomH2Kw2OhoTspS9rpx91HCv
+oNRcnj2z8Tth6hj4NMlN1+ncvMCs6KN9zVQlwz09gBVKoOPI1G+PMlWN
+-----END CERTIFICATE-----
+subject=C = US, ST = TX, L = Austin, O = UT, OU = Austin, CN = cs361s.utexas.lab2, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+issuer=C = US, ST = TX, L = Austin, O = UT, OU = netsec, CN = elizabeth, emailAddress = elizabeth.amanda.rodriguez@gmail.com
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA
+Server Temp Key: DH, 2048 bits
+---
+SSL handshake has read 1798 bytes and written 652 bytes
+Verification: OK
+---
+New, SSLv3, Cipher is DHE-RSA-AES128-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : DHE-RSA-AES128-SHA
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: DE9BFF2FDD26BD42AE00797C26AADA2B2DE4DE61B5BBB2364BF39BD5F174C6CB1E4C8CF8EDD5503EB802C8E4847EC019
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1617684993
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+read from 0x5578a9e842f0 [0x5578a9e7bd90] (8192 bytes => 0 (0x0))
