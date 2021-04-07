@@ -149,7 +149,7 @@ class TLSSession:
             seq_num = struct.pack("!Q", kargs["seq_num"])
             key = self.write_mac
         else:
-            raise Exception("UNkown hmac code {}".format(mode))
+            raise Exception("Unkown hmac code {}".format(mode))
         
         tls_hmac = crypto_hmac.HMAC(key, hashes.SHA1(), default_backend())
         tls_hmac.update(seq_num + hdr + msg)
@@ -216,6 +216,10 @@ class TLSSession:
         pkt_type = tls_pkt.type
         tls_pkt_bytes = raw(tls_pkt)
 
+        print("\n\n\n\n\nWINNER WINNER CHICKEN DINNER")
+        print(tls_pkt_bytes[:3])
+        print("\n\n\n\n\n")
+
         # scapy can make some mistakes changing the first bytes on handshakes
         if tls_pkt_bytes[0] != pkt_type:
             Debug.print(tls_pkt_bytes[0], pkt_type)
@@ -241,7 +245,7 @@ class TLSSession:
         Debug.print("In encrypt. Plaintext of tls pkt msg is ", len(plaintext_bytes))
 
         orig_header = tls_pkt_bytes[:5]
-        mac = self.tls_sign(orig_header, plaintext_bytes, "send")
+        mac = self.hmac_pkt(orig_header, plaintext_bytes, "send")
         pad_len = 16-((len(plaintext_bytes)+len(mac))%16)
         Debug.print("encrypt pad len", pad_len)
         pad = struct.pack('!B', pad_len-1)*pad_len
