@@ -163,8 +163,6 @@ class TLSSession:
         tls_pkt_bytes = raw(tls_pkt)
         tls_pkt_bytes = struct.pack("!B",packet_type)+tls_pkt_bytes[1:]
         
-        print("**** here 1")
-
         # Y STUDENT TODO
         """
         1. The beginning of this function, already provided, extracts the data from scapy
@@ -215,10 +213,6 @@ class TLSSession:
     def encrypt_tls_pkt(self, tls_pkt, test_iv=None):
         pkt_type = tls_pkt.type
         tls_pkt_bytes = raw(tls_pkt)
-
-        print("\n\n\n\n\nWINNER WINNER CHICKEN DINNER")
-        print(tls_pkt_bytes[:3])
-        print("\n\n\n\n\n")
 
         # scapy can make some mistakes changing the first bytes on handshakes
         if tls_pkt_bytes[0] != pkt_type:

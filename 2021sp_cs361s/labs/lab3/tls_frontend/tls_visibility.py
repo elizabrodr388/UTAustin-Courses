@@ -35,7 +35,6 @@ class TLS_Visibility:
         self.session.set_server_rsa_privkey(self.private_key)
 
     def encrypt_data(self, data):
-        print("********** encrypt_data")
         # Y STUDENT TODO
         """
         Actually, we did this one for you because it was pretty
@@ -71,7 +70,6 @@ class TLS_Visibility:
         raise Exception("Unknown packet type {}".format(type(tls_msg)))
         
     def process_tls_handshake_client_hello(self, tls_msg):
-        print("********** tls_handshake_client_hello")
         server_hello = None
         server_cert = None
         server_key_exchange = None
@@ -127,9 +125,6 @@ class TLS_Visibility:
             
     def process_tls_handshake_key_exchange(self, tls_msg):   
 
-        print("\n\n\n\***key exchange\n\n\n")
-        print(type(tls_msg))
-
         Debug.print("Got key exchange")
         Debug.print_packet(tls_msg)
         
@@ -147,7 +142,6 @@ class TLS_Visibility:
         return b'' # (No response necessary)
             
     def process_tls_handshake_finished(self, tls_msg):
-        print("********** process_tls_handshake_finished")    
         Debug.print("Got Client Finished")
         Debug.print_packet(tls_msg)
         
@@ -177,11 +171,8 @@ class TLS_Visibility:
 
 
         local_verify_data = self.session.compute_handshake_verify("read")
-        print("\n\n*^*^*^*^*^^^^*^*^* LENGTH OF SELF.HANDSHAKE+MESSAGES: ")
-        print(len(self.session.handshake_messages))
-        print("\n\n")
         if local_verify_data != tls_msg.vdata:
-            print("\n\n\n\n\n\nVDATA ISSUE\n\n\n\n\n\n\n")
+            print("vdata issue")
                 
         # step 2, create the change cipher spec
         server_change_cipher_spec = TLSChangeCipherSpec()
@@ -249,7 +240,6 @@ class TLS_Visibility:
             return ("failure", e)
 
     def process_tls_data_unsafe(self, data):
-        print("********** process_tls_data")
         output = b""
         if self.session.handshake:
             result_type = "local_response"
